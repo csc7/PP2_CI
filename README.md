@@ -589,11 +589,31 @@ Back to Index
 11 . Credits
 Code Institute: I have used the learning material in the course as a guide and reference.
 
-Love Running - Essentials Project, from Code Institute, as a guide, source of design concepts and code for this project.
+Love Running - E
 
 Balsamiq Wireframes: I have used it to create all the wireframes.
 
 Jesse James Garrett's process for user experience.
+
+Bootstrap:
+
+Bootstrap Navbar, copied from https://getbootstrap.com/docs/4.0/components/navbar/, July 8th, 2021, at 00:35.
+
+
+
+
+
+https://getbootstrap.com/docs/4.0/components/navbar/
+
+
+
+
+
+
+
+
+
+
 
 Font Awesome:
 
