@@ -1,6 +1,7 @@
 # *Sorry, file under construction*
 
-#Wavelet Website
+# Wavelet Website
+
 This website is about wavelet theory and generation. Except for the content referenced in this README file and/or the code and/or the website, all content is invented by me, anything matching reality is just a coincidence.
 
 This repository belongs to my second milestone project in the Full-stack Development course at Code Institute, covering HTML, CSS and JavaScript along with Git version control and other software technologies.
