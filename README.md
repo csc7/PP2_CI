@@ -612,6 +612,8 @@ Bootstrap:
 
     - Bootstrap Navs (for footer): copied on July 8th, 2021, 03:20 from https://getbootstrap.com/docs/4.0/components/navs/ . Content modified.
 
+    - To center elements in Navs and Navbar: justify-content-center class. Copied on July 8th, 2021, 03:43 from https://getbootstrap.com/docs/4.0/components/navs/ .
+
 
 
 Font Awesome:
