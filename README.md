@@ -44,9 +44,10 @@ Image of Project home page using Am I Responsive Website Image with home page of
 
 ___
 # **1 . Project Goals**
-The goal of the project is to develop a website for a company that provides several geophysical services for diverse projects in the current energy transition towards greener energies and less CO2 emissions.
+The goal of the project is to develop a website where seismic data processors, signal processors and/or any user can estimate, visualize and download a simple file with the samples of a wavelet that they want to use in their processing tasks. In addition, a website where users can view and review the theory and formulas of wavelets, challenge their knowledge against a quiz, and contact the website developer.
 
 Specifically, the goals of the project are the following ones:
+- To .....
 - To build a website that provides users a summarised view of the company and the services it offers.
 - To provide a point of contact for offering (by the company) and for requesting (by clients) services.
 - To build a website where navigation is easy and intuitive.
