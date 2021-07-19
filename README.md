@@ -1094,102 +1094,21 @@ Font Awesome:
     - Icon for E-mail/Envelope: downloaded on July 8th, 2021, 03:05 from https://fontawesome.com/v5.15/icons/envelope?style=regular . <i class="far fa-envelope"></i>
 
 
+W3Schools (Powered by W3.CSS):
+
+    - Position of "div" elements: https://www.w3schools.com/css/css_positioning.asp; accessed on July 19th, 2021, at 23:55.
+
+Geeks for Geeks:
+
+    - Positioning of footer on bottom: https://www.geeksforgeeks.org/how-to-create-footer-to-stay-at-the-bottom-of-a-web-page/; accessed on July 20th, 2021, at 00:20.
 
 
-
-
-
-
-
-
-
-
-
-DELETE BELOW
-
-
-
-
-Bootstrap:
-
-To get started and install required links and scripts (in the HTML head and below the footer, respectively). Webpage accessed and code copied on June 10th, 2021, 00:23, from https://getbootstrap.com/docs/4.0/getting-started/introduction/ .
-"Request Service" button for modal: code copied on June 10th, 2021, 00:14 from https://getbootstrap.com/docs/4.0/components/modal/
-Carousel in our-services page: copied on June 17th, 2021, at 5:50, from https://getbootstrap.com/docs/4.0/components/carousel/ .
-Carousel set up: https://getbootstrap.com/docs/4.0/components/carousel/ .
-Google:
-
-Fonts: Baloo Tammudu 2 and Roboto, first imported on June 10th, 2021, 01:10, from https://fonts.google.com/.
-Google maps: accessed on June 15th, 2021, at 16:18, at https://developers.google.com/maps/documentation/embed/get-started .
-W3Schools:
-
-References for coding.
-Font color picker: accessed on June 10th, 2021, 01:45, at https://www.w3schools.com/colors/colors_picker.asp.
-CSS flex-direction property: accessed and copied on June 10th, 2021, 6:40, from https://www.w3schools.com/cssref/css3_pr_flex-direction.asp .
-Video: accessed on June 10th, 2021, 07:45, to https://www.w3schools.com/howto/howto_css_fullscreen_video.asp .
-Centre a table with CSS: accessed on June 15th, 2021, at 1:50, at https://www.w3schools.com/howto/howto_css_table_center.asp .
-Borders: accessed on June 16th, 2021, 2:33, from https://www.w3schools.com/css/css_border_rounded.asp .
-Form styling: accessed on June 16th, 2021, 3:33, from https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive .
-Set up of "mailto" option: https://www.w3schools.com/tags/tag_address.asp ,accessed on June 23rd, 2021, 21:04.
-Many other consultations, opened and kept for permanent reference, which can be accessed here below:
-Other W3Schools References
 Stack Overflow:
 
-Borders of input fields in forms: accessed on June 17th, 2021, at 3:15, at https://stackoverflow.com/questions/3397113/how-to-remove-focus-border-outline-around-text-input-boxes-chrome .
-Solution to show modal window above page elements: copied on June 19th, 2021, at 3:17, from https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-background .
-Alignment on anchor element on top: accessed on June 20th, 2021, at 0:48, at https://stackoverflow.com/questions/924282/why-is-vertical-aligntext-top-not-working-in-css .
-Alignment of radio buttons: https://stackoverflow.com/questions/33360047/trying-to-get-radio-buttons-to-align-properly-in-html-css .
-Centring LI items in navigation DIV: https://stackoverflow.com/questions/5755945/css-want-to-center-li-items-in-my-navbar-div/5756037 .
-Element positioning: https://stackoverflow.com/questions/40676648/how-can-i-position-one-element-below-another/40676705 .
-Alignment of radio button: https://stackoverflow.com/questions/6632340/place-a-button-right-aligned .
-Disabling resize option in text areas: https://stackoverflow.com/questions/5271782/how-to-disable-the-resize-grabber-of-textarea, accessed on June 23rd, 2021, 21:14.
-For links in the same markdown README file: https://stackoverflow.com/questions/27981247/github-markdown-same-page-link , accessed on June 25th, 2021, at 23:18.
-CSS Tricks:
+    - Assigning height for header and footer, and rest of screen for body: https://stackoverflow.com/questions/10228280/how-to-make-div-height-100-between-header-and-footer; accessed on July 20th, 2021, at 00:30.
 
-Background clip: https://css-tricks.com/almanac/properties/b/background-clip/ .
-W3C:
 
-Adding the Favicon to the website: https://www.w3.org/2005/10/howto-favicon .
-Markdown Guide (© 2021. A Matt Cone project. CC BY-SA 4.0.):
 
-Basic Syntax: https://www.markdownguide.org/basic-syntax/ .
-Extended Syntax: https://www.markdownguide.org/extended-syntax/ .
-markdown-guide’s documentation! (© Copyright 2012, Daniel Greenfeld. Revision ac516c88.):
-
-Markdown Basics: https://markdown-guide.readthedocs.io/en/latest/basics.html .
-GitHub Guides:
-
-Mastering Markdown: https://guides.github.com/features/mastering-markdown/ .
-GitHub Gist:
-
-Pierre Joubert (pierrejoubert73), reference for markdown collapsible elements: https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab .
-GitHub Support Community:
-
-Help on collapsible elements: https://github.community/t/collapsible-markdown-inside-details-summary-summary-details-fails-to-render/10489 .
-Atlassian:
-
-User Stories with Examples and Template: https://www.atlassian.com/agile/project-management/user-stories .
-Videos:
-
-Home page: invisiblepower (Pexels user), "Wind Turbine on a Field at Sunrise", downloaded on June 9th, 2021, at 22:38, from https://www.pexels.com/video/wind-turbine-on-a-field-at-sunrise-857010/
-Images:
-
-About Us page:
-Mission: target-3535310_640.jpg, downloaded on June 15th, 2021, at 2:37, from https://pixabay.com/photos/target-business-idea-growth-3535310/
-Values: paper-3213924_640.jpg, downloaded on June 15th, 2021, at 2:51, from https://pixabay.com/photos/paper-business-finance-document-3213924/
-Vision: vision-2372177_640.jpg, downloaded on June 15th, 2021, at 2:19, from https://pixabay.com/photos/vision-mission-goal-target-2372177/
-Our Services page:
-pexels-kalina-ost-2865025.jpg, downloaded on May 7th, 2021, from https://www.pexels.com/es-es/foto/foto-del-paisaje-del-molino-de-viento-blanco-2865025/
-pexels-kelly-lacy-2800832.jpg, downloaded on May 7th, 2021, from https://www.pexels.com/es-es/foto/foto-de-vista-superior-de-paneles-solares-2800832/
-pexels-kelly-lacy-4320473.jpg, downloaded on May 8th, 2021, from https://www.pexels.com/es-es/foto/naturaleza-campo-construccion-industria-4320473/
-pexels-kelly-lacy-4320481.jpg, downloaded on May 7th, 2021, from https://www.pexels.com/es-es/foto/tierra-campo-verano-construccion-4320481/
-Contact Us page:
-Background image: stockvault-office-building236904.jpg, downloaded on June 16th, 2021, 2:09, from https://www.stockvault.net/photo/236904/office-building
-404 Page:
-Background image: Tom Fisk photo, pexels-tom-fisk-1605268.jpg, downloaded on May 8th, 2021, from https://www.pexels.com/es-es/foto/molinos-de-viento-y-campo-de-hierba-verde-1605268/
-Maps in Contact Us page:
-
-Leaflet, accessed on June 15th, 2021, 16:45, from https://leafletjs.com/examples/quick-start/. Finally not used.
-Google maps: iframe element for Madrid copied on June 16th, 2021, at 1:53, from https://www.google.com/maps/ .
 
 Back to Index
 ___

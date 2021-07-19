@@ -5,15 +5,42 @@
 /* Specific element styles are commented on top of the element, without break line */
 
 /* FONTS */
+/* From Google Fonts:
+Nunito (Regular 400) and Montserrat (Regular 400),
+first imported on July 19th, 2021, 23:05, from:
+https://fonts.google.com/
+https://fonts.google.com/specimen/Nunito#license */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap');
 
+/* GENERAL STYLES */
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
+/* Headings */
+
+.headings {
+    font-family: 'Nunito', sans-serif;
+    margin: 0; /* It does not read "margin: 0" from above, general style*/
+    color: white;
+    height: 75px;
+    background-color: blue;
+    position: relative;
+    top: 75px;
+}
 
 /* HEADER */
 
 #header {
+    font-family: 'Nunito', sans-serif;
+    font-size: 150%;
+    font-weight: bold;
     width: 100%;
     position: fixed;
+    z-index: 10;
 }
 
 /* Bootstrap Navbar
@@ -21,14 +48,25 @@ Style copied from on July 8th, 2021, at 00:35,
 from https://getbootstrap.com/docs/4.0/components/navbar/
 */
 
+.navbar {
+    height: 75px;
+}
 
+.navbar-brand {
+    font-size: 125%;
+    font-weight: bold;
+}
 
 /* MAIN BODY */
 
-#main-body {
+#index-body {
     width: 100%;
-    height: 500px;
+    /*height: 500px; Define to fint in 1920x1080px screen (width x height); then
+                    height = 75px + 75 px + 855px + 75px = 1080px */
     background-color: rebeccapurple;
+    position: absolute;
+    top: 150px;
+    bottom: 75px;
 }
 
 
@@ -36,6 +74,8 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 
 footer {
     width: 100%;
-    height: 56px;
+    height: 75px;
     background-color: red;
+    position:fixed;
+    bottom:0;
 }
