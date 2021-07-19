@@ -1,4 +1,4 @@
-# *Sorry, file under construction*
+# *Sorry, website under construction*
 
 # Wavelet Website
 
