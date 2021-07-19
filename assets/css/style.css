@@ -11,6 +11,11 @@
 
 /* HEADER */
 
+#header {
+    width: 100%;
+    position: fixed;
+}
+
 /* Bootstrap Navbar
 Style copied from on July 8th, 2021, at 00:35,
 from https://getbootstrap.com/docs/4.0/components/navbar/
