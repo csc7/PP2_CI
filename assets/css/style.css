@@ -25,9 +25,10 @@ https://fonts.google.com/specimen/Nunito#license */
 .headings {
     font-family: 'Nunito', sans-serif;
     font-size: 150%;
+    font-weight: bold;
     margin: auto; /* It does not read "margin: 0" from above, general style*/
     text-align: center;
-    padding-top: 25px;
+    padding-top: 20px;
     color: blue;
     height: 75px;
     background-color: grey;
@@ -61,11 +62,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 }
 
 #navbarNavDropdown > ul > li.nav-item.active > a {
-    font-weight: bold;
-}
-
-#navbarNavDropdown {
-    
+    color: white;
 }
 
 
@@ -79,15 +76,15 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 }
 
 
+/* HOME PAGE */
 
-
-/* MAIN BODY */
+/* Main Body */
 
 #index-body {
     width: 100%;
     /*height: 500px; Define to fint in 1920x1080px screen (width x height); then
                     height = 75px + 75 px + 855px + 75px = 1080px */
-    background-color: rebeccapurple;
+    background-color: white;
     position: absolute;
     top: 150px;
     bottom: 75px;
