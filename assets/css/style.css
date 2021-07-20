@@ -93,12 +93,12 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 
 /* GENERATOR PAGE */
 
-/* Graph and Configuration Panel Body Height of 750px */
+/* Graph and Configuration Panel Body Height of 725px */
 
 #top-left-graph-div {
     float: left;
     width: 50%;
-    height: 375px;
+    height: 360px;
     position: relative;
     top: 75px;
     background-color: rgb(104, 236, 137);
@@ -107,7 +107,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 #right-conf-panel-div {
     float: right;
     width: 50%;
-    height: 750px;
+    height: 725px;
     position: relative;
     top: 75px;
     background-color: rgb(146, 28, 214); 
@@ -116,15 +116,50 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 #bottom-left-graph-div {
     float: left;
     width: 50%;
-    height: 375px;
+    height: 365px;
     position: relative;
     top: 75px;
     background-color: rgb(39, 162, 184);
 }
 
+#conf-panel {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 25px;
+    margin-left: 25px;
+    height: 85%;
+    margin-bottom: 100px;
+    float: left;
+    width: 50%;
+    border-radius: 25px;
+    background-color: chocolate;
+}
+
+#top-graph {
+    background-color: cornflowerblue;
+    height: 310px;
+    margin-right: 25px;
+    margin-left: 50%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 25px;
+}
+
+#bottom-graph {
+    background-color: crimson;
+    height: 310px;
+    margin-right: 25px;
+    margin-left: 50%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 25px;
+}
+
 /* QUIZ */
 
-/* Socre-Progress Panel plus Quiz Body Height of 750px */
+/* Socre-Progress Panel plus Quiz Body Height of 725px */
 
 #score-progress-panel-div {
     width: 100%;
@@ -136,7 +171,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 
 #quiz-body {
     width: 100%;
-    height: 675px;
+    height: 650px;
     background-color: rgb(32, 223, 64);
     position: relative;
     top: 75px;
@@ -144,7 +179,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 
 #questions-area {
     padding: 25px;
-    height: 375px; /* To keep proportions with other sections of the website */
+    height: 360px; /* To keep proportions with other sections of the website */
     width: 50%;
     margin: auto;
     background-color: chocolate;
