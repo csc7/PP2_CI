@@ -142,17 +142,35 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     top: 75px;
 }
 
+#questions-area {
+    padding: 25px;
+    height: 375px; /* To keep proportions with other sections of the website */
+    width: 50%;
+    margin: auto;
+    background-color: chocolate;
+    border-radius: 25px;
+}
+
 
 /* CONTACT PAGE */
 
 /* Main Body */
 
-#contact-form {
+#contact-form-div {
     width: 100%;
     background-color: rgb(191, 241, 50);
     position: absolute;
     top: 150px;
     bottom: 75px;
+}
+
+#contact-form {
+    padding: 25px;
+    height: 675px; /* To keep proportions with other sections of the website */
+    width: 50%;
+    margin: auto;
+    background-color: chocolate;
+    border-radius: 25px;
 }
 
 
