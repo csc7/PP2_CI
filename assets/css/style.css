@@ -93,7 +93,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 
 /* GENERATOR PAGE */
 
-/* Main Body */
+/* Graph and Configuration Panel Body Height of 750px */
 
 #top-left-graph-div {
     float: left;
@@ -124,16 +124,22 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 
 /* QUIZ */
 
-/* Main Body */
+/* Socre-Progress Panel plus Quiz Body Height of 750px */
 
-#index-body {
+#score-progress-panel-div {
     width: 100%;
-    /*height: 500px; Define to fint in 1920x1080px screen (width x height); then
-                    height = 75px + 75 px + 855px + 75px = 1080px */
-    background-color: white;
-    position: absolute;
-    top: 150px;
-    bottom: 75px;
+    height: 75px;
+    background-color: rgb(111, 29, 218);
+    position: relative;
+    top: 75px;
+}
+
+#quiz-body {
+    width: 100%;
+    height: 675px;
+    background-color: rgb(32, 223, 64);
+    position: relative;
+    top: 75px;
 }
 
 
