@@ -24,10 +24,13 @@ https://fonts.google.com/specimen/Nunito#license */
 
 .headings {
     font-family: 'Nunito', sans-serif;
-    margin: 0; /* It does not read "margin: 0" from above, general style*/
-    color: white;
+    font-size: 150%;
+    margin: auto; /* It does not read "margin: 0" from above, general style*/
+    text-align: center;
+    padding-top: 25px;
+    color: blue;
     height: 75px;
-    background-color: blue;
+    background-color: grey;
     position: relative;
     top: 75px;
 }
@@ -41,6 +44,7 @@ https://fonts.google.com/specimen/Nunito#license */
     width: 100%;
     position: fixed;
     z-index: 10;
+    background-color: red;
 }
 
 /* Bootstrap Navbar
@@ -52,10 +56,30 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     height: 75px;
 }
 
+#navbarNavDropdown > ul > li > a {
+    color: white;
+}
+
+#navbarNavDropdown > ul > li.nav-item.active > a {
+    font-weight: bold;
+}
+
+#navbarNavDropdown {
+    
+}
+
+
 .navbar-brand {
     font-size: 125%;
     font-weight: bold;
 }
+
+#header > nav > a {
+    color: white;
+}
+
+
+
 
 /* MAIN BODY */
 
@@ -78,4 +102,13 @@ footer {
     background-color: red;
     position:fixed;
     bottom:0;
+}
+
+body > footer > nav {
+    padding-top: 5px;
+    font-size: 200%;
+}
+
+body > footer > nav > a > i {
+    color: white;
 }
