@@ -147,11 +147,9 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 
 /* Main Body */
 
-#index-body {
+#contact-form {
     width: 100%;
-    /*height: 500px; Define to fint in 1920x1080px screen (width x height); then
-                    height = 75px + 75 px + 855px + 75px = 1080px */
-    background-color: white;
+    background-color: rgb(191, 241, 50);
     position: absolute;
     top: 150px;
     bottom: 75px;
