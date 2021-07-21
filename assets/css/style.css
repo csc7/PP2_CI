@@ -177,6 +177,23 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     top: 75px;
 }
 
+#prog-bar {
+    width: 50%;
+    margin: auto;
+    height: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(148, 157, 240);
+    position: relative;
+}
+
+.prog-subbar {
+    width: 10%;
+    height: 25px;
+    position: relative;
+    float: left;
+    background-color: blue;
+}
+
 #quiz-body {
     width: 100%;
     height: 650px;
@@ -192,6 +209,14 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     margin: auto;
     background-color: chocolate;
     border-radius: 25px;
+}
+
+#question {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    background-color: chartreuse;
 }
 
 
