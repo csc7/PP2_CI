@@ -36,6 +36,7 @@ https://fonts.google.com/specimen/Nunito#license */
     top: 75px;
 }
 
+
 /* HEADER */
 
 #header {
@@ -218,6 +219,28 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     text-align: center;
     background-color: chartreuse;
 }
+
+#answer {
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-left: 30%;
+    
+}
+
+#answer-button {
+    width: 75px;
+    height: 50px;
+    position: relative;
+    top: 25px;
+    margin: auto;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: blue;
+    border-radius: 10px;
+}
+    
 
 
 /* CONTACT PAGE */
