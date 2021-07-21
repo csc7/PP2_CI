@@ -48,13 +48,7 @@ The goal of the project is to develop a website where seismic data processors, s
 
 Specifically, the goals of the project are the following ones:
 - To .....
-- To build a website that provides users a summarised view of the company and the services it offers.
-- To provide a point of contact for offering (by the company) and for requesting (by clients) services.
-- To build a website where navigation is easy and intuitive.
-- To offer an easy call to action for requesting services.
-- To build a website which is itself an advertising tool.
-- To have a good design, in line with company's services.
-- To have the website visible in search engines.
+- To asfafadfafafafafadf
 <br><br>
 ## [Back to Index](#index)
 <br>
@@ -80,24 +74,12 @@ UX has been addressed (and remains as a constant activity) around Jesse James Ga
 - **SURFACE**: the website is based on green colours (to be in line with the company activity and name), contains images and a video related to its activity, and will summarise information in tables as much as possible.
 
 ## **User Goals**
-- To know services being offered at a glance.
-- To find a website with a simple way of requesting services.
-- To easily contact the company.
-- To get basic information of the company.
-- Rather than a long description of the services, to have basic information with a fast method for requesting them.
-- To easily find company's contact details.
-- To navigate the website intuitively, without issues.
+- To asdasdfasdfadfafd
 
 #### [Back to Index](#index)
 
 ## **Organisation/Site Owner Goals**
-- To capture clients.
-- To sell services.
-- To have a simple website where users do not "get lost" when navigating.
-- To show all services that the company offers in a summarised way.
-- To provide basic information of the structure of the company.
-- To receive consultations from potential clients.
-- To provide a simple contact form where clients feel that privacy is respected.
+- To adfasdfasdfasdfadsf
 
 #### [Back to Index](#index)
 
@@ -106,48 +88,21 @@ User stories are divided into the following three groups:
 
 - ### **First time users**
 1. As a client, I want to know what services I can hire, so do not need to ask for more information to learn their services.
-2. As a client, I want to see a list of projects that has been carried out by the company, so I have an idea if they are able to address my own projects.
-3. As a client, I want to know the size of the company at a glance, in order to know if the company has resources to achieve my projects.
-4. As a client, I want to have an easy option to contract services, so I do not need to go through long procedures.
-5. As jobseeker, I want to know where the main office is located, to know if a move is needed in case I get a job.
-6. As an equipment seller, I want to have a way to contact the company, to know if there might be any product of interest to them.
-7. As a client, I want to have a contact form to make general consultations in case I do not find what I am looking for.
-8. As a client, I want to have a fixed navigation menu on top, so I do not get lost when looking for information.
-9. As a client, I want to see a phrase that summarizes the activity of the company, so I know from the beginning if I am in the correct website.
+2. asdasdfafdasfdasfdasdf
 
 - ### **Returning users**
 10. As a client, I want to be updated with the latest news of the company, in order to know company's performance and understand current and future capabilities.
-11. As a client, I want to easily contact them in order to address any issue with my requests.
-12. As a client, I want to know what the last projects are, so I have an idea of how they are performing in the marked.
-13. As a client, I want to know the size of the company, to check its evolution through time and infer if they are growing or are not.
+11. asdfasfasdfasd
 
 - ### **Organisation/Site Owner**
 14. As owner, I want to briefly show my services, so I promote our company and clients know what can be hired.
-15. As owner, I want to offer a quick call to action through a button, so clients can easily contract my services.
-16. As owner, I want to give a short description of my mission, values and vision, so clients known in advance my profile before closing a deal.
-17. As owner, I want to show my latest news, so I keep transparency and perform my own advertising.
-18. As owner, I want to inform about my structure, so clients know in advance if my company will be able to address their needs.
-19. As owner, I want to inform of my last projects, so I promote our company and simultaneously show clients about my capabilities.
-20. As owner, I want an easy way to be contacted, so clients can consult their matters and do not see my company as a complicated option to get information or to request services.
-21. As owner, I want my brand to be promoted and reinforced, so users associate geophysical services for the energy transition with my company.
-22. As owner, I want to show where my office is, so users know where to contact and find me.
-23. As owner, I want users to have a direct link in the latest news (to the corresponding sections), so they immediately relate the news with the corresponding part of the company without "getting lost" in other areas.
+15. asdasfdasdfadfasd
 
 #### [Back to Index](#index)
 
 ## **User Requirements and Expectations**
 - A fixed and responsive navigation menu on top.
-- A call-to-action button, always present and fixed in the navigation menu, to request services.
-- A first welcome page with latest news.
-- A second page with company's mission, values, vision, a table with latest projects, and a table with departments and amount of people in each of them.
-- A third page showing the services offered by the company.
-- A fourth page with a contact form, office location map, and contact details.
-- A footer with links to company's social networks and e-mail address.
-- An error page to be shown in case a user does not provide a correct URL. 
-- A website that is accessible from any device and screen size.
-- A website that only opens new windows for external websites.
-- Company's slogan in the welcome page.
-- To show an icon, the name of the company, and the name of the page in the title of browser windows/tabs.
+- A asdfasfasdfasfasdf
 <br><br>
 ## [Back to Index](#index)
 <br>
@@ -158,27 +113,22 @@ ___
 The design was planned to cover screen sizes from 320x568px to 1920x1370px.
 
 ## **Colours**
-Green is the main colour of the project. The reason for this selection is to be in line with the nature of the company (whose services are focused in the current energy transition) and with the name of the company: The Green Company.
+Green asdfsfsdfadfafdasdfasdfa
 
-The background colour is green/grey, rgb(186, 233, 227), in order to have contrast with the content of the website while keeping the green-colour tendency of the design.
+The background colour asdfasfdasdfasfdasdfaing the green-colour tendency of the design.
 
 #### [Back to Index](#index)
 
 ## **Fonts**
-Google fonts (please see credits section below) were implemented in the website. Roboto was selected for the paragraph as it is modern and easy to read. Following Google's recommendations, Baloo Tammudu 2 was also selected as complement for the titles.
-Arial font is used as a back-up in case the previous fonts cannot be loaded.
+Google fonts (please see credits section below) were implemented in the website. Nunito/Montserrat was selected for the paragraph asdsdfsfsdfsf.
+Sans-serif font is used as a back-up in case the previous fonts cannot be loaded.
 
-Colour #003300 (dark green) was selected for the body in order to have strong contrast with the white background of the body.
-To differentiate the navigation menu and the request service button,  #135f13 (different dark green) is selected, while #276609 is selected to highlight all headings.
-
-The name of the company in the logo uses #73ac3e to have a unique colour.
+Colour #003300 (dark green) was selected asdfsdfsfsdfsdf.
 
 #### [Back to Index](#index)
 
 ## **Structure**
-Following expectations of the owner, the metadata includes the following keywords to help search engines to find the website: geophysics, services, modelling, acquisition, processing, wind, geothermal, carbon, capture, CO2, operations. In addition, to help find the developer and this project, the following keywords are added: Code Institute, software development, student, full-stack course, milestone project.
-
-The name of the company along with the name of the page are included in the head element (in the title) in order to comply with the expectations of the owner.
+Following expectations of the owner, the metadata includes the following keywords to help search engines to find the website: sdfsdfsfdsdfsf.
 
 The visible websites is organised in a header, a body and a footer.
 
@@ -186,33 +136,23 @@ Wireframes were developed at the beginning in order to have a first design of th
 
 - ### **Header**
 
-In order to achieve the goals related to easiness and/or simplicity, a fixed navigation area in the header is provided. In the same area, the company's logo is place to the left, and a "quick" button to request services on the right, so users are able to contract services in a very fast way.
-
-This "quick" button, whose name is "Request Service", pops up a modal form (taken from Bootstrap, please see credits section below) where the user is able to contract specific services.
+In order to achieve the goals related to easiness and/or simplicity, a fixed navigation area in the header is provided. In the same area, a logo with the idea of the website is place to the left.
 
 - ### **Body**
 
 The body of the pages are structured as follows for each of the pages:
-- #### *Home:*
-    It contains an environmental-friendly background video with a slogan of the company and the services it offers.
-- #### *About Us:*
-    It has an upper section, divided in three subsections, where a picture, title and text for Mission, Values and Vision are allocated.
-    In order to keep symmetry as accurate as possible, Values (which are shown in a list) are located in the middle.\
-    This section is followed, downwards, by another section (which lies in the middle of the body) that contains a table with the last projects of the company (those in year 2021).\
-    Finally, at the bottom of the body, there is another section that contains a table that shows the amount of people per department in the company.\
-    The designed is carried out for a screen size of 1024x1536 pixels (double in vertical length than the home page).
-- #### *Our services:*
-    It contains pictures in a carousel (taken from Bootstrap, please see credit sections below).\
-    Below, in a section, there are columns that contain the titles of the services and text for each of them.\
-    They are structured in a 3x2 arrange for desktop and tablet presentations, and 1x6 for mobile devices.
-- #### *Contact Us:*
-    On the left, there is a form where the users are able to send consultations. It has options to avoid marketing communications and being contacted by telephone, as expected by users.\
-    On the right, there is a map of the office (above) and contact details can be found below the map.\
-    This page has a background picture of the office.
+- #### *Theory:*
+    It contains asdfsdfsdfsdf.
+- #### *Generator:*
+    It has an upper section, asdfsdfsf.
+- #### *Quiz:*
+    It contains pictures in a carousel (taken from Bootstrap, asdfsdfsdfsobile devices.
+- #### *Contact:*
+    On the left, there is a forasdfsdfsdfe.
 
 - ### **Footer**
 
-The footer contains links for social media and company's principal e-mail of contact.\
+The footer contains links for social media (LinkedIn and GitHub) and e-mail. It is designed to remain fixed at the bottom of the webpages in order to have the links always visible to promote the developer of the website.\
 <br><br>
 ## [Back to Index](#index)
 <br>
@@ -249,7 +189,6 @@ The following languages, software and tools were implemented using Windows 10 Pr
 - #### **Bootstrap (v4.0)**
 - #### **Balsamiq Wireframes (v4.2.4, Editor Version 2.6.0)**
 - #### **Google Fonts**
-- #### **Google Maps**
 - #### **W3C Markup Validation Service**
 - #### **W3C CSS Validation Service**
 - #### **WAVE Web Accessibility Evaluation Tool**
@@ -268,10 +207,10 @@ ___
 The website consists of four pages, where each of them is divided in three parts: header, body and footer. The features contained in each of the pages and parts are the following ones:
 
 
-- ### **Company logo**
+- ### **Website logo**
 
 It is located in all pages, fixed, top-left, and always visible.
-*User Stories Addressed by this Feature:* 8; 9 and 21.
+*User Stories Addressed by this Feature:* 8; 9 and ........
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
@@ -302,140 +241,7 @@ It is located on top, in the navigation menu, to the right, fixed and present at
 
 *User Stories Addressed by this Feature:* 4 and 15.
 
-*Please check "7. Testing of User Stories" for more details.*
-<details>
-    <summary>Check Image</summary>
-
-![Fixed "Request Button" Image](docs/features-and-evidence/02-request-button.PNG)
-
-</details>
-
-
-- ### **Welcome video**
-
-It is located in the home page, in the upper part of the body section. It contains the slogan of the company (*"We are part of the energy transition, we provide the solutions that will be copied tomorrow"*) and behaves as a background video.
-*User Stories Addressed by this Feature:* 1; 9 and 21.
-
-*Please check "7. Testing of User Stories" for more details.*
-<details>
-    <summary>Check Image</summary>
-
-![Welcome Video Image](docs/features-and-evidence/03-home-video.PNG)
-
-</details>
-
-
-- ### **Latest News**
-
-It is located in the lower part of the body, in the home page, and shows current and relevant news of the company.
-*User Stories Addressed by this Feature:* 10 and 17.
-
-*Please check "7. Testing of User Stories" for more details.*
-<details>
-    <summary>Check Image</summary>
-
-![Latest News Image](docs/features-and-evidence/04-latest-news.PNG)
-
-</details>
-
-
-- ### **Mission, Values, Vision**
-
-It is located in the About Us page, in the upper part of the body, showing the mission, values and vision of the company.
-*User Stories Addressed by this Feature:* 16.
-
-*Please check "7. Testing of User Stories" for more details.*
-<details>
-    <summary>Check Image</summary>
-
-![Mission-Values-Vision Image](docs/features-and-evidence/05-mission-values-vision.PNG)
-
-</details>
-
-
-- ### **Projects table**
-
-It is located in the middle part of the body in the About Us page, showing latest projects (those in the current year).
-*User Stories Addressed by this Feature:* 2; 12 and 19.
-
-*Please check "7. Testing of User Stories" for more details.*
-<details>
-    <summary>Check Image</summary>
-
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-
-</details>
-
-
-- ### **People Table**
-
-It is located in the lower part of the body in the About Us page, showing the amount of people in each department of the company.
-*User Stories Addressed by this Feature:* 3; 13 and 18.
-
-*Please check "7. Testing of User Stories" for more details.*
-<details>
-    <summary>Check Image</summary>
-
-![People Table Image](docs/features-and-evidence/07-people-table.PNG)
-
-</details>
-
-
-- ### **Carousel for services**
-
-It is located in the Our Services page, upper part, with controls and messages to advertise the company.
-*User Stories Addressed by this Feature:* 21.
-
-*Please check "7. Testing of User Stories" for more details.*
-<details>
-    <summary>Check Image</summary>
-
-![Carousel for Services Image](docs/features-and-evidence/08-carrousel-for-our-services.PNG)
-
-</details>
-
-
-- ### **Services**
-
-It is located in the Our Services page, lower part, showing the services that can be contracted.
-*User Stories Addressed by this Feature:* 1 and 14.
-
-*Please check "7. Testing of User Stories" for more details.*
-<details>
-    <summary>Check Image</summary>
-
-![Services Image](docs/features-and-evidence/09-our-services.PNG)
-
-</details>
-
-
-- ### **Contact form**
-
-It can be found in the Contact Us page, on the left, and allows users to send consultations of any type.
-*User Stories Addressed by this Feature:* 6; 7; 11 and 20.
-
-*Please check "7. Testing of User Stories" for more details.*
-<details>
-    <summary>Check Image</summary>
-
-![Contact Form Image](docs/features-and-evidence/10-contact-form.PNG)
-
-</details>
-
-
-- ### **Office map**
-
-It can be found in the Contact Us page, on the right, and show users where the office is located.
-*User Stories Addressed by this Feature:* 5 and 22.
-
-*Please check "7. Testing of User Stories" for more details.*
-<details>
-    <summary>Check Image</summary>
-
-![Office Map Image](docs/features-and-evidence/11-office-map.PNG)
-
-</details>
-
+adasfasdfasdfa
 
 - ### **Contact details**
 
@@ -467,7 +273,7 @@ It is located at the bottom of all pages, containing icons with links to social 
 
 - ### **404 page**
 
-It is a different page that appears in case there is any issue loading the page, like a similar incorrect URL. It contains a background image related to the activity of the company, that repeats itself, and contains the message *"Sorry, something went wrong."*.
+It is a different page that appears in case there is any issue loading the page, like a similar incorrect URL. It contains a background image related to the website, that repeats itself, and contains the message *"Sorry, something went wrong."*.
 *User Stories Addressed by this Feature:* 8 and 9.
 
 *Please check "7. Testing of User Stories" for more details.*
@@ -487,9 +293,11 @@ ___
 
 The introductory image on top of this README file was generated using the [Am I Responsive site](http://ami.responsivedesign.is/?url=https%3A%2F%2Fcsc7.github.io%2FPP1_CI_TGC) to test how the website displays in different screen sizes.
 
-Development tools of Google Chrome (Version 91.0.4472.114, Official Build, 64-bit), Microsoft Edge (Version 91.0.864.59, Official build, 64-bit) and Firefox (89.0.2, 64-bit) have been used to test the behaviour of the website for screen sizes between 320x568px to 1920x1370px.
+Development tools of Google Chrome (Version 91.0.sdfsdfs, Official Build, 64-bit), Microsoft Edge (Version 91.0.asdfsdf, Official build, 64-bit) and Firefox (89.0.asdfsd, 64-bit) have been used to test the behaviour of the website for screen sizes between 320x568px to 1920x1370px.
 
 The website was tested using these browsers and also Microsoft Internet Explorer (Version 2004, OS Build 19041.1052).
+
+Android in two different cell phones were used .....
 
 The following tools were used to validate the files of the website:
 
@@ -701,279 +509,9 @@ The following are testing of User Stories previously described above:
 </details>
 <br><br>
 
-3. As a client, I want to know the size of the company at a glance, in order to know if the company has resources to achieve my projects.
+3. As a client, I want to asdfsdfs
 
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| People Table | Scroll down in About Us page | Find information about projects | Works as expected | 
 
-<details>
-    <summary>Screenshot</summary>
-
-![People Table Image](docs/features-and-evidence/07-people-table.PNG) 
-</details>
-<br><br>
-
-4. As a client, I want to have an easy option to contract services, so I do not need to go through long procedures.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| Fixed "Request Button" | Click a button | A pop-up form to request a service | Works as expected |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Request Button Image](docs/features-and-evidence/02-request-button-modal-form.PNG) 
-</details>
-<br><br>
-
-5. As jobseeker, I want to know where the main office is located, to know if a move is needed in case I get a job.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| Office map / Contact details | Open Contact Us page | Find location and contact information | Works as expected |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Office Map Image](docs/features-and-evidence/11-office-map.PNG) 
-![Contact Details Image](docs/features-and-evidence/12-contact-details.PNG) 
-</details>
-<br><br>
-
-6. As an equipment seller, I want to have a way to contact the company, to know if there might be any product of interest to them.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| Contact form or Footer | Open Contact Us page or click e-mail button in footer | Find contact form or open application to send e-mail | Works as expected |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Contact Form Image](docs/features-and-evidence/10-contact-form.PNG) 
-![Footer Image](docs/features-and-evidence/13-footer.PNG) 
-</details>
-<br><br>
-
-7. As a client, I want to have a contact form to make general consultations in case I do not find what I am looking for.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| Contact form or Footer | Open Contact Us page or click e-mail button in footer | Find contact form or open application to send e-mail | Works as expected |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Contact Form Image](docs/features-and-evidence/10-contact-form.PNG) 
-![Footer Image](docs/features-and-evidence/13-footer.PNG) 
-</details>
-<br><br>
-
-8. As a client, I want to have a fixed navigation menu on top, so I do not get lost when looking for information.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| Fixed navigation menu | Have navigation bar visible | Find navigation menu very easily | Works as expected, always visible and fixed |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Fixed Menu Image](docs/features-and-evidence/01-fixed-menu.PNG) 
-</details>
-<br><br>
-
-9. As a client, I want to see a phrase or image or video that summarizes the activity of the company, so I know from the beginning if I am in the correct website.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| Welcome video | Show company's slogan and image/video with related activity | Find this information in the home page | Works as expected |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Home Video Image](docs/features-and-evidence/03-home-video.PNG) 
-</details>
-<br><br>
-
-10. As a client, I want to be updated with the latest news of the company, in order to know company's performance and understand current and future capabilities.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| Latest news | Scroll down in home page | Find this information in the home page | Works as expected |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Latest News Image](docs/features-and-evidence/04-latest-news.PNG) 
-</details>
-<br><br>
-
-11. As a client, I want to easily contact them in order to address any issue with my requests.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| Contact form / Footer | Open Contact Us page or click e-mail button in footer | Find contact form or open application to send e-mail | Works as expected |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Contact Form Image](docs/features-and-evidence/10-contact-form.PNG) 
-![Footer Image](docs/features-and-evidence/13-footer.PNG) 
-</details>
-<br><br>
-
-12. As a client, I want to know what the last projects are, so I have an idea of how they are performing in the market.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
-
-<details>
-    <summary>Screenshot</summary>
-
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG) 
-</details>
-<br><br>
-
-13. As a client, I want to know the size of the company, to check its evolution through time and infer if they are growing or are not.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| People Table | Scroll down in About Us page | Find information about projects | Works as expected | 
-
-<details>
-    <summary>Screenshot</summary>
-
-![People Table Image](docs/features-and-evidence/07-people-table.PNG) 
-</details>
-<br><br>
-
-14. As owner, I want to briefly show my services, so I promote our company and clients know what can be hired.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| Services | Scroll down in Our Services page | Find information about projects | Works as expected | 
-
-<details>
-    <summary>Screenshot</summary>
-
-![Our Services Image](docs/features-and-evidence/09-our-services.PNG) 
-</details>
-<br><br>
-
-15. As owner, I want to offer a quick call to action through a button, so clients can easily contract my services.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| Fixed "Request Button" | Click a button | A pop-up form to request a service | Works as expected |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Request Button Image](docs/features-and-evidence/02-request-button-modal-form.PNG) 
-</details>
-<br><br>
-
-16. As owner, I want to give a short description of my mission, values and vision, so clients known in advance my profile before closing a deal.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| Mission, Values, Vision | Open About Us page | Find mission, values and vision statements of the company | Works as expected |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Mission-Values-Vision Image](docs/features-and-evidence/05-mission-values-vision.PNG) 
-</details>
-<br><br>
-
-17. As owner, I want to show my latest news, so I keep transparency and perform my own advertising.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| Latest news | Scroll down in home page | Find this information in the home page | Works as expected |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Latest News Image](docs/features-and-evidence/04-latest-news.PNG) 
-</details>
-<br><br>
-
-18. As owner, I want to inform about my structure, so clients know in advance if my company will be able to address their needs.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| People Table | Scroll down in About Us page | Find information about projects | Works as expected | 
-
-<details>
-    <summary>Screenshot</summary>
-
-![People Table Image](docs/features-and-evidence/07-people-table.PNG) 
-</details>
-<br><br>
-
-19. As owner, I want to inform of my last projects, so I promote our company and simultaneously show clients about my capabilities.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
-
-<details>
-    <summary>Screenshot</summary>
-
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG) 
-</details>
-<br><br>
-
-20. As owner, I want an easy way to be contacted, so clients are able to consult their matters and do not see my company as a complicated option to get information or to request services.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| Contact form / Footer | Open Contact Us page or click e-mail button in footer | Find contact form or open application to send e-mail | Works as expected |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Contact Form Image](docs/features-and-evidence/10-contact-form.PNG) 
-![Footer Image](docs/features-and-evidence/13-footer.PNG) 
-</details>
-<br><br>
-
-
-21. As owner, I want my brand to be promoted and reinforced, so users associate geophysical services for the energy transition with my company.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| Company logo / Footer | Find company logo/brand (click it for home page) and/or click social network icons to get information | Have the company logo always visible and/or be redirected (through new windows or tabs) to social network websites or open e-mail application with e-mail contact address | Works as expected |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Company Logo Image](docs/features-and-evidence/00-company-logo.PNG) 
-![LinkedIn Page Image](docs/features-and-evidence/15-footer-linkedin.PNG)
-![Facebook Page Image](docs/features-and-evidence/15-footer-facebook.PNG) 
-![Twitter Page Image](docs/features-and-evidence/15-footer-twitter.PNG) 
-![Instagram Page Image](docs/features-and-evidence/15-footer-instagram.PNG) 
-![E-mail Application Image](docs/features-and-evidence/15-footer-email.PNG) 
-</details>
-<br><br>
-
-
-22. As owner, I want to show where my office is, so users know where to contact and find me.
-
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
-| --- | --- | --- | --- |
-| Office map / Contact details | Open Contact Us page | Find location and contact information | Works as expected |
-
-<details>
-    <summary>Screenshot</summary>
-
-![Office Map Image](docs/features-and-evidence/11-office-map.PNG) 
-![Contact Details Image](docs/features-and-evidence/12-contact-details.PNG) 
-</details>
-
-<br><br>
 
 23. As owner, I want users to have a direct link in the latest news (to the corresponding sections), so they immediately relate the news with the corresponding part of the company without "getting lost" in other areas.
 
@@ -1000,7 +538,7 @@ The following are testing of User Stories previously described above:
 ___
 # 9 . Bugs
 
-The most common bugs through development were related to positioning of elements in the page. They were fixed by assigning proper values, most of them with the help of a temporary background colour for the element.
+Some bugs were related to positioning of elements in the page. They were fixed by assigning proper values, most of them with the help of a temporary background colour for the element.
 
 Then, many minor bugs were solved just by assigning the correct property or by trial and error.
 
@@ -1010,13 +548,6 @@ Bugs who required more time and specific solutions are the following ones:
 | ---- | ---- |
 | aria-labelledby attribute not pointing to an local element (in current document) | Changed the attribute value to point to the ID element of the modal button in the section/project (exampleModalCenter). Solved with https://validator.w3.org/ . | 
 | Stray start tag script | It was actually caused by the closing body tag placed before the end of the HTML file, leaving some scripts tags outside the body tag. Solved by moving the closing tag to the end, just before the closing html tag. Solved with https://validator.w3.org/ .|
-| Use h1 element as a top-level heading only | Change headings  from h1 and h2 to h2 and h3. Solved with https://validator.w3.org/ .|
-| Modal showing below other elements, in the background | Assigned z-index values to affected elements, being -1 for the modal pop-up window. |
-|    The fist design of the contact form had it positioned on the right of the Contact Us page, which cause a poor responsive behaviour | Designed changed, contact form on the left, and map and contact details on the right.|
-| carousel-item class with text "jumped" when changing items on Latest News section| Set height property to avoid this "jump" behaviour. |
-| Images in Our Services page carousel did not appear | Applied specificity in text carousel to select the images. |
-| Text not showing in carousel for mobile screen sizes | Removed the "d-none" "d-md-block" classes from carousel items. Solved using Stack Overflow, accessed on June 22nd, 2021, at 3:46, at https://stackoverflow.com/questions/42451739/bootstrap-4-carousel-caption-is-not-visible-on-small-devices .|
-| Underline on Latest News titles showing blue when hovering on them, which should be white, as the colour of the title | Selected element in CSS file (after inspecting it with Chrome DevTools) and put properties color to white and text-decoration to underline.|
 
 <br><br>
 ## [Back to Index](#index)
@@ -1027,7 +558,7 @@ ___
 
 The website was fully written in Gitpod, permanently tested with Gitpod preview, and periodically deployed to GigHub Pages (in a main branch).
 
-The fully deployment to be accessible by anyone is found [here](https://csc7.github.io/PP1_CI_TGC/), whose URL is https://csc7.github.io/PP1_CI_TGC/ .
+The fully deployment to be accessible by anyone is found [here](https://csc7.github.io/asdfsdfs), whose URL is https://csc7.github.io/PP2_asdfsdfs/ .
 
 Based on the Code Institute's Love Running project content, the following steps has been applied to have the front-end final version deployed:
 1. Select website repository in GitHub account.
