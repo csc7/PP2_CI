@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-
 function startQuiz() {
     console.log("Start button clicked");
     document.getElementById("answer").value = "";
@@ -40,7 +39,6 @@ function sendAnswer() {
         alert(`Awwww.... you answered ${answer}. The correct answer was ${correctAnswer}!`);
     }
 }
-
 
 function displayQuestion (num, div) {
     console.log(num);
