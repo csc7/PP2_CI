@@ -23,16 +23,38 @@ function startQuiz() {
     console.log("Start button clicked");
     document.getElementById("answer").value = "";
     document.getElementById("answer").focus();
-    let x1 = Math.floor(Math.random() * 100) + 1;
-    let x2 = x1 * 5;
-    displayQuestion(x1, x2);
+    let firstValue = Math.floor(Math.random() * 100) + 1;
+    let secondValue = firstValue * 5;
+    displayQuestion(firstValue, secondValue);
+    
 }
 
 function sendAnswer() {
     console.log("Send button clicked");
+    let answer = parseInt(document.getElementById("answer").value);
+    let correctAnswer = getCorrectAnswer();
+    if (answer === correctAnswer) {
+        alert("Hey! You got it right! :D");
+        addPoint();
+    } else {
+        alert(`Awwww.... you answered ${answer}. The correct answer was ${correctAnswer[0]}!`);
+    }
 }
 
 
 function displayQuestion (num, div) {
-    document.getElementById('question').textContent = "La division ${num} dividido ${div} es?";
+    console.log(num);
+    console.log(div);
+    document.getElementById('question').textContent = "La division " + div + " dividido " + num + " es?";
+}
+
+function getCorrectAnswer() {
+    let operand1 = parseInt(document.getElementById('firstValue').innerText);
+    let operand2 = parseInt(document.getElementById('secondValue').innerText);
+    let result = operand2/operand1;
+    return result;
+}
+
+function addPoint() {
+
 }
