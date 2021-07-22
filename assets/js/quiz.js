@@ -4,11 +4,13 @@
 // Event listener to check when the DOM has been loaded completely
 // and function to add event listeners to button elements
 
+var i = 0;
+
 document.addEventListener("DOMContentLoaded", function() {
     let startButton = document.getElementById("start-button");
-    startButton.addEventListener("click", startQuiz);
+        startButton.addEventListener("click", runQuiz);
     let sendButton = document.getElementById("send-button");
-    sendButton.addEventListener("click", sendAnswer);
+        sendButton.addEventListener("click", sendAnswer);
     
 
     document.getElementById("answer").addEventListener("keydown", function(event) {
@@ -18,14 +20,17 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-function startQuiz() {
+function runQuiz() {
+
     console.log("Start button clicked");
+    //console.log("i = " + i);
     document.getElementById("answer").value = "";
     document.getElementById("answer").focus();
     let firstValue = Math.floor(Math.random() * 100) + 1;
     let secondValue = firstValue * 5;
     displayQuestion(firstValue, secondValue);
-    
+ 
+   
 }
 
 function sendAnswer() {
@@ -36,8 +41,16 @@ function sendAnswer() {
     if (answer === correctAnswer) {
         alert("Hey! You got it right! :D");
         addPoint();
+        updateProgressBar();
     } else {
         alert(`Awwww.... you answered ${answer}. The correct answer was ${correctAnswer}!`);
+    }
+    i++;
+    if (i == 10) {
+        alert(`Your score is ${answer} achieved in ${answer} minutes`);
+        i = 0;
+    } else {
+        runQuiz();
     }
 }
 
@@ -67,5 +80,13 @@ function getCorrectAnswer() {
 }
 
 function addPoint() {
+
+}
+
+function nextQuestion () {
+
+}
+
+function updateProgressBar() {
 
 }
