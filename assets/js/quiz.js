@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function runQuiz() {
     console.log("Start button clicked");
-    console.log("i = " + i);
+    //console.log("i = " + i);
     document.getElementById("answer").value = "";
     document.getElementById("answer").focus();
     let firstValue = Math.floor(Math.random() * 100) + 1;
@@ -53,6 +53,7 @@ function sendAnswer() {
 }
 
 function displayQuestion (num, division) {
+    console.log("i = " + i);
     console.log(num);
     console.log(division);
     document.getElementById('question').children[0].textContent = num;
@@ -62,13 +63,38 @@ function displayQuestion (num, division) {
     console.log(document.getElementById('question').children[0]);
     console.log(document.getElementById('question').children[1]);
 
-    document.getElementById('question').innerHTML = `La division de <span id="first-text">...</span><span id="first-value">${division}</span><span id="secont-text"> y el </span><span id="second-value"> ${num} </span><span id="last-text"></span>`;    
+    questionStart = ['La division de ',
+                'La suma de ',
+                'La resta de ',
+                'La multiplicacion de',
+                'La division ',
+                'La division ',
+                'La din ',
+                'La divian',
+                'La divin d',
+                'La d ',
+               ];
+
+    questionEnd = ['La division',
+               'La suma ',
+               'La resta ',
+               'La multiplicaci',
+               'La divisio',
+               'La division de',
+               'La din ',
+               'La div',
+               'La divi',
+               'La d',
+               ];
+
+    document.getElementById('question').innerHTML = `${questionStart[i]} <span id="first-value">${num}</span> ${questionEnd[i]} <span id="second-value">${division}</span>`;
+    
 }
 
 function getCorrectAnswer() {
-    let operand1 = parseInt(document.getElementById('first-value').innerText);
-    let operand2 = parseInt(document.getElementById('second-value').innerText);
-    let result = operand1/operand2;
+    let operator1 = parseInt(document.getElementById('first-value').innerText);
+    let operator2 = parseInt(document.getElementById('second-value').innerText);
+    let result = operator2/operator1;
     return result;
 }
 
