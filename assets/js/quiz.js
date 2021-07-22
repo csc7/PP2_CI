@@ -37,7 +37,7 @@ function sendAnswer() {
         alert("Hey! You got it right! :D");
         addPoint();
     } else {
-        alert(`Awwww.... you answered ${answer}. The correct answer was ${correctAnswer[0]}!`);
+        alert(`Awwww.... you answered ${answer}. The correct answer was ${correctAnswer}!`);
     }
 }
 
@@ -45,7 +45,9 @@ function sendAnswer() {
 function displayQuestion (num, div) {
     console.log(num);
     console.log(div);
-    document.getElementById('question').textContent = "La division " + div + " dividido " + num + " es?";
+    //document.getElementById('question').textContent = "asdfsfss ";first-text
+    document.getElementById('firstValue').textContent = num;
+    document.getElementById('secondValue').textContent = div;    
 }
 
 function getCorrectAnswer() {
