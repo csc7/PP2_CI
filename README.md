@@ -546,7 +546,7 @@ Bugs who required more time and specific solutions are the following ones:
 
 | Bug | Solution |
 | ---- | ---- |
-| aria-labelledby attribute not pointing to an local element (in current document) | Changed the attribute value to point to the ID element of the modal button in the section/project (exampleModalCenter). Solved with https://validator.w3.org/ . | 
+| The quiz was not able to read and compute the correct value of the answer | The issue was caused by an improper use of the textContent property, which replaced the content of the "p" element deleting its inner "span" elements. Solved with the help of the Code Institute's material by using the innerHTML property, where values for computation were read with the value property. | 
 | Stray start tag script | It was actually caused by the closing body tag placed before the end of the HTML file, leaving some scripts tags outside the body tag. Solved by moving the closing tag to the end, just before the closing html tag. Solved with https://validator.w3.org/ .|
 
 <br><br>
