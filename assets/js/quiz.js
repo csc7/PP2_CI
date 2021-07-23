@@ -39,8 +39,9 @@ function runQuiz() {
     document.getElementById("answer").focus();
     // Compute time lapse
     if (i == 0) {
-        startTime = new Date().getTime();
+         startTime = new Date().getTime();
         t = setInterval (timer, 1000);
+        document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} out of ${i}`;
     }
 
 
@@ -142,11 +143,14 @@ function updateProgressBar() {
 }
 
 function resetQuiz() {
-    alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${i} minutes`);
+    document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} out of ${i}`;
+    let timeSpent = document.getElementById("clock").textContent;
+    alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent} .`);
     i = 0;
+    totalCorrect = 0;
     document.getElementById("answer").value = null;
     document.getElementById("answer").focus();
-    for (j = 0; j < 10; j++) {
+    for (j = 1; j < 10; j++) {
         document.getElementById('prog-bar').children[j].style.backgroundColor = "rgb(148, 157, 240)";
     }
     document.getElementById('prog-bar').children[0].style.backgroundColor= "blue";
@@ -159,5 +163,17 @@ function timer() {
     let currentTime = new Date().getTime();
 
     let seconds = Math.floor(((currentTime - startTime)/1000));
-    document.getElementById("clock").innerHTML = seconds;
+    let minutes = Math.floor(((currentTime - startTime)/1000/60));
+    if (minutes < 10 && seconds < 10) {
+        document.getElementById("clock").innerHTML = "0" + minutes + " : " + "0" + seconds;
+    } else if (minutes < 10 && seconds < 60) {
+        document.getElementById("clock").innerHTML = "0" + minutes + " : " + seconds;
+    } else if (minutes < 10 && seconds >= 60) {
+        seconds = seconds - (60 * minutes);
+        document.getElementById("clock").innerHTML = "0" + minutes + " : " + "0" + seconds;
+    } else if (minutes >= 10 && seconds < 10) {
+        document.getElementById("clock").innerHTML = minutes + " : " + "0" + seconds;
+    } else {
+        document.getElementById("clock").innerHTML = minutes + " : " + seconds;
+    }
 }
