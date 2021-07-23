@@ -12,46 +12,59 @@ var t = 0;
 
 document.addEventListener("DOMContentLoaded", function() {
     let startButton = document.getElementById("start-button");
-        startButton.addEventListener("click", initialiseQuiz);
-    let sendButton = document.getElementById("send-button");
-        sendButton.addEventListener("click", sendAnswer);    
+    startButton.addEventListener("click", initialiseQuiz);
+    //let sendButton = document.getElementById("send-button");
+    //sendButton.addEventListener("click", sendAnswer);    
 
-    document.getElementById("answer").addEventListener("keydown", function(event) {
-        if (event.key === "Enter") {
-            sendAnswer();
-        }
-    });
+    //document.getElementById("answer").addEventListener("keydown", function(event) {
+    //    if (event.key === "Enter") {
+    //        sendAnswer();
+    //    }
+    //});
 });
 
 function initialiseQuiz() {
     if (i == 0) {
+        document.getElementById("answer").addEventListener("keydown", pressEnter);
+        let sendButton = document.getElementById("send-button");
+        sendButton.addEventListener("click", sendAnswer);   
+        document.getElementById("send-button").disabled = false;
+
         runQuiz();
+
     } else {
+
         resetQuiz();
         runQuiz();
     }
 }
 
+function pressEnter (event) {
+    if (event.key === "Enter") {
+        sendAnswer();
+    }
+}
+
+
+
+
+
 function runQuiz() {
+
+
+
+
+    
     console.log("Start button clicked");
     //console.log("i = " + i);
     document.getElementById("answer").value = "";
     document.getElementById("answer").focus();
     // Compute time lapse
     if (i == 0) {
-         startTime = new Date().getTime();
+        startTime = new Date().getTime();
         t = setInterval (timer, 1000);
         document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} out of ${i}`;
     }
-
-
-    //var startTime = new Date().getTime();;
-    //var currentTime = 
-    //var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    //var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    //document.getElementById('clock').textContent = startTime;
-    //document.getElementById("demo").innerHTML = minutes + "m " + seconds + "s ";
-
 
     console.log(startTime);
     let firstValue = Math.floor(Math.random() * 100) + 1;
@@ -76,7 +89,20 @@ function sendAnswer() {
     }
     
     if (i == 10) {
-        resetQuiz();
+        clearInterval(t);
+        
+        document.getElementById('prog-bar').children[i-1].style.backgroundColor = "blue";
+        let timeSpent = document.getElementById("clock").textContent;
+        alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent} .`);
+        document.getElementById("send-button").disabled = true;
+        
+        document.getElementById("answer").removeEventListener("keydown", pressEnter);
+
+
+        //updateProgressBar()        
+        //i = 0;
+        //totalCorrect = 0;
+        //resetQuiz();
     } else {        
         runQuiz();        
     }
@@ -138,25 +164,29 @@ function nextQuestion () {
 }
 
 function updateProgressBar() {
-    let fillProgress = document.getElementById('prog-bar').children[i];
-    fillProgress.style.backgroundColor = "blue";
+    if (i != 0) {
+        let fillProgress = document.getElementById('prog-bar').children[i-1];
+        fillProgress.style.backgroundColor = "blue";
+    } 
 }
 
 function resetQuiz() {
-    document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} out of ${i}`;
-    let timeSpent = document.getElementById("clock").textContent;
-    alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent} .`);
+    //updateProgressBar();
+    //document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} out of ${i}`;
+    //let timeSpent = document.getElementById("clock").textContent;
+    //alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent} .`);
     i = 0;
     totalCorrect = 0;
     document.getElementById("answer").value = null;
     document.getElementById("answer").focus();
-    for (j = 1; j < 10; j++) {
+    for (j = 0; j < 10; j++) {
         document.getElementById('prog-bar').children[j].style.backgroundColor = "rgb(148, 157, 240)";
     }
-    document.getElementById('prog-bar').children[0].style.backgroundColor= "blue";
-    clearInterval(t);
-    startTime = new Date().getTime();
-    t = setInterval (timer, 1000);
+    //document.getElementById('prog-bar').children[0].style.backgroundColor= "blue";
+
+    //clearInterval(t);
+    //startTime = new Date().getTime();
+    //t = setInterval (timer, 1000);
 }
 
 function timer() {
