@@ -231,7 +231,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     height: 25px;
     position: relative;
     float: left;
-    background-color: blue;
+    background-color: rgb(159, 159, 235);
 }
 
 #quiz-body {
