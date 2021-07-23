@@ -628,6 +628,13 @@ Font Awesome:
 W3Schools (Powered by W3.CSS):
 
     - Position of "div" elements: https://www.w3schools.com/css/css_positioning.asp; accessed on July 19th, 2021, at 23:55.
+    - https://www.w3schools.com/jsref/met_document_addeventlistener.asp .
+    - https://www.w3schools.com/js/js_timing.asp .
+    - https://www.w3schools.com/jsref/jsref_gettime.asp .
+    - https://www.w3schools.com/js/js_timing.asp .
+    - https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp .
+    - https://www.w3schools.com/jsref/met_element_removeeventlistener.asp .
+
 
 Geeks for Geeks:
 
@@ -637,6 +644,9 @@ Geeks for Geeks:
 Stack Overflow:
 
     - Assigning height for header and footer, and rest of screen for body: https://stackoverflow.com/questions/10228280/how-to-make-div-height-100-between-header-and-footer; accessed on July 20th, 2021, at 00:30.
+
+    - https://stackoverflow.com/questions/256754/how-to-pass-arguments-to-addeventlistener-listener-function .
+    - https://stackoverflow.com/questions/44935185/enable-and-disable-onkeydown-event .
 
 
 

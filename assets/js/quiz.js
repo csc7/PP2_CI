@@ -46,14 +46,7 @@ function pressEnter (event) {
 }
 
 
-
-
-
 function runQuiz() {
-
-
-
-
     
     console.log("Start button clicked");
     //console.log("i = " + i);
