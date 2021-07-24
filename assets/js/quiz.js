@@ -61,9 +61,8 @@ function runQuiz() {
 
     console.log(startTime);
     let firstValue = Math.floor(Math.random() * 100) + 1;
-    let secondValue = firstValue * 5;
     updateProgressBar();
-    displayQuestion(firstValue, secondValue);   
+    displayQuestion(firstValue);   
 }
 
 function sendAnswer() {    
@@ -102,21 +101,18 @@ function sendAnswer() {
     
 }
 
-function displayQuestion (num, division) {
+function displayQuestion (num) {
     console.log("i = " + i);
     console.log(num);
-    console.log(division);
     document.getElementById('question').children[0].textContent = num;
-    document.getElementById('question').children[1].textContent = division;
      
 
     console.log(document.getElementById('question').children[0]);
-    console.log(document.getElementById('question').children[1]);
 
-    questionStart = ['La division de ',
-                'La suma de ',
-                'La resta de ',
-                'La multiplicacion de',
+    questionStart = ['What is the frequency of the following signal: 100 sin ',
+                'What sampling frequency should be assigned to a  ',
+                'How long does it take to a ',
+                'What is the frequency of the following signal: 50 cos 2Pi',
                 'La division ',
                 'La division ',
                 'La din ',
@@ -125,10 +121,10 @@ function displayQuestion (num, division) {
                 'La d ',
                ];
 
-    questionEnd = ['La division',
-               'La suma ',
-               'La resta ',
-               'La multiplicaci',
+    questionEnd = ['t',
+               'Hz signal in order to have it fully recovered',
+               'Hz signal to complete 10 cycles',
+               't',
                'La divisio',
                'La division de',
                'La din ',
@@ -137,15 +133,18 @@ function displayQuestion (num, division) {
                'La d',
                ];
 
-    document.getElementById('question').innerHTML = `${questionStart[i]} <span id="first-value">${num}</span> ${questionEnd[i]} <span id="second-value">${division}</span>`;
+    document.getElementById('question').innerHTML = `${questionStart[i]} <span id="first-value">${num}</span>${questionEnd[i]}<span id="second-value">? (Give the whole part, largest integer less than or equal to your result).</span>`;
     
 }
 
 function getCorrectAnswer() {
-    let operator1 = parseInt(document.getElementById('first-value').innerText);
-    let operator2 = parseInt(document.getElementById('second-value').innerText);
-    let result = operator2/operator1;
-    return result;
+    let generatedRandomValueInQuestion = parseInt(document.getElementById('first-value').innerText);
+    let result = [Math.floor(generatedRandomValueInQuestion / (2 * 3.1416)),
+                  generatedRandomValueInQuestion * 2,
+                  Math.floor((1 / generatedRandomValueInQuestion) *10),
+                  generatedRandomValueInQuestion,
+                 ];
+    return result[i];
 }
 
 function addPoint() {

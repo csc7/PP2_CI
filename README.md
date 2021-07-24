@@ -648,7 +648,8 @@ Stack Overflow:
     - https://stackoverflow.com/questions/256754/how-to-pass-arguments-to-addeventlistener-listener-function .
     - https://stackoverflow.com/questions/44935185/enable-and-disable-onkeydown-event .
 
-
+MDN Web Docs Moz://a;
+    - Confirming return value of Math.floor() function, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor , accessed on July 24th, 2021, at 6:57.
 
 
 Back to Index
