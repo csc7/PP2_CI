@@ -185,6 +185,76 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     border-radius: 25px;
 }
 
+.panel-row-label {    
+    width: 50%;
+    height: 50px;
+    margin-left: 0;
+    background-color: cyan;
+    padding-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+    text-align: left;
+    background-color: coral;
+}
+
+.panel-row-input {
+    width: 50%;
+    height: 50px;
+    margin-left: 0;
+    border: blue;
+    border-radius: 10px;
+    background-color: rgb(230, 186, 13);
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+    text-align: left;
+    background-color: coral;
+}
+
+#wavelet-type-field {
+    width: 100%;
+    height: 100%;
+}
+
+#powered-by-Google {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+    text-align: left;
+    background-color: rgb(57, 167, 14);
+}
+
+#powered-by-Google {
+    color: red;
+}
+
+
+#generate-button, #export-button {
+    width: 50%;    
+    height: 50px;       
+    margin-top: 25px;
+    margin-left: 0;
+    background-color: red;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+    border-color: blue;
+    border-width: 10px;
+    border-radius: 10px;
+}
+
+#export-button {
+    margin-bottom: 25px;
+}
+
 /* QUIZ */
 
 /* Socre-Progress Panel plus Quiz Body Height of 725px  ????? */

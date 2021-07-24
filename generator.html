@@ -66,7 +66,35 @@
     <div id="right-conf-panel-div">
         Right Configuration Panel
         <div id="conf-panel">
-            Configuration Panel
+            <div class="panel-row-label">
+                <label for="wavelet-type-field">Name</label>
+            </div>
+            <div class="panel-row-input">
+                <select id="wavelet-type-field" name="department-list">
+                    <option value="Haar">Haar</option>
+                    <option value="Mexican Hat">Mexican Hat</option>
+                    <option value="Morlet">Morlet</option>
+                    <option value="Ricker">Ricker</option>
+
+                </select>
+            </div>
+            <div class="panel-row-label">
+                <label for="Sampling-field">Sampling Rate</label>
+            </div>
+            <div class="panel-row-input">
+                <input id="Sampling-field" class="input-field" type="number" name="name" placeholder="Sampling">
+            </div>
+            <div class="panel-row-label">
+                <label for="length-field">Length of Wavelet</label>
+            </div>
+            <div class="panel-row-input">
+                <input id="length-field" class="input-field" type="number" name="surname" placeholder="Length">
+            </div>
+            <button id="generate-button" type="submit">Generate</button>
+            <button id="export-button" type="submit">Export</button>
+            <div class="panel-row-label">
+                <p id="powered-by-Google">Powered by Google</label>
+            </div>
         </div>
     </div>
     <div id="bottom-left-graph-div">
