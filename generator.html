@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <!-- Google Charts
+    Line Charts
+    Copied and modified from https://developers.google.com/chart/interactive/docs/gallery/linechart on July 24th, 2021, at 23:06.
+    -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
+
     <!-- CSS file -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -58,9 +64,9 @@
     </h1>
  
     <div id="top-left-graph-div">
-        Top Graph
+        Bottom Graph
         <div id="top-graph">
-              Google Graph
+            <div id="curve_chart"></div> 
         </div>
     </div>
     <div id="right-conf-panel-div">
@@ -101,7 +107,7 @@
         Bottom Graph
         <div id="bottom-graph">
             Google Graph
-      </div>
+        </div>
     </div>
 
     <footer>
@@ -138,5 +144,9 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- This website scripts -->
+    <script src="assets/js/generator.js"></script>
+
 </body>
 </html>
