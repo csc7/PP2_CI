@@ -91,6 +91,14 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     bottom: 75px;
 }
 
+#basic-concepts {
+    width: 50%;
+    margin-left: 25%;
+    height: 100%;
+    background-color: aqua;
+    text-align: center;
+}
+
 
 /* GENERATOR PAGE */
 
