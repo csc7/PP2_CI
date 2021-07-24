@@ -123,16 +123,43 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 
 /* Graph and Configuration Panel Body Height of 725px */
 
-#top-left-graph-div {
+#left-graph-div {
     float: left;
     width: 50%;
-    height: 360px;
+    height: 725px;
     position: relative;
     top: 75px;
     background-color: rgb(104, 236, 137);
 }
 
-#curve_chart {
+#graph {
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 25px;
+    margin-left: 25px;
+    height: 85%;
+    margin-bottom: 100px;
+    float: right;
+    width: 75%;
+    border-radius: 25px;
+    background-color: cornflowerblue;
+
+
+
+    /*
+    height: 510px;
+    margin-top: 5%;
+    margin-right: 25px;
+    margin-left: 50%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 25px;*/
+}
+
+#curve_chart-top, #curve_chart-bottom {
     width: 100%;
     height: 100%;
 }
@@ -146,7 +173,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     background-color: rgb(146, 28, 214); 
 }
 
-#bottom-left-graph-div {
+/*#bottom-left-graph-div {
     float: left;
     width: 50%;
     height: 365px;
@@ -154,7 +181,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     top: 75px;
     background-color: rgb(39, 162, 184);
 }
-
+*/
 #conf-panel {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -165,21 +192,14 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     height: 85%;
     margin-bottom: 100px;
     float: left;
-    width: 50%;
+    width: 75%;
     border-radius: 25px;
     background-color: chocolate;
 }
 
-#top-graph {
-    background-color: cornflowerblue;
-    height: 310px;
-    margin-right: 25px;
-    margin-left: 50%;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    border-radius: 25px;
-}
 
+
+/*
 #bottom-graph {
     background-color: crimson;
     height: 310px;
@@ -188,7 +208,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     padding-top: 25px;
     padding-bottom: 25px;
     border-radius: 25px;
-}
+} */
 
 /* Including here style for fomr in Contat page as well*/
 .panel-row-label, .form-row-label {    

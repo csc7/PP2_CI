@@ -3,7 +3,11 @@ document.addEventListener("DOMContentLoaded", function() {
     startButton.addEventListener("click", initialiseQuiz);
 });
 
+
+// GRAPH
 // Google Charts
+// Line Charts
+// Copied and modified from https://developers.google.com/chart/interactive/docs/gallery/linechart on July 24th, 2021, at 23:06.
 
 google.charts.load('current', {'packages':['corechart']});
 google.charts.setOnLoadCallback(drawChart);
@@ -23,7 +27,8 @@ function drawChart() {
     legend: { position: 'bottom' }
   };
 
-  var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+  var chart = new google.visualization.LineChart(document.getElementById('curve_chart-top'));
 
   chart.draw(data, options);
 }
+
