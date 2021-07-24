@@ -111,26 +111,26 @@ function displayQuestion (num) {
 
     questionStart = ['What is the frequency of the following signal: 100 sin ',
                 'What sampling frequency should be assigned to a  ',
-                'How long does it take to a ',
+                'How long does it take (in msec) to a ',
                 'What is the frequency of the following signal: 50 cos 2Pi',
-                'La division ',
-                'La division ',
-                'La din ',
-                'La divian',
-                'La divin d',
-                'La d ',
+                'What is the maximum frequency you will recover without aliasing if you sample at ',
+                'What sampling frequency should be assigned to a  ',
+                'How long does it take (in msec) to a ',
+                'What is the frequency of the following signal: 2 A sin ',
+                'What is the maximum frequency you will recover without aliasing if you sample at ',
+                'How long does it take (in msec) to a  ',
                ];
 
     questionEnd = ['t',
                'Hz signal in order to have it fully recovered',
                'Hz signal to complete 10 cycles',
                't',
-               'La divisio',
-               'La division de',
-               'La din ',
-               'La div',
-               'La divi',
-               'La d',
+               'msec',
+               'Hz signal in order to have it fully recovered',
+               'Hz signal to complete 250 cycles',
+               't',
+               'msec',
+               'Hz signal to complete 50 cycles',
                ];
 
     document.getElementById('question').innerHTML = `${questionStart[i]} <span id="first-value">${num}</span>${questionEnd[i]}<span id="second-value">? (Give the whole part, largest integer less than or equal to your result).</span>`;
@@ -141,10 +141,18 @@ function getCorrectAnswer() {
     let generatedRandomValueInQuestion = parseInt(document.getElementById('first-value').innerText);
     let result = [Math.floor(generatedRandomValueInQuestion / (2 * 3.1416)),
                   generatedRandomValueInQuestion * 2,
-                  Math.floor((1 / generatedRandomValueInQuestion) *10),
+                  Math.floor((1 / generatedRandomValueInQuestion) * 10 * 1000),
                   generatedRandomValueInQuestion,
+                  Math.floor((1000 / generatedRandomValueInQuestion) *2),
+                  generatedRandomValueInQuestion * 2,
+                  Math.floor((1 / generatedRandomValueInQuestion) * 250 * 1000),
+                  Math.floor(generatedRandomValueInQuestion / (2 * 3.1416)),
+                  Math.floor((1000 / generatedRandomValueInQuestion) *2),
+                  Math.floor((1 / generatedRandomValueInQuestion) * 50 * 1000),
                  ];
-    return result[i];
+    console.log(result);
+    console.log(result[i])
+    return result[i-1];
 }
 
 function addPoint() {

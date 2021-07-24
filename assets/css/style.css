@@ -281,7 +281,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 
 #questions-area {
     padding: 25px;
-    height: 80%; /* To keep proportions with other sections of the website */
+    height: 50%; /* To keep proportions with other sections of the website */
     width: 50%;
     margin: auto;
     background-color: rgb(247, 235, 235);
@@ -290,7 +290,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 
 #question {
     width: 100%;
-    height: 70%;
+    height: 50%;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 125%;
