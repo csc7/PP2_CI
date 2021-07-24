@@ -357,9 +357,42 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     height: 675px; /* To keep proportions with other sections of the website */
     width: 50%;
     margin: auto;
-    background-color: chocolate;
+    background-color: rgb(218, 196, 181);
     border-radius: 25px;
 }
+
+
+.form-row-label {
+    width: 50%;
+    margin-bottom: 25px;
+    margin-left: 25%;
+    background-color: cyan;
+
+}
+
+.form-row-input {
+    width: 50%;
+    margin-left: 25%;
+    border: blue;
+    border-radius: 5px;
+    background-color: rgb(230, 186, 13);
+}
+
+#text-area {
+    width: 50%;
+    margin-left: 25%;
+    background-color: cyan;
+    resize: none;
+}
+
+.input-field {
+    width: 100%;
+}
+
+#form-description {
+    resize: none;
+}
+
 
 
 /* FOOTER */
