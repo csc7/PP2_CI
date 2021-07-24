@@ -185,7 +185,8 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     border-radius: 25px;
 }
 
-.panel-row-label {    
+/* Including here style for fomr in Contat page as well*/
+.panel-row-label, .form-row-label {    
     width: 50%;
     height: 50px;
     margin-left: 0;
@@ -198,14 +199,14 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     background-color: coral;
 }
 
-.panel-row-input {
+/* Including here style for fomr in Contat page as well*/
+.panel-row-input, .form-row-input {
     width: 50%;
     height: 50px;
     margin-left: 0;
     border: blue;
     border-radius: 10px;
     background-color: rgb(230, 186, 13);
-
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 125%;
@@ -411,6 +412,8 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 
 
 /* CONTACT PAGE */
+
+
 
 /* Main Body */
 
