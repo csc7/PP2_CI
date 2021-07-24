@@ -189,6 +189,16 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 
 /* Socre-Progress Panel plus Quiz Body Height of 725px  ????? */
 
+#funny-message-div {
+    text-align: center;
+    padding-top: 25px;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(115, 43, 223);
+    position: relative;
+    top: 75px;
+}
+
 #start-panel-div {
     width: 100%;
     height: 75px;
