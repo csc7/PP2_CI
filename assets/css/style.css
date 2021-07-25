@@ -21,7 +21,7 @@ https://fonts.google.com/specimen/Nunito#license */
 }
 
 #basic-concepts > p {
-    color: blue;
+    color: rgb(98, 98, 161);
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 125%;
@@ -36,7 +36,7 @@ https://fonts.google.com/specimen/Nunito#license */
     margin: auto; /* It does not read "margin: 0" from above, general style*/
     text-align: center;
     padding-top: 20px;
-    color: rgb(98, 98, 161);
+    color: blue;
     height: 75px;
     /*background-color: grey;*/
     position: relative;
@@ -135,7 +135,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     margin: auto;
     margin-left: 25%;
     width: 50%;
-    background-color: blue;
+    
 }
 
 .wavelet-graph-image {
@@ -143,7 +143,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     margin-left: 25%;
     margin-top: 2%;
     width: 50%;
-    background-color: blue;
+    
 }
 
 #references {
@@ -160,26 +160,26 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 #left-graph-div {
     float: left;
     width: 50%;
-    height: 725px;
+    height: 625px;
     position: relative;
     top: 75px;
-    background-color: rgb(104, 236, 137);
+    /*background-color: rgb(104, 236, 137);*/
 }
 
 #graph {
 
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
     margin-top: 5%;
-    margin-bottom: 5%;
+    /*margin-bottom: 5%;*/
     padding-left: 25px;
     margin-left: 25px;
-    height: 85%;
+    height: 100%;
     margin-bottom: 100px;
     float: right;
     width: 75%;
     border-radius: 25px;
-    background-color: cornflowerblue;
+    /*background-color: cornflowerblue;*/
 
 
 
@@ -201,10 +201,10 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 #right-conf-panel-div {
     float: right;
     width: 50%;
-    height: 725px;
+    height: 625px;
     position: relative;
     top: 75px;
-    background-color: rgb(146, 28, 214); 
+    /*background-color: rgb(146, 28, 214); */
 }
 
 /*#bottom-left-graph-div {
@@ -223,52 +223,48 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     margin-bottom: 5%;
     padding-left: 25px;
     margin-left: 25px;
-    height: 85%;
+    height: 100%;
     margin-bottom: 100px;
     float: left;
     width: 75%;
     border-radius: 25px;
-    background-color: chocolate;
+    /*background-color: chocolate;*/
 }
 
-
-
-/*
-#bottom-graph {
-    background-color: crimson;
-    height: 310px;
-    margin-right: 25px;
-    margin-left: 50%;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    border-radius: 25px;
-} */
 
 .panel-row-label {    
     width: 50%;
     height: 40px;
     margin-left: 0;
-    background-color: cyan;
+    
     padding-top: 10px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 125%;
     text-align: left;
-    background-color: coral;
+    color: blue;
+    /*background-color: coral;*/
 }
 
 .panel-row-input {
     width: 50%;
     height: 40px;
     margin-left: 0;
-    border: blue;
+    border: red;
     border-radius: 10px;
-    background-color: rgb(230, 186, 13);
+    /*background-color: rgb(230, 186, 13);*/
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 125%;
     text-align: left;
-    background-color: coral;
+    /*background-color: coral;*/
+}
+
+/* Applies also for input fields in Contact page */
+.input-field {
+    border: 2px solid rgb(111, 155, 236);
+    border-radius: 5px;
+    
 }
 
 #wavelet-type-field {
@@ -284,7 +280,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     font-weight: bold;
     font-size: 125%;
     text-align: left;
-    background-color: rgb(57, 167, 14);
+    
 }
 
 #powered-by-Google {
@@ -302,7 +298,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 125%;
-    border-color: blue;
+
     border-width: 10px;
     border-radius: 10px;
 }
@@ -316,11 +312,17 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 /* Socre-Progress Panel plus Quiz Body Height of 725px  ????? */
 
 #funny-message-div {
+
+    color: rgb(98, 98, 161);
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+
     text-align: center;
     padding-top: 25px;
     width: 100%;
     height: 75px;
-    background-color: rgb(115, 43, 223);
+    /*background-color: rgb(115, 43, 223);*/
     position: relative;
     top: 75px;
 }
@@ -328,7 +330,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 #start-panel-div {
     width: 100%;
     height: 75px;
-    background-color: rgb(209, 207, 212);
+    /*background-color: rgb(209, 207, 212);*/
     position: relative;
     top: 75px;
 }
@@ -336,7 +338,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 #score-panel-div {
     width: 100%;
     height: 75px;
-    background-color: rgb(111, 29, 218);
+    /*background-color: rgb(111, 29, 218);*/
     position: relative;
     top: 75px;
 }
@@ -345,7 +347,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     width: 50%;
     margin: auto;
     height: 75px;
-    background-color: burlywood;
+    /*background-color: burlywood;*/
 }
 
 #score-div {
@@ -357,7 +359,9 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     font-weight: bold;
     font-size: 125%;
     text-align: center;
-    background-color: coral;
+
+    color: rgb(98, 98, 161);
+    /*background-color: coral;*/
 }
 
 #time-div {
@@ -369,13 +373,17 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     font-weight: bold;
     font-size: 125%;
     text-align: center;
-    background-color: rgb(155, 51, 13);
+
+    color: rgb(98, 98, 161);
+
+
+    /*background-color: rgb(155, 51, 13);*/
 }
 
 #progress-panel-div {
     width: 100%;
     height: 75px;
-    background-color: rgb(186, 138, 248);
+    /*background-color: rgb(186, 138, 248);*/
     position: relative;
     top: 75px;
 }
@@ -400,7 +408,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 #quiz-body {
     width: 100%;
     height: 650px;
-    background-color: rgb(32, 223, 64);
+    /*background-color: rgb(32, 223, 64);*/
     position: relative;
     top: 75px;
 }
@@ -424,7 +432,8 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     position: relative;
     margin: auto;
     text-align: center;
-    background-color: chartreuse;
+
+    /*background-color: chartreuse;*/
 }
 
 #answer {
@@ -433,6 +442,9 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     margin-left: 35%;
     margin-top: 25px;
     margin-bottom: 25px;
+
+    border: 2px solid red;
+    border-radius: 5px;
 }
 
 #start-button {    
@@ -475,7 +487,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 #contact-form-div {
     padding: 0px;
     width: 100%;
-    background-color: rgb(191, 241, 50);
+    /*background-color: rgb(191, 241, 50);*/
     position: absolute;
     top: 150px;
     bottom: 75px;
@@ -486,20 +498,21 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     height: 675px; /* To keep proportions with other sections of the website */
     width: 50%;
     margin: auto;
-    background-color: rgb(241, 108, 19);
+    /*background-color: rgb(241, 108, 19);*/
 }
 
 .form-row-label {    
     width: 50%;
     height: 40px;
     margin-left: 0;
-    background-color: cyan;
+    /*background-color: cyan;*/
     padding-top: 10px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 125%;
     text-align: left;
-    background-color: coral;
+    /*background-color: coral;*/
+    color: blue;
 }
 
 .form-row-input {
@@ -508,12 +521,14 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     margin-left: 0;
     border: blue;
     border-radius: 10px;
-    background-color: rgb(230, 186, 13);
+    /*background-color: rgb(230, 186, 13);*/
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 125%;
     text-align: left;
-    background-color: coral;
+
+
+
 }
 
 .form-row-label {
@@ -521,7 +536,6 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     width: 50%;
     height: 50px;
     margin-left: 25%;
-    background-color: cyan;
     
 
 }
@@ -538,7 +552,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 #text-area {
     width: 50%;
     margin-left: 25%;
-    background-color: cyan;
+    /*background-color: cyan;*/
     resize: none;
 }
 
@@ -601,6 +615,7 @@ body > footer > nav > a > i {
     #basic-concepts {
     width: 75%;
     margin-left: 12%;
+    }
 
     .wavelet-function-image {
         margin-left: 15%;
@@ -620,7 +635,7 @@ body > footer > nav > a > i {
         width: 100%;
         margin-left: 0;
         border-radius: 25px;
-        background-color: cornflowerblue;
+        /*background-color: cornflowerblue;*/
     }
 
     #conf-panel {
@@ -666,7 +681,7 @@ body > footer > nav > a > i {
     #text-area {
         width: 100%;
         margin-left: 0;
-        background-color: cyan;
+        /*background-color: cyan;*/
         resize: none;
     }
 
@@ -684,16 +699,30 @@ body > footer > nav > a > i {
     }
     
     .wavelet-graph-image {
-        margin-left: 0;
+        margin-left: 10%;
         margin-top: 2%;
         width: 80%;
     }
 
     /* GENERATOR PAGE */
 
-    #left-graph-div, #right-conf-panel-div {
+    #left-graph-div {
+        /*float: right;*/
         width: 100%;
-    }
+        height: 725px;
+        position: absolute;
+        top: 875px;
+        /*background-color: rgb(104, 236, 137);*/
+    }    
+   
+    #right-conf-panel-div {
+        /*float: left;*/
+        width: 100%;
+        height: 725px;
+        position: absolute;
+        top: 150px;
+        /*background-color: rgb(146, 28, 214);*/
+    }    
 
     .panel-row-label, .form-row-label, #powered-by-Googl {
         width: 50%;
@@ -854,6 +883,8 @@ body > footer > nav > a > i {
 @media screen and (max-width: 500px) {
     #graph {
         height: 50%;
+        margin: 0;
+        padding: 0;
     }
 
     #left-graph-div {
