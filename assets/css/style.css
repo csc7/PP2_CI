@@ -36,7 +36,7 @@ p {
     margin: auto; /* It does not read "margin: 0" from above, general style*/
     text-align: center;
     padding-top: 20px;
-    color: blue;
+    color: rgb(98, 98, 161);
     height: 75px;
     /*background-color: grey;*/
     position: relative;
@@ -52,7 +52,7 @@ p {
     font-weight: bold;
     width: 100%;
     position: fixed;
-    z-index: 10;
+    z-index: 100;
     background-color: red;
 }
 
@@ -67,6 +67,8 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 
 #navbarNavDropdown > ul > li > a {
     color: white;
+    text-align: center;
+    
 }
 
 #navbarNavDropdown > ul > li.nav-item.active > a {
@@ -83,6 +85,18 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     color: white;
 }
 
+.navbar-expand-sm navbar-light {
+    background-color: white;
+}
+
+.navbar-toggler, .navbar-toggler-icon {
+    background-color: white;
+}
+
+.collapse {
+    background-color: rgb(243, 134, 134);
+    border-radius: 5px;
+}
 
 /* HOME/THEORY PAGE */
 
