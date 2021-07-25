@@ -20,7 +20,7 @@ https://fonts.google.com/specimen/Nunito#license */
     border: none;
 }
 
-p {
+#basic-concepts > p {
     color: blue;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
@@ -601,6 +601,17 @@ body > footer > nav > a > i {
     #basic-concepts {
     width: 75%;
     margin-left: 12%;
+
+    .wavelet-function-image {
+        margin-left: 15%;
+        width: 70%;
+    }
+    
+    .wavelet-graph-image {
+        margin-left: 15%;
+        margin-top: 2%;
+        width: 70%;
+    }
 }
 
     /* GENERATOR PAGE */
@@ -633,6 +644,13 @@ body > footer > nav > a > i {
         margin-left: 15%;
     }
 
+    /* QUIZ PAGE */
+
+    #questions-area {
+        width: 80%;        
+        height: 70%;
+    }
+
     /* CONTACT PAGE */
 
     .form-row-label {
@@ -657,6 +675,19 @@ body > footer > nav > a > i {
 /* SCREEN SIZE BETWEEN 800px AND 950px */
 
 @media  screen and (max-width: 950px) {
+
+    /* FUNCTIONS PAGE */
+
+    .wavelet-function-image {
+        margin-left: 10%;
+        width: 80%;
+    }
+    
+    .wavelet-graph-image {
+        margin-left: 0;
+        margin-top: 2%;
+        width: 80%;
+    }
 
     /* GENERATOR PAGE */
 
@@ -683,12 +714,113 @@ body > footer > nav > a > i {
     }
 
     #conf-panel {
-        padding-top: 0%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #graph {
+        width: 100%;
     }
 
     /* QUIZ PAGE */
 
     #questions-area {
+        width: 90%;
+
+        height: 70%;
+    }
+
+    #question {
+        height: 65%;
+    }
+
+    #send-button {
+        width: 80%;
+        margin-left: 10%;
+    }
+  
+    /* CONTACT PAGE */
+
+    #contact-form {
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+    .form-row-label {
+        width:100%;
+        margin-left: 0;
+    }
+
+    .form-row-input {
+        width: 100%;
+        margin-left: 0;
+    }
+
+}
+
+
+/* SCREEN SIZE BELOW 800px */
+
+@media  screen and (max-width: 800px) {
+
+    /* FUNCTIONS PAGE */
+    .wavelet-function-image {
+        margin-left: -17%;
+        width: 134%;
+    }
+    
+    .wavelet-graph-image {
+        margin-left: 0%;
+        margin-top: 2%;
+        width: 100%;
+    }
+
+    /* GENERATOR PAGE */
+
+
+
+    .panel-row-label, .form-row-label, #powered-by-Googl {
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    .panel-row-input, .form-row-input {
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    #generate-button, #export-button {
+        margin-left: 25%;
+    }
+
+    #powered-by-Google {
+        text-align: center;       
+    }
+
+    #conf-panel {
+        padding-top: 0%;
+    }
+
+    /* QUIZ PAGE */
+    #quiz-page-heading {
+        
+        font-size: 145%;
+    }
+    #funny-message-div {
+        padding: 10px;
+        margin: 0;
+    }
+    #score-div {
+        padding-top: 25px;
+    }
+    #time-div {
+        padding-top: 25px;
+    }
+
+    #questions-area {
+        width: 90%;
+
         height: 70%;
     }
 
@@ -702,15 +834,37 @@ body > footer > nav > a > i {
     }
     
     /* CONTACT PAGE */
-    
-    .form-row-label {
-        width:100%;
-        margin-left: 0;
+    #contact-us-heading {
+        font-size: 150%;
     }
 
-    .form-row-input {
-        width: 100%;
-        margin-left: 0;
+    #contact-form {
+        width: 96%;
+        margin-left: 2%;
+    }
+    ##text-area {
+        height: 25%;
+    }
+        
+
+}
+
+/* SREEN SIZE BETWEEN 500px and 800px - Just for graph*/
+
+@media screen and (max-width: 500px) {
+    #graph {
+        height: 50%;
     }
 
+    #left-graph-div {
+        height: 0%;
+    }
+}
+
+/* SREEN SIZE BELOW 625px - Just for score */
+
+@media screen and (max-width: 625px) {
+    #score-div {
+        padding-top: 5px;
+    }
 }
