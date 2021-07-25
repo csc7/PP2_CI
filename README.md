@@ -664,7 +664,18 @@ MDN Web Docs Moz://a;
     - Confirming return value of Math.floor() function, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor , accessed on July 24th, 2021, at 6:57.
 
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow, accessed on July 25th, 2021, 7:25.
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log, accessed on July 25th, 2021, 7:27.
 
+MATLAB:
+
+    - The following pages were visited on July 25th, 2021, between 8:00 and 9:10 to consult plot properties:
+        - https://uk.mathworks.com/help/wavelet/ref/wavefun.html#d123e93233 .
+        - https://uk.mathworks.com/matlabcentral/answers/301349-how-to-set-different-colors-for-the-text-in-a-legend .
+        - https://uk.mathworks.com/matlabcentral/answers/99232-how-can-i-change-the-gridline-color-without-changing-the-tick-and-tick-label-colors-in-matlab .
+        - https://uk.mathworks.com/help/matlab/ref/matlab.graphics.illustration.legend-properties.html .
+        - https://uk.mathworks.com/matlabcentral/answers/688854-legend-is-it-possible-to-remove-the-border-while-leaving-the-background-color .
+        - https://uk.mathworks.com/matlabcentral/answers/32617-how-to-remove-ticks-from-the-x-axis .
+        - https://uk.mathworks.com/matlabcentral/answers/9559-change-the-font-size-of-the-current-axis .
 
 Back to Index
 ___
