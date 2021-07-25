@@ -94,11 +94,12 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 }
 
 .collapse {
-    background-color: rgb(243, 134, 134);
+    /*background-color: rgb(243, 134, 134);*/
+    background-color: red;
     border-radius: 5px;
 }
 
-/* HOME/THEORY PAGE */
+/* FUNCTIONS PAGE */
 
 /* Main Body */
 
@@ -243,8 +244,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     border-radius: 25px;
 } */
 
-/* Including here style for fomr in Contat page as well*/
-.panel-row-label, .form-row-label {    
+.panel-row-label {    
     width: 50%;
     height: 40px;
     margin-left: 0;
@@ -257,8 +257,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     background-color: coral;
 }
 
-/* Including here style for fomr in Contat page as well*/
-.panel-row-input, .form-row-input {
+.panel-row-input {
     width: 50%;
     height: 40px;
     margin-left: 0;
@@ -281,8 +280,6 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     width: 100%;
     height: 100%;
     margin: 0;
-
-
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 125%;
@@ -492,6 +489,32 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     background-color: rgb(241, 108, 19);
 }
 
+.form-row-label {    
+    width: 50%;
+    height: 40px;
+    margin-left: 0;
+    background-color: cyan;
+    padding-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+    text-align: left;
+    background-color: coral;
+}
+
+.form-row-input {
+    width: 50%;
+    height: 40px;
+    margin-left: 0;
+    border: blue;
+    border-radius: 10px;
+    background-color: rgb(230, 186, 13);
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+    text-align: left;
+    background-color: coral;
+}
 
 .form-row-label {
     
@@ -561,4 +584,133 @@ body > footer > nav {
 
 body > footer > nav > a > i {
     color: white;
+}
+
+/* ************* */
+/* MEDIA QUERIES */
+/* ************* */
+
+/* SCREEN SIZE BETWEEN 800px AND 1250px */
+
+/* FUNCTIONS PAGE */
+
+@media screen and (max-width: 1250px) {
+
+    /* FUNCTIONS PAGE */
+
+    #basic-concepts {
+    width: 75%;
+    margin-left: 12%;
+}
+
+    /* GENERATOR PAGE */
+
+    #graph {
+        width: 100%;
+        margin-left: 0;
+        border-radius: 25px;
+        background-color: cornflowerblue;
+    }
+
+    #conf-panel {
+        width: 95%;
+    }
+
+    .panel-row-label, #powered-by-Googl {
+        width: 75%;
+    }
+
+    .panel-row-input, {
+        width: 75%;
+    }
+
+    #wavelet-type-field {
+        width: 100%;
+    }
+
+    #send-button {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    /* CONTACT PAGE */
+
+    .form-row-label {
+        width:100%;
+        margin-left: 0;
+    }
+
+    .form-row-input {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #text-area {
+        width: 100%;
+        margin-left: 0;
+        background-color: cyan;
+        resize: none;
+    }
+
+
+
+/* SCREEN SIZE BETWEEN 800px AND 950px */
+
+@media  screen and (max-width: 950px) {
+
+    /* GENERATOR PAGE */
+
+    #left-graph-div, #right-conf-panel-div {
+        width: 100%;
+    }
+
+    .panel-row-label, .form-row-label, #powered-by-Googl {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .panel-row-input, .form-row-input {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    #generate-button, #export-button {
+        margin-left: 25%;
+    }
+
+    #powered-by-Google {
+        text-align: center;       
+    }
+
+    #conf-panel {
+        padding-top: 0%;
+    }
+
+    /* QUIZ PAGE */
+
+    #questions-area {
+        height: 70%;
+    }
+
+    #question {
+        height: 65%;
+    }
+
+    #send-button {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    /* CONTACT PAGE */
+    
+    .form-row-label {
+        width:100%;
+        margin-left: 0;
+    }
+
+    .form-row-input {
+        width: 100%;
+        margin-left: 0;
+    }
+
 }
