@@ -24,8 +24,10 @@ document.getElementById("frequency-field").value = "50";
 
 function computeGraphData() {
 
+    let waveletType = (document.getElementById('wavelet-type-field').value);
     let samplingRate = parseInt(document.getElementById('sampling-field').value);
-    let waveletLength = parseInt(document.getElementById('length-field').value);
+    // Divide length by 2 since symmetrical negative values are being generated:
+    let waveletLength = parseInt(document.getElementById('length-field').value) / 2;
     let frequency = parseInt(document.getElementById('frequency-field').value);
     totalSamples = Math.floor(waveletLength / samplingRate) + 1;
 
@@ -41,17 +43,93 @@ function computeGraphData() {
                Consider the former much longer that the latter for better results.
                Please assign different values`);
     } else {
-        // = 0; // Initialization of timeVector with zero at the first sample (zero time)
-        // Time Vector including previous first sample and the rest
-        for (let i = 0; i < totalSamples; i++) {
-            timeVector.push(samplingRate * i);            
-        }
-        // Computation of amplitudes for each time
-         // = 0;// Initialization of amplitude with corresponding value at the first sample (zero time)
-        for (let j = 0; j < totalSamples; j++) {
-            amplitude.push(1 - 0.5 * frequency * frequency * timeVector[j] * timeVector[j]) * Math.exp((-1) * frequency * frequency * timeVector[j] * timeVector[j]);
-            dataForGraph.push([timeVector[j], amplitude[j]]);     
-        }        
+
+        switch (waveletType) {
+            case 'Haar':
+                // Time Vector including previous first sample and the rest
+                for (let i = -totalSamples; i < totalSamples; i++) {
+                    timeVector.push(samplingRate * i);
+                }
+                // Computation of amplitudes for each time
+                // From zero to the double rather than from -totalSamples to +totalSamples
+                // because the timeVector is already created and cannot be indexed with
+                // negative indexes.
+                for (let j = 0; j < 2 * totalSamples; j++) {
+                    amplitude.push( (1 - 0.5 * frequency * frequency * timeVector[j] * timeVector[j]) * 
+                    Math.exp((-1) * frequency * frequency * timeVector[j] * timeVector[j]) );
+                    dataForGraph.push([timeVector[j], amplitude[j]]);
+                }
+                console.log(dataForGraph);
+                break;
+            case 'Mexican Hat':
+                // Time Vector including previous first sample and the rest
+                for (let i = -totalSamples; i < totalSamples; i++) {
+                    timeVector.push(samplingRate * i);
+                }
+                // Computation of amplitudes for each time
+                // From zero to the double rather than from -totalSamples to +totalSamples
+                // because the timeVector is already created and cannot be indexed with
+                // negative indexes.
+                for (let j = 0; j < 2 * totalSamples; j++) {
+                    amplitude.push( (1 - 0.5 * frequency * frequency * timeVector[j] * timeVector[j]) * 
+                    Math.exp((-1) * frequency * frequency * timeVector[j] * timeVector[j]) );
+                    dataForGraph.push([timeVector[j], amplitude[j]]);
+                }
+                console.log(dataForGraph);
+                break;
+            case 'Morlet':
+                // Time Vector including previous first sample and the rest
+                for (let i = -totalSamples; i < totalSamples; i++) {
+                    timeVector.push(samplingRate * i);
+                }
+                // Computation of amplitudes for each time
+                // From zero to the double rather than from -totalSamples to +totalSamples
+                // because the timeVector is already created and cannot be indexed with
+                // negative indexes.
+                for (let j = 0; j < 2 * totalSamples; j++) {
+                    amplitude.push( (1 - 0.5 * frequency * frequency * timeVector[j] * timeVector[j]) * 
+                    Math.exp((-1) * frequency * frequency * timeVector[j] * timeVector[j]) );
+                    dataForGraph.push([timeVector[j], amplitude[j]]);
+                }
+                console.log(dataForGraph);
+                break;
+            case 'Ricker':
+                // Time Vector including previous first sample and the rest
+                for (let i = -totalSamples; i < totalSamples; i++) {
+                    timeVector.push(samplingRate * i);
+                }
+                // Computation of amplitudes for each time
+                // From zero to the double rather than from -totalSamples to +totalSamples
+                // because the timeVector is already created and cannot be indexed with
+                // negative indexes.
+                for (let j = 0; j < 2 * totalSamples; j++) {
+                    amplitude.push( (1 - 0.5 * frequency * frequency * timeVector[j] * timeVector[j]) * 
+                    Math.exp((-1) * frequency * frequency * timeVector[j] * timeVector[j]) );
+                    dataForGraph.push([timeVector[j], amplitude[j]]);
+                }
+                console.log(dataForGraph);
+                break;
+            default:
+                // Default task
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     }
     return dataForGraph;
 }
@@ -74,7 +152,7 @@ function generateGraph() {
 
       var options = {
         //title: 'Company Performance',
-        //curveType: 'function',
+        curveType: 'function',
         legend: { position: 'bottom' }
       };
 
