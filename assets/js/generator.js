@@ -43,6 +43,7 @@ function computeGraphData() {
 
         switch (waveletType) {
             case 'Haar':
+                let amplitudeHaarValue = [];
                 // Time Vector including previous first sample and the rest
                 for (let i = -totalSamples; i < totalSamples; i++) {
                     timeVector.push(samplingRate * i);
@@ -52,10 +53,23 @@ function computeGraphData() {
                 // because the timeVector is already created and cannot be indexed with
                 // negative indexes.
                 for (let j = 0; j < 2 * totalSamples; j++) {
-                    amplitude.push( (1 - 0.5 * frequency * frequency * timeVector[j] * timeVector[j]) * 
-                    Math.exp((-1) * frequency * frequency * timeVector[j] * timeVector[j]) );
-                    dataForGraph.push([timeVector[j], amplitude[j]]);
+                    if (timeVector[j] >= 0 && timeVector[j] < 0.5) {
+                        amplitudeHaarValue [j] = 1;
+                        amplitude.push(amplitudeHaarValue[j]);
+                        dataForGraph.push([timeVector[j], amplitude[j]]);
+                    } else if (timeVector[j] >= 0.5 && timeVector[j] < 1) {
+                        amplitudeHaarValue [j] = -1;
+                        amplitude.push(amplitudeHaarValue[j]);
+                        dataForGraph.push([timeVector[j], amplitude[j]]);
+                    } else {
+                        amplitudeHaarValue [j] = 0;
+                        amplitude.push(amplitudeHaarValue[j]);
+                        dataForGraph.push([timeVector[j], amplitude[j]]);
+                    }
+                    
+                    
                 }
+                console.log(dataForGraph)
                 break;
             case 'Mexican Hat':
                 // Time Vector including previous first sample and the rest
@@ -90,25 +104,7 @@ function computeGraphData() {
                 break;
             default:
                 // Default task
-          }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+          }    
     }
     return dataForGraph;
 }
