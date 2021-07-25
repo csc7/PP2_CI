@@ -56,7 +56,6 @@ function computeGraphData() {
                     Math.exp((-1) * frequency * frequency * timeVector[j] * timeVector[j]) );
                     dataForGraph.push([timeVector[j], amplitude[j]]);
                 }
-                console.log(dataForGraph);
                 break;
             case 'Mexican Hat':
                 // Time Vector including previous first sample and the rest
@@ -68,11 +67,9 @@ function computeGraphData() {
                 // because the timeVector is already created and cannot be indexed with
                 // negative indexes.
                 for (let j = 0; j < 2 * totalSamples; j++) {
-                    amplitude.push( (1 - 0.5 * frequency * frequency * timeVector[j] * timeVector[j]) * 
-                    Math.exp((-1) * frequency * frequency * timeVector[j] * timeVector[j]) );
+                    amplitude.push( (2 / Math.sqrt(3)) * (Math.pow(Math.PI, (-1/4))) * (1 - timeVector[j] * timeVector[j]) * Math.exp(-timeVector[j] * timeVector[j] / 2) );
                     dataForGraph.push([timeVector[j], amplitude[j]]);
                 }
-                console.log(dataForGraph);
                 break;
             case 'Morlet':
                 // Morlet function computation (real part)
@@ -90,7 +87,6 @@ function computeGraphData() {
                     Math.exp((-1) * frequency * frequency * timeVector[j] * timeVector[j]) );
                     dataForGraph.push([timeVector[j], amplitude[j]]);
                 }
-                console.log(dataForGraph);
                 break;
             default:
                 // Default task
