@@ -641,6 +641,8 @@ W3Schools (Powered by W3.CSS):
     - https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp .
     - https://www.w3schools.com/jsref/met_element_removeeventlistener.asp .
 
+    - https://www.w3schools.com/tags/att_option_disabled.asp , accessed on July 25th, 2021, 7:19.
+
 
 Geeks for Geeks:
 

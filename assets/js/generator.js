@@ -2,9 +2,6 @@
 // Event listener to check when the DOM has been loaded completely
 // and function to add event listeners to button elements
 
-//const exp = require("constants");
-
-
 document.addEventListener("DOMContentLoaded", function() {
     let generateButton = document.getElementById("generate-button");
     generateButton.addEventListener("click", generateGraph);
@@ -78,21 +75,7 @@ function computeGraphData() {
                 console.log(dataForGraph);
                 break;
             case 'Morlet':
-                // Time Vector including previous first sample and the rest
-                for (let i = -totalSamples; i < totalSamples; i++) {
-                    timeVector.push(samplingRate * i);
-                }
-                // Computation of amplitudes for each time
-                // From zero to the double rather than from -totalSamples to +totalSamples
-                // because the timeVector is already created and cannot be indexed with
-                // negative indexes.
-                for (let j = 0; j < 2 * totalSamples; j++) {
-                    amplitude.push( (1 - 0.5 * frequency * frequency * timeVector[j] * timeVector[j]) * 
-                    Math.exp((-1) * frequency * frequency * timeVector[j] * timeVector[j]) );
-                    dataForGraph.push([timeVector[j], amplitude[j]]);
-                }
-                console.log(dataForGraph);
-                break;
+                // Morlet function computation (real part)
             case 'Ricker':
                 // Time Vector including previous first sample and the rest
                 for (let i = -totalSamples; i < totalSamples; i++) {
