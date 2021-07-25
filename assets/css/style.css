@@ -114,6 +114,13 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     background-color: blue;
 }
 
+.wavelet-graph-image {
+    margin: auto;
+    margin-left: 25%;
+    width: 50%;
+    background-color: blue;
+}
+
 #references {
     text-align: left;
 }
