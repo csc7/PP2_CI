@@ -213,7 +213,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 /* Including here style for fomr in Contat page as well*/
 .panel-row-label, .form-row-label {    
     width: 50%;
-    height: 50px;
+    height: 40px;
     margin-left: 0;
     background-color: cyan;
     padding-top: 10px;
@@ -227,7 +227,7 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 /* Including here style for fomr in Contat page as well*/
 .panel-row-input, .form-row-input {
     width: 50%;
-    height: 50px;
+    height: 40px;
     margin-left: 0;
     border: blue;
     border-radius: 10px;
