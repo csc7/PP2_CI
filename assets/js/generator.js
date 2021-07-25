@@ -4,6 +4,7 @@
 
 //const exp = require("constants");
 
+
 document.addEventListener("DOMContentLoaded", function() {
     let generateButton = document.getElementById("generate-button");
     generateButton.addEventListener("click", generateGraph);
@@ -84,18 +85,6 @@ function generateGraph() {
 
 }
 
-
-
-
-
-
 function exportFile() {
-    // Check for the various File API support.
-if (window.File && window.FileReader && window.FileList && window.Blob) {
-    // Great success! All the File APIs are supported.
-    console.log("OK")
-  } else {
-    alert('The File APIs are not fully supported in this browser.');
-  }
-
+    // Place Noje.js code to write files
 }
