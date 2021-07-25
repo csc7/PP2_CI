@@ -882,7 +882,7 @@ body > footer > nav > a > i {
 
 @media screen and (max-width: 500px) {
     #graph {
-        height: 50%;
+        height: 100%;
         margin: 0;
         padding: 0;
     }
