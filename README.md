@@ -122,7 +122,12 @@ User stories are divided into the following three groups:
 
 ## **User Requirements and Expectations**
 - A fixed and responsive navigation menu on top.
-- A asdfasfasdfasfasdf
+- A dedicated page for wavelet functions.
+- A dedicated page for wavelet generation and export.
+- A dedicated page for the basic signal processing quiz.
+- A dedicated page for the contact form.
+- A fixed footer with contact links to the developer.
+- Strong contrast and "live" colours.
 <br><br>
 ## [Back to Index](#index)
 <br>
@@ -133,22 +138,20 @@ ___
 The design was planned to cover screen sizes from 320x568px to 1920x1370px.
 
 ## **Colours**
-Green asdfsfsdfadfafdasdfasdfa
-
-The background colour asdfasfdasdfasfdasdfaing the green-colour tendency of the design.
+Red, white (as background) and blue is the base of the website. The goal is to provide strong contrast and use colours that show a vivid website.
 
 #### [Back to Index](#index)
 
 ## **Fonts**
-Google fonts (please see credits section below) were implemented in the website. Nunito/Montserrat was selected for the paragraph asdsdfsfsdfsf.
-Sans-serif font is used as a back-up in case the previous fonts cannot be loaded.
+Google fonts (please see credits section below) were implemented in the website. Nunito/Montserrat were selected as the font pair for the website (following Google's suggestion), however only Nunito has been applied.
+Sans-serif font is used as a back-up in case the previous font cannot be loaded.
 
-Colour #003300 (dark green) was selected asdfsdfsfsdfsdf.
+Colour #rgb(98, 98, 161), dark blue, was selected for paragraphs, while red and blue for headings.
 
 #### [Back to Index](#index)
 
 ## **Structure**
-Following expectations of the owner, the metadata includes the following keywords to help search engines to find the website: sdfsdfsfdsdfsf.
+The metadata includes the following keywords to help search engines to find the website: wavelet, wavelets, signal, signals, signal processing, seismic processing, wavelet generation, txt, export, quiz. signal quiz, wavelet functions, wavelet formulas, wavelet summary, wavelet reference, processing, Code Institute, software development, student, full-stack course, milestone project.
 
 The visible websites is organised in a header, a body and a footer.
 
