@@ -47,8 +47,12 @@ ___
 The goal of the project is to develop a website where seismic data processors, signal processors and/or any user can estimate, visualize and download a simple TXT file with the samples of a wavelet that they want to use in their processing tasks. In addition, a website where users can view and review the functions of the wavelets, challenge their knowledge against a quiz, and contact the website developer.
 
 Specifically, the goals of the project are the following ones:
-- To .....
-- To asfafadfafafafafadf
+- To show the functions of the wavelets being calculated and plotted.
+- To build graphs of wavelets based input parameters given by the user.
+- To export the generated wavelet to a TXT file (just communication with server in this deployment version).
+- To give users the chance to test their basic knowledge, thorough o quiz, about signals (very basic, just Nyquist and wave properties for this deployment version).
+- To give users a contact form so they can send suggestions or comments if they wish.
+- To show my work and give others the option to contact me if they wish.
 <br><br>
 ## [Back to Index](#index)
 <br>
@@ -57,21 +61,24 @@ ___
 # **2 . User Experience**
 
 UX has been addressed (and remains as a constant activity) around Jesse James Garrett's process, whose five planes involves the following matters:
-- **STRATEGY**: to build a website (product) for a company who wants to sell services.
+- **STRATEGY**: to build a website (product) that creates wavelet signals and gives the option to contact the developer.
 - **SCOPE**: the minimum viable product needs to include features that allow the user to know the following:
-    - Basic organisational information about the company.
-    - Which services it provides.
-    - How to contact the company.
-    - How to request services.
-    - Be informed about the latest news.
+    - Basic information about the about the functions being implemented (wavelet formulas).
+    - A graph of the wavelet, using Google Charts, based on input parameters given by the user.
+    - A section where user can input the type of wavelet, sampling rate, length of the signal and its frequency.
+    - A "Generate" button.
+    - An "Export" button.
+    - A quiz with ten questions.
+    - A contact form.
 - **STRUCTURE**: the information is structured as follows:
-    - Basic organisational information about the company: in a separate page.
-    - Services it provides, in a separate page.
-    - How to contact the company: both in a separate page and in a fixed button.
-    - How to request services: in a fixed button.
-    - Be informed about the latest news: in the home page.
-- **SKELETON**: the information is accessed through a fixed navigation menu on top of the pages, which in addition has a button to request services.
-- **SURFACE**: the website is based on green colours (to be in line with the company activity and name), contains images and a video related to its activity, and will summarise information in tables as much as possible.
+    - Wavelet functions, in a separate page called "Functions".
+    - Google Chart graph, input parameters and generate/export buttons in a separate page called "Generator".
+    - A quiz with ten questions in a separate page called "Quiz".
+    - A contact form in a separate page called "Contact".
+    - A fixed navigation bar on top.
+    - A fixed footer.
+- **SKELETON**: the information is accessed through a fixed navigation menu on top of the pages.
+- **SURFACE**: the website is based on red, white and blue colours to give strong contrast and simoultaneously a "live" design.
 
 ## **User Goals**
 - To asdasdfasdfadfafd
