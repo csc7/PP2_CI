@@ -64,7 +64,7 @@ UX has been addressed (and remains as a constant activity) around Jesse James Ga
 - **STRATEGY**: to build a website (product) that creates wavelet signals and gives the option to contact the developer.
 - **SCOPE**: the minimum viable product needs to include features that allow the user to know the following:
     - Basic information about the about the functions being implemented (wavelet formulas).
-    - A graph of the wavelet, using Google Charts, based on input parameters given by the user.
+    - A graph of the wavelet, using Google Charts (please see credit below), based on input parameters given by the user.
     - A section where user can input the type of wavelet, sampling rate, length of the signal and its frequency.
     - A "Generate" button.
     - An "Export" button.
@@ -72,7 +72,7 @@ UX has been addressed (and remains as a constant activity) around Jesse James Ga
     - A contact form.
 - **STRUCTURE**: the information is structured as follows:
     - Wavelet functions, in a separate page called "Functions".
-    - Google Chart graph, input parameters and generate/export buttons in a separate page called "Generator".
+    - Google Chart (please see credit below) graph, input parameters and generate/export buttons in a separate page called "Generator".
     - A quiz with ten questions in a separate page called "Quiz".
     - A contact form in a separate page called "Contact".
     - A fixed navigation bar on top.
@@ -160,18 +160,20 @@ Wireframes were developed at the beginning in order to have a first design of th
 - ### **Header**
 
 In order to achieve the goals related to easiness and/or simplicity, a fixed navigation area in the header is provided. In the same area, a logo with the idea of the website is place to the left.
+The header contains the navigation bar with the four links to the body pages (please see next section).
 
 - ### **Body**
 
 The body of the pages are structured as follows for each of the pages:
-- #### *Theory:*
-    It contains asdfsdfsdfsdf.
+- #### *Functions:*
+    It contains a summary of wavelets (four type at the moment of deploying this website) and their mathematical functions. The idea is to add more with time, the page is designed to allow for an easy inclusion of the in the future, since it only involves paragraphs and headings whose width is 100% (with respect to their containers), so no more than adding the relevant tags is needed to add more types of wavelets and their functions.
 - #### *Generator:*
-    It has an upper section, asdfsdfsf.
+    It has a section on the right (or top in tablet and cell phone screen sizes) with fields where the user can select the type of wavelet from a dropdown list and enter the sampling rate, length of wavelet and frequency of the desired wavelet to plot.
+    The graph is generated with Google Charts (please see credit below) and is located on the left (of bottom in tablet and cell phone screen sizes).
 - #### *Quiz:*
-    It contains pictures in a carousel (taken from Bootstrap, asdfsdfsdfsobile devices.
+    It contains a start button on top, a progress bar below (which progress one step per question), a score and time panel below, and the quiz itself under these sections, which indeed contains a field where the user writes the answer and a button to send it.
 - #### *Contact:*
-    On the left, there is a forasdfsdfsdfe.
+    It has a simple contact form, center-aligned, with name, surname, e-mail and description fields, before it finds the send button.
 
 - ### **Footer**
 
@@ -202,6 +204,7 @@ The following languages, software and tools were implemented using Windows 10 Pr
 ## **Languages**
 - #### **HTML**
 - #### **CSS**
+- #### **JavaScript**
 
 #### [Back to Index](#index)
 
@@ -212,6 +215,7 @@ The following languages, software and tools were implemented using Windows 10 Pr
 - #### **Bootstrap (v4.0)**
 - #### **Balsamiq Wireframes (v4.2.4, Editor Version 2.6.0)**
 - #### **Google Fonts**
+- #### **MATLAB, The MathWorks, Inc. (to generate function plots in Functions page)**
 - #### **W3C Markup Validation Service**
 - #### **W3C CSS Validation Service**
 - #### **WAVE Web Accessibility Evaluation Tool**
