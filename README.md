@@ -101,16 +101,22 @@ UX has been addressed (and remains as a constant activity) around Jesse James Ga
 User stories are divided into the following three groups:
 
 - ### **First time users**
-1. As a client, I want to know what services I can hire, so do not need to ask for more information to learn their services.
-2. asdasdfafdasfdasfdasdf
-
+1. As a user, I want to find a summary of type of wavelets, so I do not need to research for them in different sites on the web.
+2. As a user, I want fo have the functions (formulas) of the wavelets, so I do not need to go through long texts or the web to find them.
+3. As a user, I want to select the input parameters of the wavelets and see the corresponding graph of them, so I see what my parameters are affecting the wavelets.
+4. As a user, I want to export the wavelet I choose, so I can have it on a file and use it in other applications without needing to use other applications that could take a longer time for generation.
+5. As a user, I want to have the option to send comments or questions, so I can contribute with the website devolpment and/or indicate errors or bugs.
 - ### **Returning users**
-10. As a client, I want to be updated with the latest news of the company, in order to know company's performance and understand current and future capabilities.
-11. asdfasfasdfasd
-
+6. As a user, I want to test my knowledge against a quiz, so I refresh basic concepts and entertain myself if I wish.
+7. As a user, I want to generate new wavelets so I can check them (and exported to files if I wish) in a quick way.
+8. As a user, I want to have a reference website with a summury of types and functions of wavelets so I do not need to look for them and/or check in different websites.
+9. As a user, I want to have a way to contact the developer so I can contribute and/or indicate errors or bugs.
 - ### **Organisation/Site Owner**
-14. As owner, I want to briefly show my services, so I promote our company and clients know what can be hired.
-15. asdasfdasdfadfasd
+10. As owner, I want to provide a website that summarises the type of wavelets so users can use it as a reference.
+11. As owner, I want to create a website that provides a basic service (wavelet generation) so users can use it to check and obtain wavelets without using longer solutions for them.
+12. As owner, I want to create a website that is the base for further development, so I can keep showing my work and offer more solutions in the future.
+13. As owner, alogn with other points of this section, I want to show my work and give the option to users to contact me if they wish.
+14. As owner, I want to give as many options to be contacted as possible, so users can choose forms or links in the footer to do this in a very fast way without having to navigate throuth the website.
 
 #### [Back to Index](#index)
 
