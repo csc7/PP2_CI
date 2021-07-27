@@ -81,12 +81,19 @@ UX has been addressed (and remains as a constant activity) around Jesse James Ga
 - **SURFACE**: the website is based on red, white and blue colours to give strong contrast and simoultaneously a "live" design.
 
 ## **User Goals**
-- To asdasdfasdfadfafd
+- To have wavelet functions in a summarised way, at a glance.
+- To select wavelet parameters and make the corresponding graphs.
+- To export the wavelet to a TXT file so it can be used in other applications and/or processes.
+- To check and/or entertain with a quiz.
+- To be able to contact the developer if desired.
 
 #### [Back to Index](#index)
 
-## **Organisation/Site Owner Goals**
-- To adfasdfasdfasdfadsf
+## **Site Owner Goals**
+- To provide very basic tools and concepts about wavelet signals.
+- To show his work.
+- To give users the chance to contact the developer.
+- To provide a basic and scalable website and framework for signal processing that allows for the incorporation of more tools in the future.
 
 #### [Back to Index](#index)
 
