@@ -80,6 +80,8 @@ UX has been addressed (and remains as a constant activity) around Jesse James Ga
 - **SKELETON**: the information is accessed through a fixed navigation menu on top of the pages.
 - **SURFACE**: the website is based on red, white and blue colours to give strong contrast and simoultaneously a "live" design.
 
+ADD RESPONSIVENESS AND INTERACTIVITY REQUIREMNTS
+
 ## **User Goals**
 - To have wavelet functions in a summarised way, at a glance.
 - To select wavelet parameters and make the corresponding graphs.
