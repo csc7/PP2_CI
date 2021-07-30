@@ -100,11 +100,22 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     border-radius: 5px;
 }
 
+/* BODY */
+
+
+
 
 
 /* FUNCTIONS PAGE */
 
 /* Main Body */
+
+/* To avoid moving the fixed navigation menu when clicking the
+Bootstrap hamburguer button, these properties will be changed
+when clicking such button */
+body > .headings, body > #home-body {
+    margin-top: 0px;
+}
 
 #home-body {
     width: 100%;
@@ -315,6 +326,13 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 /* QUIZ */
 
 /* Socre-Progress Panel plus Quiz Body Height of 725px  ????? */
+
+/* To avoid moving the fixed navigation menu when clicking the
+Bootstrap hamburguer button, this property will be changed
+when clicking such button */
+#quiz-page-heading {
+    margin-top: 0;
+}
 
 #funny-message-div {
 

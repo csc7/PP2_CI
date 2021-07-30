@@ -1,15 +1,31 @@
 // The structure of this quiz is based on the Code Institute's Love Maths - Essentials Project
 
-// COPIED FROM Code Institute's Love Maths - Essentials Project
-// Event listener to check when the DOM has been loaded completely
-// and function to add event listeners to button elements
-
 var i = 0;
 var totalCorrect = 0;
 var startTime = 0;
 var t = 0;
 
+// Move content down when clicking the Bootstrap hamburguer
+// button in the fixed navigation menu
+let hamburguerButton = document.getElementsByTagName("button")[0];
+hamburguerButton.addEventListener("click", moveContent);
 
+//#header > nav > button
+//document.getElementsByTagName("button")[0]
+
+function moveContent () {
+    let elementToMove = document.getElementById('quiz-page-heading');
+    elementToMove.style.marginTop = "200px";
+
+}
+
+
+
+
+
+// Event listener to check when the DOM has been loaded completely
+// and function to add event listeners to button elements
+// COPIED AND MOFIFIED FROM Code Institute's Love Maths - Essentials Project
 document.addEventListener("DOMContentLoaded", function() {
     let startButton = document.getElementById("start-button");
     startButton.addEventListener("click", initialiseQuiz);
