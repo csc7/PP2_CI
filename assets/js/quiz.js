@@ -13,7 +13,7 @@ var t = 0;
 document.addEventListener("DOMContentLoaded", function() {
     let startButton = document.getElementById("start-button");
     startButton.addEventListener("click", initialiseQuiz);
-    //let sendButton = document.getElementById("send-button");
+    //let sendButton = document.getElementById("quiz-send-button");
     //sendButton.addEventListener("click", sendAnswer);    
 
     //document.getElementById("answer").addEventListener("keydown", function(event) {
@@ -26,9 +26,9 @@ document.addEventListener("DOMContentLoaded", function() {
 function initialiseQuiz() {
     if (i == 0) {
         document.getElementById("answer").addEventListener("keydown", pressEnter);
-        let sendButton = document.getElementById("send-button");
+        let sendButton = document.getElementById("quiz-send-button");
         sendButton.addEventListener("click", sendAnswer);   
-        document.getElementById("send-button").disabled = false;
+        document.getElementById("quiz-send-button").disabled = false;
 
         runQuiz();
 
@@ -71,14 +71,24 @@ function sendAnswer() {
     let answer = parseInt(document.getElementById("answer").value);
     console.log(answer);
     let correctAnswer = getCorrectAnswer();
+    // INITIAL DESIGN
+    // if (answer === correctAnswer) {
+    //     alert("Hey! You got it right! :D");
+    //     totalCorrect++;
+    //     document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} out of ${i}`;
+    // } else {
+    //     alert(`Awwww.... you answered ${answer}. The correct answer was ${correctAnswer}!`);
+    //     document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} out of ${i}`;
+    // }
     if (answer === correctAnswer) {
-        alert("Hey! You got it right! :D");
         totalCorrect++;
+        document.getElementById('last-answer').children[1].textContent = answer;
         document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} out of ${i}`;
     } else {
-        alert(`Awwww.... you answered ${answer}. The correct answer was ${correctAnswer}!`);
+        document.getElementById('last-answer').children[1].textContent = answer;
         document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} out of ${i}`;
     }
+    document.getElementById('last-correct-answer').children[1].textContent = correctAnswer;
     
     if (i == 10) {
         clearInterval(t);
@@ -86,7 +96,7 @@ function sendAnswer() {
         document.getElementById('prog-bar').children[i-1].style.backgroundColor = "blue";
         let timeSpent = document.getElementById("clock").textContent;
         alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent} .`);
-        document.getElementById("send-button").disabled = true;
+        document.getElementById("quiz-send-button").disabled = true;
         
         document.getElementById("answer").removeEventListener("keydown", pressEnter);
 
