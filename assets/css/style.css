@@ -731,6 +731,26 @@ body > footer > nav > a > i {
     color: white;
 }
 
+
+/* 404 page */
+
+#body-404 {
+    /*background-image: url("/assets/images/morlet-wavelet.PNG");
+    background-repeat: repeat;*/
+    
+    background-color: rgb(247, 235, 235); /* To have contrast for exceptional very big screens, above 1920px*/
+}
+
+#message-404 {
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    color: blue;
+}
+
 /* ************* */
 /* MEDIA QUERIES */
 /* ************* */
