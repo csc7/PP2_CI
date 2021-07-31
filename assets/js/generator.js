@@ -1,3 +1,30 @@
+// Move content down when clicking the Bootstrap hamburguer
+// button in the fixed navigation menu
+let hamburguerButton = document.getElementsByTagName("button")[0];
+hamburguerButton.addEventListener("click", moveContent);
+
+//#header > nav > button
+//document.getElementsByTagName("button")[0]
+
+function moveContent () {
+    if (document.getElementsByClassName("navbar-toggler")[0].getAttribute("aria-expanded") == "false") {
+        let firstElementToMove = document.getElementById('generator-page-heading');
+        firstElementToMove.style.marginTop = "200px";
+        let secondElementToMove = document.getElementById('left-graph-div');
+        secondElementToMove.style.marginTop = "200px";
+        let thirdElementToMove = document.getElementById('right-conf-panel-div');
+        thirdElementToMove.style.marginTop = "200px";
+    } else {
+        let firstElementToMove = document.getElementById('generator-page-heading');
+        firstElementToMove.style.marginTop = "0";
+        let secondElementToMove = document.getElementById('left-graph-div');
+        secondElementToMove.style.marginTop = "0";
+        let thirdElementToMove = document.getElementById('right-conf-panel-div');
+        thirdElementToMove.style.marginTop = "0";
+    }
+}
+
+
 // COPIED FROM Code Institute's Love Maths - Essentials Project
 // Event listener to check when the DOM has been loaded completely
 // and function to add event listeners to button elements

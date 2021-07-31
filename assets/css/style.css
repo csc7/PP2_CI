@@ -194,15 +194,28 @@ body > .headings, body > #home-body {
 
 /* GENERATOR PAGE */
 
+/* To avoid moving the fixed navigation menu when clicking the
+Bootstrap hamburguer button, these properties will be changed
+when clicking such button */
+#generator-page-heading, #left-graph-div, #right-conf-panel-div  {
+    margin-top: 0px;
+    transition: margin-top 0.35s;
+}
+
+
 /* Graph and Configuration Panel Body Height of 725px */
 
 #left-graph-div {
     float: left;
-    width: 50%;
+    width: 48%;
     height: 625px;
     position: relative;
     top: 75px;
-    /*background-color: rgb(104, 236, 137);*/
+    margin-left: 2%;
+    padding-top: 0px;
+   
+   
+    background-color: rgb(104, 236, 137);
 }
 
 #graph {
@@ -211,15 +224,16 @@ body > .headings, body > #home-body {
     padding-bottom: 0;
     margin-top: 5%;
     /*margin-bottom: 5%;*/
-    padding-left: 25px;
-    margin-left: 25px;
+    padding-left: 0;
+    margin-left: 0;
     height: 100%;
     margin-bottom: 100px;
     float: right;
-    width: 75%;
+   
+    border: 2px solid rgb(247, 235, 235);
     border-radius: 25px;
     /*background-color: cornflowerblue;*/
-    background-color: rgb(247, 235, 235);
+
 
 
 
@@ -233,6 +247,8 @@ body > .headings, body > #home-body {
     border-radius: 25px;*/
 }
 
+
+
 #curve_chart-top, #curve_chart-bottom {
     width: 100%;
     height: 100%;
@@ -245,7 +261,7 @@ body > .headings, body > #home-body {
     position: relative;
     top: 75px;
     
-    /*background-color: rgb(146, 28, 214); */
+    background-color: rgb(146, 28, 214);
 }
 
 /*#bottom-left-graph-div {
@@ -353,9 +369,8 @@ body > .headings, body > #home-body {
 /* Socre-Progress Panel plus Quiz Body Height of 725px  ????? */
 
 /* To avoid moving the fixed navigation menu when clicking the
-Bootstrap hamburguer button, this property will be changed
+Bootstrap hamburguer button, these properties will be changed
 when clicking such button */
-
 #quiz-page-heading {
     margin-top: 0;
     transition: margin-top 0.35s;
@@ -572,6 +587,9 @@ when clicking such button */
 
 /* CONTACT PAGE */
 
+/* To avoid moving the fixed navigation menu when clicking the
+Bootstrap hamburguer button, these properties will be changed
+when clicking such button */
 #contact-us-heading {
     margin-top: 0px;
     transition: margin-top 0.35s;
@@ -731,6 +749,15 @@ body > footer > nav > a > i {
 
     /* GENERATOR PAGE */
 
+
+    #left-graph-div {
+        width: 50%;
+        margin-left: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 225px;
+    }
+
     #graph {
         width: 100%;
         margin-left: 0;
@@ -746,7 +773,7 @@ body > footer > nav > a > i {
         width: 75%;
     }
 
-    .panel-row-input, {
+    .panel-row-input {
         width: 75%;
     }
 
@@ -803,19 +830,24 @@ body > footer > nav > a > i {
 
     /* GENERATOR PAGE */
 
+
     #left-graph-div {
         /*float: right;*/
         width: 100%;
         height: 725px;
         position: absolute;
-        top: 875px;
+        top: 675px;
         /*background-color: rgb(104, 236, 137);*/
+        margin-left: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 150px;
     }    
    
     #right-conf-panel-div {
         /*float: left;*/
         width: 100%;
-        height: 725px;
+        height: 550px;
         position: absolute;
         top: 150px;
         /*background-color: rgb(146, 28, 214);*/
@@ -1001,10 +1033,32 @@ body > footer > nav > a > i {
     }
 }
 
-/* SREEN SIZE BELOW 500px - Just for score */
 
 @media screen and (max-width: 500px) {
+
+/* SREEN SIZE BELOW 500px */
+
+/* GENERATOR PAGE */
+
+    #left-graph-div {
+        /*float: right;*/
+        width: 100%;
+        height: 725px;
+        position: absolute;
+        top: 875px;
+        /*background-color: rgb(104, 236, 137);*/
+        margin-left: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 125px;
+    }    
+
+
+/* QUIZ PAGE */
+
+
     #funny-message-div {
         height: 60px;
     }
 }
+
