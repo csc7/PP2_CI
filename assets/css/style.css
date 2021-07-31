@@ -1037,7 +1037,7 @@ body > footer > nav > a > i {
 
     #score-panel-div-info, #last-answer-div-info {
         width: 75%;
-        padding-top: 5px;
+        margin-top: 5px;
     }
 
     #score-div, #time-div, #last-answer, #last-correct-answer {
