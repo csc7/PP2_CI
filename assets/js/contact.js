@@ -25,15 +25,6 @@ function moveContent () {
 // Used to send e-mails from the contact form in the Contact page
 function sendMail(contactForm) {
 
-    // This validation part has been taken from W3Schools
-    // https://www.w3schools.com/js/js_validation.asp
-    // first accessed on July 31st, 2021, at 8:23.
-    let x = document.forms["myForm"]["fname"].value;
-    if (x == "") {
-      alert("Name must be filled out");
-      return false;
-    }
-
     emailjs.send("service_v7z0j0h", "Code_Institute_MS2", {
         "from_name": contactForm.name.value,
         "from_surname": contactForm.surname.value,
