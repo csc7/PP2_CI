@@ -451,6 +451,7 @@ when clicking such button */
     width: 50%;
     height: 75px;
     float: left;
+    margin-top: 0px;
     padding-top: 25px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
@@ -465,6 +466,7 @@ when clicking such button */
     width: 50%;
     height: 75px;
     float: right;
+    margin-top: 0px;
     padding-top: 25px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
@@ -481,7 +483,8 @@ when clicking such button */
     width: 50%;
     height: 75px;
     float: left;
-    padding-top: 25px;
+    margin-top: 25px;
+    padding-top: 0;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 125%;
@@ -494,7 +497,8 @@ when clicking such button */
     width: 50%;
     height: 75px;
     float: right;
-    padding-top: 25px;
+    margin-top: 25px;
+    padding-top: 0;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 125%;
@@ -1037,11 +1041,15 @@ body > footer > nav > a > i {
 
     #score-panel-div-info, #last-answer-div-info {
         width: 75%;
-        margin-top: 5px;
+        margin-top: 0px;
     }
 
-    #score-div, #time-div, #last-answer, #last-correct-answer {
-        padding-top: 0px;
+    #score-div, #time-div {
+        padding-top: 25px;
+    }
+
+    #last-answer, #last-correct-answer {
+        padding-top: 0;
     }
     /*#time-div {
         padding-top: 25px;
@@ -1106,7 +1114,11 @@ body > footer > nav > a > i {
 
 @media screen and (max-width: 625px) {
     #score-div, #time-div {
-        padding-top: 5px;
+        padding-top: 25px;
+    }
+
+    #last-answer, #last-correct-answer {
+        padding-top: 0;
     }
 }
 
@@ -1165,6 +1177,15 @@ body > footer > nav > a > i {
 
     #funny-message-div {
         height: 60px;
+    }
+
+    #score-div, #time-div {
+        padding-top: 12px;
+
+    }
+
+    #last-answer, #last-correct-answer {
+        padding-top: 0;
     }
 }
 
