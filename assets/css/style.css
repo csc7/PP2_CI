@@ -664,13 +664,12 @@ when clicking such button */
     height: 100%;
 }
 
-#text-area {
-    /*width: 50%;
-    margin-left: 25%;*/
-    padding-left: 10px;
-    padding-right: 10px;
-    /*background-color: aqua;*/
-}
+/*#text-area {
+
+    padding-left: 0px;
+    padding-right: 0px;
+
+}*/
 
 #form-description {
     resize: none;
@@ -682,9 +681,6 @@ when clicking such button */
     font-size: 125%;
     text-align: left;
 }
-
-
-
 
 #form-send-button {
     width: 50%;    
@@ -699,6 +695,20 @@ when clicking such button */
     border-color: blue;
     border-width: 10px;
     border-radius: 10px;
+}
+
+#email-status {    
+    height: 50px;
+    margin-left: 0;
+    /*background-color: cyan;*/
+    padding-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+    text-align: center;
+    /*background-color: coral;*/
+    color: blue;
+
 }
 
 

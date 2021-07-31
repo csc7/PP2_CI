@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Credit: Bootstrap
-    Code copied on July 8th, 2021, 00:12, from https://getbootstrap.com/docs/4.0/getting-started/introduction/
+    Code copied on July 8th, 2021, at 00:12, from https://getbootstrap.com/docs/4.0/getting-started/introduction/
     Bootstrap CSS
     -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -16,6 +16,15 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Wavelet Website</title>
+
+    <!-- Credit: EmailJS
+    Code copied on July 31st, 2021, at 6:37, from EmailJS personal account-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+    emailjs.init("user_MNQL3PP8hE3qKe1AHoGqQ");
+    })();
+    </script>
 </head>
 <body>
     <header id="header">
@@ -59,7 +68,7 @@
  
     <div id="contact-form-div">
         
-        <form id="contact-form" action="https://formdump.codeinstitute.net/" method="POST">
+        <form id="contact-form" onsubmit="return sendMail(this);">
             <div class="form-row-label">
                 <label for="name-field">Name</label>
             </div>
@@ -76,17 +85,19 @@
                 <label for="email-field">E-mail</label>
             </div>
             <div class="form-row-input">
-                <input id="email-field" class="input-field" type="text" name="surname" placeholder="Your e-mail">
+                <input id="email-field" class="input-field" type="text" name="email" placeholder="Your e-mail">
             </div>
             <div class="form-row-label">
                 <label for="form-description">Description</label>
             </div>
             <div id="text-area">
-                <textarea id="form-description" class="input-field" rows="6" cols="20"  name="form-description" placeholder="Describe your consultation"></textarea>
+                <textarea id="form-description" class="input-field" rows="6" cols="20"  name="description" placeholder="Describe your consultation"></textarea>
             </div>
 
             <input id="form-send-button" type="submit" value="Send">
-
+            <div id="email-status">
+                <label></label>
+            </div>
         </form>
     </div>
     <footer>

@@ -617,7 +617,9 @@ After first deployment, several updates have been carried out before the final v
 ___
 # 11 . Credits
 
-Code Institute: I have used the learning material in the course as a guide and reference.
+Code Institute: I have used the learning material in the course as a guide and reference. "Love Maths - Essentials Project" was the main reference for the Quiz page and "Sending Emails Using EmailJS" for sending e-mails from the contact form in the Contact page.
+
+
 
 Love Running - E
 
