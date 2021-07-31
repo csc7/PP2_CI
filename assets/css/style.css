@@ -674,6 +674,7 @@ when clicking such button */
 #form-description {
     resize: none;
     width: 100%;
+    margin-left: 0;
     border: 2px solid rgb(111, 155, 236);
     border-radius: 5px;
     /*background-color: rgb(230, 186, 13);*/
@@ -1037,8 +1038,11 @@ body > footer > nav > a > i {
         width: 96%;
         margin-left: 2%;
     }
-    ##text-area {
+    #text-area {
+        padding: 0;
         height: 25%;
+        margin-left: 2%;
+        width: 96%;
     }
         
 
