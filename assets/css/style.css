@@ -214,11 +214,12 @@ when clicking such button */
     height: 625px;
     position: relative;
     top: 75px;
-    margin-left: 2%;
-    padding-top: 0px;
+    margin-left: 5%;
+    padding-top: 50px;
+
    
    
-    /*background-color: rgb(104, 236, 137);*/
+    background-color: rgb(104, 236, 137);
 }
 
 #graph {
@@ -228,7 +229,7 @@ when clicking such button */
     margin-top: 5%;
     /*margin-bottom: 5%;*/
     padding-left: 0;
-    margin-left: 0;
+    margin-left: 5%;
     height: 100%;
     margin-bottom: 100px;
     float: right;
@@ -252,9 +253,12 @@ when clicking such button */
 
 
 
-#curve_chart-top, #curve_chart-bottom {
-    width: 100%;
-    height: 100%;
+#curve_chart-top {
+    width: 90%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
 }
 
 #right-conf-panel-div {
@@ -317,7 +321,7 @@ when clicking such button */
     font-weight: bold;
     font-size: 125%;
     text-align: left;
-    /*background-color: coral;*/
+    background-color: coral;
 }
 
 /* Applies also for input fields in Contact page */
