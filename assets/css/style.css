@@ -164,6 +164,7 @@ when clicking such button */
 #basic-concepts {
     width: 50%;
     margin-left: 25%;
+    margin: auto;
     padding-bottom: 10%; /* Change to add space below for more content/functions */
     padding-left: 1%;
     padding-right: 1%;
@@ -1002,7 +1003,7 @@ body > footer > nav > a > i {
 
 
 
-    .panel-row-label, .form-row-label, #powered-by-Googl {
+    .panel-row-label, .form-row-label, #powered-by-Google {
         width: 96%;
         margin-left: 2%;
     }
@@ -1118,6 +1119,7 @@ body > footer > nav > a > i {
 /* FUNCTIONS PAGE */
     #functions-page-heading, #basic-concepts > h2 {
         font-size: 165%;
+
     }
 
 /* GENERATOR PAGE */
