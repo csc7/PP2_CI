@@ -215,18 +215,16 @@ when clicking such button */
     position: relative;
     top: 75px;
     margin-left: 5%;
-    padding-top: 50px;
-
+    padding-top: 50px;  
    
-   
-    background-color: rgb(104, 236, 137);
+    /*background-color: rgb(104, 236, 137);*/
 }
 
 #graph {
 
     padding-top: 0;
     padding-bottom: 0;
-    margin-top: 5%;
+    margin-top: 50px;
     /*margin-bottom: 5%;*/
     padding-left: 0;
     margin-left: 5%;
@@ -290,7 +288,7 @@ when clicking such button */
     height: 100%;
     margin-bottom: 100px;
     float: left;
-    width: 75%;
+    width: 50%;
     border-radius: 25px;
     /*background-color: chocolate;*/
 }
@@ -298,7 +296,7 @@ when clicking such button */
 
 .panel-row-label {    
     width: 50%;
-    height: 40px;
+    height: 50px;
     margin-left: 0;
     
     padding-top: 10px;
@@ -312,7 +310,7 @@ when clicking such button */
 
 .panel-row-input {
     width: 50%;
-    height: 40px;
+    height: 50px;
     margin-left: 0;
     border: red;
     border-radius: 10px;
@@ -323,6 +321,8 @@ when clicking such button */
     text-align: left;
     background-color: coral;
 }
+
+
 
 /* Applies also for input fields in Contact page */
 .input-field {
@@ -337,18 +337,15 @@ when clicking such button */
 }
 
 #powered-by-Google {
-    width: 100%;
+    width: 125%;
     height: 100%;
     margin: 0;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 125%;
     text-align: left;
-    
-}
-
-#powered-by-Google {
     color: red;
+    
 }
 
 
@@ -807,12 +804,12 @@ body > footer > nav > a > i {
         width: 95%;
     }
 
-    .panel-row-label, #powered-by-Googl {
-        width: 75%;
+    .panel-row-label {
+        width: 50%;
     }
 
     .panel-row-input {
-        width: 75%;
+        width: 50%;
     }
 
     #wavelet-type-field {
@@ -910,7 +907,9 @@ body > footer > nav > a > i {
     }
 
     #powered-by-Google {
-        text-align: center;       
+        width: 100%;
+        text-align: center;
+    
     }
 
     #conf-panel {
@@ -1081,12 +1080,23 @@ body > footer > nav > a > i {
 
 /* GENERATOR PAGE */
 
+    #graph {
+        margin-top: 25px;
+    }
+
+    #generate-button, #export-button {
+
+        width: 96%;
+        margin-left: 2%;
+
+    }
+
     #left-graph-div {
         /*float: right;*/
         width: 100%;
         height: 725px;
         position: absolute;
-        top: 675px;
+        top: 725px;
         /*background-color: rgb(104, 236, 137);*/
         margin-left: 0;
         padding-left: 10px;
