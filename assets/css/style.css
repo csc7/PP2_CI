@@ -777,6 +777,12 @@ body > footer > nav > a > i {
 
     /* FUNCTIONS PAGE */
 
+    #functions-page-heading {
+        width: 75%;
+        margin-left: 12%;
+        background-color: white;
+    }
+
     #basic-concepts {
     width: 75%;
     margin-left: 12%;
@@ -973,6 +979,14 @@ body > footer > nav > a > i {
 @media  screen and (max-width: 800px) {
 
     /* FUNCTIONS PAGE */
+
+    #functions-page-body {
+        background-color: white;
+    }
+
+    #home-body {
+        background-color: white;
+    }
     .wavelet-function-image {
         margin-left: -17%;
         width: 134%;
@@ -1096,9 +1110,15 @@ body > footer > nav > a > i {
 }
 
 
-@media screen and (max-width: 500px) {
 
 /* SREEN SIZE BELOW 500px */
+
+@media screen and (max-width: 500px) {
+
+/* FUNCTIONS PAGE */
+    #functions-page-heading, #basic-concepts > h2 {
+        font-size: 165%;
+    }
 
 /* GENERATOR PAGE */
 
