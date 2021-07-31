@@ -84,12 +84,11 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     height: 75px;
 }
 
-#collapse {
-    /*position: relative;
-    overflow: hidden;*/
-    transition: display 10s;
+#navbarNavDropdown {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.20s ease-out;
 }
-
 
 #navbarNavDropdown > ul > li > a {
     color: white;
@@ -359,7 +358,7 @@ when clicking such button */
 
 #quiz-page-heading {
     margin-top: 0;
-    /*transition: margin-top 1s;*/
+    transition: margin-top 0.35s;
 }
 
 #funny-message-div {
@@ -573,7 +572,10 @@ when clicking such button */
 
 /* CONTACT PAGE */
 
-
+#contact-us-heading {
+    margin-top: 0px;
+    transition: margin-top 0.35s;
+}
 
 /* Main Body */
 
@@ -584,6 +586,7 @@ when clicking such button */
     position: absolute;
     top: 150px;
     bottom: 75px;
+    transition: top 0.35s;
 }
 
 #contact-form {
@@ -595,8 +598,8 @@ when clicking such button */
 }
 
 .form-row-label {    
-    width: 50%;
-    height: 40px;
+    
+    height: 50px;
     margin-left: 0;
     /*background-color: cyan;*/
     padding-top: 10px;
@@ -609,54 +612,58 @@ when clicking such button */
 }
 
 .form-row-input {
-    width: 50%;
-    height: 40px;
+    height: 50px;
     margin-left: 0;
-    border: blue;
+    
     border-radius: 10px;
     /*background-color: rgb(230, 186, 13);*/
     font-family: 'Nunito', sans-serif;
-    font-weight: bold;
+    
     font-size: 125%;
     text-align: left;
-
-
-
 }
 
-.form-row-label {
-    
+/*.form-row-label {    
     width: 50%;
     height: 50px;
     margin-left: 25%;
-    
-
 }
 
-.form-row-input {
+/*.form-row-input {
     width: 50%;
     height: 50px;
     margin-left: 25%;
     border: blue;
     border-radius: 10px;
     background-color: rgb(230, 186, 13);
-}
-
-#text-area {
-    width: 50%;
-    margin-left: 25%;
-    /*background-color: cyan;*/
-    resize: none;
-}
+}*/
 
 .input-field {
     width: 100%;
     height: 100%;
 }
 
+#text-area {
+    /*width: 50%;
+    margin-left: 25%;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    /*background-color: aqua;*/
+}
+
 #form-description {
     resize: none;
+    width: 100%;
+    border: 2px solid rgb(111, 155, 236);
+    border-radius: 5px;
+    /*background-color: rgb(230, 186, 13);*/
+    font-family: 'Nunito', sans-serif;
+    font-size: 125%;
+    text-align: left;
 }
+
+
+
 
 #form-send-button {
     width: 50%;    
