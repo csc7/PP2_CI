@@ -93,7 +93,6 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 #navbarNavDropdown > ul > li > a {
     color: white;
     text-align: center;
-    
 }
 
 #navbarNavDropdown > ul > li.nav-item.active > a {
@@ -1065,7 +1064,17 @@ body > footer > nav > a > i {
     }
 }
 
-/* SREEN SIZE BELOW 625px - Just for score */
+
+/* SREEN SIZE BETWEEN 575px and 650px - Just to reduce font size of navigation
+   menu before it collapses to the Bootstrap hamburguer button
+   in order to have the items visible at all times */
+@media screen and (max-width: 650px) and (min-width: 576px) {
+    #navbarNavDropdown > ul > li > a {
+        font-size: 85%;
+    }
+}
+
+/* SCREEN SIZE BELOW 625px - Just for score */
 
 @media screen and (max-width: 625px) {
     #score-div, #time-div {
