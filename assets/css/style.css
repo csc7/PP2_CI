@@ -210,7 +210,7 @@ when clicking such button */
 #left-graph-div {
     float: left;
     width: 48%;
-    height: 625px;
+    height: 800px; /* Change this property to adapt height for different screen sizes */
     position: relative;
     top: 75px;
     margin-left: 5%;
@@ -228,7 +228,7 @@ when clicking such button */
     padding-left: 0;
     margin-left: 5%;
     height: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     float: right;
    
     border: 2px solid rgb(247, 235, 235);

@@ -680,6 +680,8 @@ W3Schools (Powered by W3.CSS):
 
     - https://www.w3schools.com/css/css_form.asp. July 25th, 2021, at 23:45.
 
+    - To define transition of properties in CSS: https://www.w3schools.com/css/css3_transitions.asp, accessed on July 31st, 2021.
+
     - JavaScript Form Validation. https://www.w3schools.com/js/js_validation.asp, first accessed on July 31st, 2021, at 8:23.
 
 
