@@ -14,9 +14,13 @@ hamburguerButton.addEventListener("click", moveContent);
 //document.getElementsByTagName("button")[0]
 
 function moveContent () {
-    let elementToMove = document.getElementById('quiz-page-heading');
-    elementToMove.style.marginTop = "200px";
-
+    if (document.getElementsByClassName("navbar-toggler")[0].getAttribute("aria-expanded") == "false") {
+        let elementToMove = document.getElementById('quiz-page-heading');
+        elementToMove.style.marginTop = "200px";
+    } else {
+        let elementToMove = document.getElementById('quiz-page-heading');
+        elementToMove.style.marginTop = "0";
+    }
 }
 
 

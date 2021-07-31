@@ -581,6 +581,7 @@ Bugs who required more time and specific solutions are the following ones:
 | Time in Quiz page show three digits for the seconds, after 70 seconds has been taken by the quiz. | asdfsfsdfs. Solved????? with https://validator.w3.org/ .|
 | Send button in Quiz page does not respond to width styling in CSS | Since the first id value (send-button) might have been interfering with another id (in a downloaded library, because it has not been found anywhere else in the files of this website), it was changed to "quiz-send-button", solving the issue and assigning a width similar to the answer/input box.|
 | Fixed navigation header moves along with headings and body when expanding the menu after clicking the Bootstrap hamburguer button | Solved by adding a top property with a value of zero in the CSS style file.|
+| Brand with website name and Bootstrap hamburguer button move up when expanding the menu after clicking the Bootstrap hamburguer button | Solved by adding a padding-bottom property with the same value of the previous added padding-top property in the CSS style file.|
 
 <br><br>
 ## [Back to Index](#index)
