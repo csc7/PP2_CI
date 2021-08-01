@@ -230,7 +230,11 @@ function timer() {
         document.getElementById("clock").innerHTML = "0" + minutes + " : " + seconds;
     } else if (minutes < 10 && seconds >= 60) {
         seconds = seconds - (60 * minutes);
-        document.getElementById("clock").innerHTML = "0" + minutes + " : " + "0" + seconds;
+        if (seconds >= 10) {
+            document.getElementById("clock").innerHTML = "0" + minutes + " : " + seconds;
+        } else {
+            document.getElementById("clock").innerHTML = "0" + minutes + " : " + "0" + seconds;
+        }
     } else if (minutes >= 10 && seconds < 10) {
         document.getElementById("clock").innerHTML = minutes + " : " + "0" + seconds;
     } else {
