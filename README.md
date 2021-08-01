@@ -120,6 +120,7 @@ User stories are divided into the following three groups:
 13. As owner, alogn with other points of this section, I want to show my work and give the option to users to contact me if they wish.
 14. As owner, I want to give as many options to be contacted as possible, so users can choose forms or links in the footer to do this in a very fast way without having to navigate throuth the website.
 15. An error page to be loaded in case there is any error when loading the website.
+16. As owner, I want to provide a website that can be browsed fully without using the back button, so users have a "map" of the website at all times and do not get issues while navigating (like sending data to a server interrupted or resent). 
 
 #### [Back to Index](#index)
 
