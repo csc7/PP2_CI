@@ -103,24 +103,42 @@ ADD RESPONSIVENESS AND INTERACTIVITY REQUIREMNTS
 User stories are divided into the following three groups:
 
 - ### **First time users**
-1. As a user, I want to find a summary of type of wavelets, so I do not need to research for them in different sites on the web.
-2. As a user, I want fo have the functions (formulas) of the wavelets, so I do not need to go through long texts or the web to find them.
-3. As a user, I want to select the input parameters of the wavelets and see the corresponding graph of them, so I see what my parameters are affecting the wavelets.
-4. As a user, I want to export the wavelet I choose, so I can have it on a file and use it in other applications without needing to use other applications that could take a longer time for generation.
-5. As a user, I want to have the option to send comments or questions, so I can contribute with the website devolpment and/or indicate errors or bugs.
+1. As a user, I want to find a responsive website, so I can access it in any device without having the content affected.
+2. As a user, I want to find a summary of type of wavelets, so I do not need to research for them in different sites on the web.
+3. As a user, I want fo have the functions (formulas) of the wavelets, so I do not need to go through long texts or the web to find them.
+4. As a user, I want to select the input parameters of the wavelets and see the corresponding graph of them, so I see how my parameters are affecting the wavelets.
+5. As a user, I want to have the wavelet I choose sent/exported to a server, so I can have it available for other applications and/on for download without having to use other applications that could take a longer time for the generation of the wavelet.
+6. As a user, I want to have the option to send comments or questions, so I can contribute with the website devolpment and/or indicate errors or bugs.
+
 - ### **Returning users**
-6. As a user, I want to test my knowledge against a quiz, so I refresh basic concepts and entertain myself if I wish.
-7. As a user, I want to generate new wavelets so I can check them (and exported to files if I wish) in a quick way.
-8. As a user, I want to have a reference website with a summury of types and functions of wavelets so I do not need to look for them and/or check in different websites.
-9. As a user, I want to have a way to contact the developer so I can contribute and/or indicate errors or bugs.
+7. As a returning user, I want to have the website accessible from any device, so I do not depend on only one device to access the information.
+8. As a returning user, I want a navigation menu on top and always visible, so I can access any content in the website from there and do not need to use the back button of the browser.
+9. As a returning user, I want to have a reference website with a summury of types and functions of wavelets so I do not need to look for them and/or check in different websites.
+10. As a returning user, I want to generate new wavelets so I can check them in a quick way.
+11. As a returning user, I want to test my knowledge against a quiz, so I refresh basic concepts and/or take a break to when I want to.
+12. As a returning user, I want to have a way to send feedback or make consultations, so I can collaborate and/or make consultations about the website and/or its content.
+13. As a returning user, I want to be informed if the contact form goes through, so I know if my message is sent or it is not.
+14. As a returning user, I want to have a way to contact the developer so I can contribute and/or indicate errors or bugs.
+
 - ### **Site Owner**
-10. As owner, I want to provide a website that summarises the type of wavelets so users can use it as a reference.
-11. As owner, I want to create a website that provides a basic service (wavelet generation) so users can use it to check and obtain wavelets without using longer solutions for them.
-12. As owner, I want to create a website that is the base for further development, so I can keep showing my work and offer more solutions in the future.
-13. As owner, alogn with other points of this section, I want to show my work and give the option to users to contact me if they wish.
-14. As owner, I want to give as many options to be contacted as possible, so users can choose forms or links in the footer to do this in a very fast way without having to navigate throuth the website.
-15. An error page to be loaded in case there is any error when loading the website.
-16. As owner, I want to provide a website that can be browsed fully without using the back button, so users have a "map" of the website at all times and do not get issues while navigating (like sending data to a server interrupted or resent). 
+15. As owner, I want to create a website that provides a basic service (wavelet generation) so users can use it to check and obtain wavelets without using longer solutions for the generation/checking of them.
+16. As owner, I want to create a website that is the base for further development, so I can keep showing my work and offer more solutions in the future.
+17. As owner, alogn with other points of this section, I want to show my work and give the option to users to contact me if they wish.
+18. As owner, I want to provide a website that can be browsed fully without using the back button, so users have a "map" of the website at all times and do not get issues while navigating (like sending data to a server interrupted or resent).
+19. As owner, I want to provide a responsive website, so user can access it from any device without any constraint to navigate, find and/or use the website.
+20. As owner, I want to give an interactive website that update colours, graphs and information, so users enjoy the navigation in the website and intantly know if the website works properly or it does not.
+21. As owner, I want to put a brand in the top left, so users not only associate the brand with the website but also they can click it for the "home" (Functions) page.
+22. As owner, I want to provide a website that summarises the type of wavelets so users can use it as a reference.
+23. As owner, I want to give an interactive website, so users test their own wavelets without having to replicate the formulas with their own parameters themselves.
+24. As owner, I want to provide a quiz so users can use the website as a basic entertainment when they want a short break from their activities.
+25. As owner, I want to give as many options to be contacted as possible, so users can choose forms or links in the footer to send their consultations and/or feedback in a very fast way without having to navigate throuth the website.
+26. As owner, I want to inform users if they consultation/message was succesfully sent, so they know if they need to resend it or they do not.
+27. As owner, I want to inform the user, through an error page, if there is any error when loading the website.
+
+
+
+
+
 
 #### [Back to Index](#index)
 
