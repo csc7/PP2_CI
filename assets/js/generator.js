@@ -34,10 +34,10 @@ document.addEventListener("DOMContentLoaded", function() {
     generateButton.addEventListener("click", generateGraph);
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-    let generateButton = document.getElementById("export-button");
-    generateButton.addEventListener("click", exportFile);
-});
+//document.addEventListener("DOMContentLoaded", function() {
+//    let generateButton = document.getElementById("export-button");
+//    generateButton.addEventListener("click", sendData);
+//});
 
 
 document.getElementById("wavelet-type-field").value = "Haar";
@@ -45,6 +45,36 @@ document.getElementById("sampling-field").value = "2";
 document.getElementById("length-field").value = "100";
 document.getElementById("frequency-field").value = "50";
 
+
+// GRAPH
+// Google Charts
+// Line Charts
+// Copied and modified from https://developers.google.com/chart/interactive/docs/gallery/linechart on July 24th, 2021, at 23:06.
+
+function generateGraph() {
+
+    dataForGoogleChartFunction = computeGraphData();
+
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable(dataForGoogleChartFunction);
+
+        var options = {
+          //title: 'Company Performance',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart-top'));
+
+        chart.draw(data, options);
+    }
+
+}
+
+//var dataForGraph =[];
 
 function computeGraphData() {
 
@@ -137,34 +167,34 @@ function computeGraphData() {
 }
 
 
-// GRAPH
-// Google Charts
-// Line Charts
-// Copied and modified from https://developers.google.com/chart/interactive/docs/gallery/linechart on July 24th, 2021, at 23:06.
 
-function generateGraph() {
+//function exportFile() {
 
-    dataForGoogleChartFunction = computeGraphData();
+// EmailJS
+// Copied and modified from Code Institute's material for "Sending Emails Using EmailJS" lessons
+// Used to send e-mails from the contact form in the Contact page
+function sendData(dataToSend) {
 
-    google.charts.load('current', {'packages':['corechart']});
-    google.charts.setOnLoadCallback(drawChart);
+    let data = computeGraphData();
+    //console.log(data);
 
-    function drawChart() {
-      var data = google.visualization.arrayToDataTable(dataForGoogleChartFunction);
-
-      var options = {
-        //title: 'Company Performance',
-        curveType: 'function',
-        legend: { position: 'bottom' }
-      };
-
-      var chart = new google.visualization.LineChart(document.getElementById('curve_chart-top'));
-
-      chart.draw(data, options);
-    }
-
+   emailjs.send("service_v7z0j0h", "Code_Institute_MS2_Data", {
+       "data": data
+   })
+   .then(
+       function(response) {
+           console.log("SUCCESS", response);
+           document.getElementById("data-status").textContent = "Data sent!";
+           //document.getElementById("form-send-button").style.display = "none";
+       },
+       function(error) {
+           console.log("FAILED", error);
+           document.getElementById("data-status").textContent = "Data could not be sent.";
+           document.getElementById("data-status").style.color = "red";
+           //document.getElementById("form-send-button").style.display = "none";
+       }
+   );
+    return false;  // To block from loading a new page
 }
 
-function exportFile() {
-    // Place Noje.js code to write files
-}
+//}

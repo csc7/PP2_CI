@@ -382,6 +382,21 @@ when clicking such button */
     margin-bottom: 25px;
 }
 
+#data-status {    
+    height: 25px;
+    margin-left: 0;
+    width: 50%;
+    /*background-color: cyan;*/
+    padding-top: 0px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+    text-align: center;
+    /*background-color: coral;*/
+    color: blue;
+
+}
+
 /* QUIZ */
 
 /* Socre-Progress Panel plus Quiz Body Height of 725px  ????? */
@@ -899,9 +914,11 @@ body > footer > nav > a > i {
         top: 675px;
         /*background-color: rgb(104, 236, 137);*/
         margin-left: 0;
-        padding-left: 10px;
+        /*padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 150px;
+        padding-top: 75px;*/
+        padding: 75px 10px 150px 10px;
     }    
    
     #right-conf-panel-div {
@@ -927,7 +944,8 @@ body > footer > nav > a > i {
         margin-left: 25%;
     }
 
-    #generate-button, #export-button {
+    #generate-button, #export-button,
+    #data-status {
         margin-left: 25%;
     }
 
@@ -1157,10 +1175,11 @@ body > footer > nav > a > i {
         top: 725px;
         /*background-color: rgb(104, 236, 137);*/
         margin-left: 0;
-        padding-left: 10px;
+        /*padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 125px;
-        padding-top: 25px;
+        padding-top: 25px;*/
+        /*padding: 75px 10px 150px 10px;*/
     }    
 
    

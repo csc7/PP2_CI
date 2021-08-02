@@ -24,6 +24,15 @@
     <title>Wavelet Website</title>
     <!-- favicon -->
     <link rel="icon" type="image/png" href="wavelet-icon.PNG">
+
+    <!-- Credit: EmailJS
+    Code copied on July 31st, 2021, at 6:37, from EmailJS personal account-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+    emailjs.init("user_MNQL3PP8hE3qKe1AHoGqQ");
+    })();
+    </script>
 </head>
 <body>
     <header id="header">
@@ -105,9 +114,12 @@
                 <input id="frequency-field" class="input-field" type="number" name="name" placeholder="Sampling">
             </div>
             <button id="generate-button" type="submit">Generate</button>
-            <form action="https://formdump.codeinstitute.net/" method="POST">
+            <form id="export-data" onsubmit="return sendData(this);">
                 <input id="export-button" type="submit" value="Export">
             <form>
+            <div id="data-status">
+                <label></label>
+            </div>
             <div class="panel-row-label">
                 <p id="powered-by-Google">Powered by Google</label>
             </div>
