@@ -63,7 +63,7 @@ function generateGraph() {
 
         var options = {
           //title: 'Company Performance',
-          curveType: 'function',
+          curveType: 'none',
           legend: { position: 'bottom' }
         };
 
@@ -83,12 +83,14 @@ function computeGraphData() {
     // Divide length by 2 since symmetrical negative values are being generated:
     let waveletLength = parseInt(document.getElementById('length-field').value) / 2;
     let frequency = parseInt(document.getElementById('frequency-field').value);
-    totalSamples = Math.floor(waveletLength / samplingRate) + 1;
+    totalSamples = Math.floor(waveletLength / samplingRate);
 
     let timeVector = []; 
     let amplitude = [];
     let dataForGraph = [];
     dataForGraph.push(["Time", "Amplitude"]);
+    let k = 0; // To count the amount of times a pair of values is pushed to the data
+    let l = 0; // To count the amount of times a pair of values is pushed to the data
     
     if (samplingRate == 0 || waveletLength == 0) {
         alert(`Sammpling rate or wavelet length cannot be zero. Please assign a different value.`);
@@ -102,31 +104,60 @@ function computeGraphData() {
             case 'Haar':
                 let amplitudeHaarValue = [];
                 // Time Vector including previous first sample and the rest
-                for (let i = -totalSamples; i < totalSamples; i++) {
+                for (let i = -totalSamples+1; i < totalSamples; i++) {
                     timeVector.push(samplingRate * i);
                 }
                 // Computation of amplitudes for each time
                 // From zero to the double rather than from -totalSamples to +totalSamples
                 // because the timeVector is already created and cannot be indexed with
                 // negative indexes.
-                for (let j = 0; j < 2 * totalSamples; j++) {
-                    if (timeVector[j] >= 0 && timeVector[j] < 0.5) {
+                for (let j = 0; j < 2 * totalSamples-1; j++) {
+                    if (timeVector[j] >= 0 && timeVector[j] < 5) {
+                        // 2 points are needed in time 0 in order to have the step,
+                        // otherwise it will show a slope
+                        if (timeVector[j] == 0) {
+                            dataForGraph.push([0, 0]);
+                        }
                         amplitudeHaarValue [j] = 1;
                         amplitude.push(amplitudeHaarValue[j]);
                         dataForGraph.push([timeVector[j], amplitude[j]]);
-                    } else if (timeVector[j] >= 0.5 && timeVector[j] < 1) {
+
+                    } else if (timeVector[j] >= 5 && timeVector[j] < 10) {
+                        // 2 points are needed in time 5 in order to have the step,
+                        // otherwise it will show a slope.
+                        // Since k will change, the repeated double value for 5 is added only once
+                        if (k == 0) {
+                            dataForGraph.push([5, 1]);
+                            dataForGraph.push([5, -1]);
+                            k++;
+                        }                        
+                        
                         amplitudeHaarValue [j] = -1;
                         amplitude.push(amplitudeHaarValue[j]);
                         dataForGraph.push([timeVector[j], amplitude[j]]);
                     } else {
-                        amplitudeHaarValue [j] = 0;
-                        amplitude.push(amplitudeHaarValue[j]);
-                        dataForGraph.push([timeVector[j], amplitude[j]]);
+                        // 2 points are needed in time 10 in order to have the step,
+                        // otherwise it will show a slope.
+                        // Since k will change, the repeated double value for 10 is added only once
+                        if (timeVector[j] == 10) {
+                            dataForGraph.push([10, -1]);
+                            dataForGraph.push([10, 0]);
+                            l++;
+                        } else {
+                            amplitudeHaarValue [j] = 0;
+                            amplitude.push(amplitudeHaarValue[j]);
+                            dataForGraph.push([timeVector[j], amplitudeHaarValue [j]]);
+                        }
+                        
                     }
+                    // To show it correctly two points in 0; 5 and 10 are needed:
                     
                     
                 }
-                console.log(dataForGraph)
+                
+
+
+                console.log(dataForGraph);
                 break;
             case 'Mexican Hat':
                 // Time Vector including previous first sample and the rest
