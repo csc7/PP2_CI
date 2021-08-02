@@ -372,6 +372,7 @@ when clicking such button */
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 125%;
+    outline: none;
 
     border-width: 10px;
     border-radius: 10px;
@@ -705,6 +706,7 @@ when clicking such button */
     width: 50%;    
     height: 50px;       
     margin-top: 25px;
+    margin-bottom: 50px;
     margin-left: 25%;
     background-color: red;
     color: white;
@@ -783,13 +785,13 @@ body > footer > nav > a > i {
     /* FUNCTIONS PAGE */
 
     #functions-page-heading {
-        width: 75%;
+        width: 76%;
         margin-left: 12%;
         background-color: white;
     }
 
     #basic-concepts {
-    width: 75%;
+    width: 76%;
     margin-left: 12%;
     }
 
@@ -1095,9 +1097,9 @@ body > footer > nav > a > i {
         padding: 0;
     }
 
-    #left-graph-div {
-        height: 0%;
-    }
+    /*#left-graph-div {
+        height: 0;
+    }*/
 }
 
 
