@@ -76,7 +76,7 @@ function runQuiz() {
     if (i == 0) {
         startTime = new Date().getTime();
         t = setInterval (timer, 1000);
-        document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} out of ${i}`;
+        document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} / ${i}`;
     }
 
     console.log(startTime);
@@ -103,10 +103,10 @@ function sendAnswer() {
     if (answer === correctAnswer) {
         totalCorrect++;
         document.getElementById('last-answer').children[1].textContent = answer;
-        document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} out of ${i}`;
+        document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} / ${i}`;
     } else {
         document.getElementById('last-answer').children[1].textContent = answer;
-        document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} out of ${i}`;
+        document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} / ${i}`;
     }
     document.getElementById('last-correct-answer').children[1].textContent = correctAnswer;
     
@@ -115,8 +115,18 @@ function sendAnswer() {
         
         document.getElementById('prog-bar').children[i-1].style.backgroundColor = "blue";
         let timeSpent = document.getElementById("clock").textContent;
-        alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent} .`);
+        if (timeSpent[0] == 0 && timeSpent[5] == 0) {
+            alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent[0]}${timeSpent[1]}:${timeSpent[5]}${timeSpent[6]} (${timeSpent[1]} minutes and ${timeSpent[6]} seconds).`);
+        } else if (timeSpent[0] == 0 && timeSpent[5] != 0) {
+            alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent[0]}${timeSpent[1]}:${timeSpent[5]}${timeSpent[6]} (${timeSpent[1]} minutes and ${timeSpent[5]}${timeSpent[6]} seconds).`);
+        } else if (timeSpent[0] != 0 && timeSpent[5] == 0) {
+            alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent[0]}${timeSpent[1]}:${timeSpent[5]}${timeSpent[6]} (${timeSpent[0]}${timeSpent[1]} minutes and ${timeSpent[6]} seconds).`);
+        } else {
+            alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent[0]}${timeSpent[1]}:${timeSpent[5]}${timeSpent[6]} (${timeSpent[0]}${timeSpent[1]} minutes and ${timeSpent[5]}${timeSpent[6]} seconds).`);
+        }
+        
         document.getElementById("quiz-send-button").disabled = true;
+        console.log(timeSpent[0]);
         
         document.getElementById("answer").removeEventListener("keydown", pressEnter);
 
@@ -237,7 +247,24 @@ function timer() {
         }
     } else if (minutes >= 10 && seconds < 10) {
         document.getElementById("clock").innerHTML = minutes + " : " + "0" + seconds;
-    } else {
-        document.getElementById("clock").innerHTML = minutes + " : " + seconds;
+        
+
+    } else if (minutes >= 10 && seconds < 60) {
+        document.getElementById("clock").innerHTML = "0" + minutes + " : " + seconds;
+    } else if (minutes >= 10 && seconds >= 60) {
+        seconds = seconds - (60 * minutes);
+        if (seconds >= 10) {
+            document.getElementById("clock").innerHTML = minutes + " : " + seconds;
+        } else {
+            document.getElementById("clock").innerHTML = minutes + " : " + "0" + seconds;
+        }
+    }
+
+    //} else {
+    //    document.getElementById("clock").innerHTML = minutes + " : " + seconds;
+    //}
+
+    if (i == 10) {
+        return 0;
     }
 }
