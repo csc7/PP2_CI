@@ -1188,6 +1188,9 @@ Jesse James Garrett's process for user experience.
     - https://stackoverflow.com/questions/14395050/slice-array-from-n-to-last-element, accessed on July 25th, 2021, at 6:39.
 
 
+- W3C®. Copyright © 2021 W3C ® (MIT, ERCIM, Keio, Beihang):
+    - How to introduce author in anchor element: https://www.w3.org/TR/2011/WD-html5-author-20110809/the-link-element.html, accessed on August 4th, 2021, at 00:06.
+
 - W3Schools (Powered by W3.CSS):
 
     - Position of "div" elements: https://www.w3schools.com/css/css_positioning.asp; accessed on July 19th, 2021, at 23:55.
@@ -1205,6 +1208,8 @@ Jesse James Garrett's process for user experience.
     - To define transition of properties in CSS: https://www.w3schools.com/css/css3_transitions.asp, accessed on July 31st, 2021.
 
     - JavaScript Form Validation. https://www.w3schools.com/js/js_validation.asp, first accessed on July 31st, 2021, at 8:23.
+
+    - How to introduce author in anchor element: https://www.w3schools.com/tags/att_a_rel.asp, accessed on August 4th, 2021, at 00:07.
 
 
 Back to Index
