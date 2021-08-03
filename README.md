@@ -673,9 +673,9 @@ ___
 
 Some bugs were related to positioning of elements in the page. They were fixed by assigning proper values, most of them with the help of a temporary background colour for the element.
 
-Then, many minor bugs were solved just by assigning the correct property or by trial and error.
+Then, many minor bugs were solved just by assigning the correct property and/or by trial and error.
 
-Bugs who required more time and specific solutions are the following ones:
+Bugs who required more time and specific solutions were the following ones:
 
 | Bug | Solution |
 | ---- | ---- |
@@ -712,6 +712,8 @@ Based on the Code Institute's Love Running project content, the following steps 
 
 \
 After first deployment, several updates have been carried out before the final version. These updates were implemented in the deployed website from Gitpod, just by using the "push" command for every commit (change) in the ongoing development.
+
+The project can also be forked from the repository (https://github.com/csc7/PP2_CI_WW), please check for the "Fork" button, top-right of the page, to achieve this task.
 
 <br><br>
 ## [Back to Index](#index)
