@@ -235,9 +235,10 @@ The following languages, software and tools were implemented using Windows 10 Pr
 - #### **Gitpod**
 - #### **Font Awesome (v5.15)**
 - #### **Bootstrap (v4.0)**
+- #### **EmailJS**
 - #### **Balsamiq Wireframes (v4.2.4, Editor Version 2.6.0)**
 - #### **Google Fonts**
-- #### **MATLAB, The MathWorks, Inc. (to generate function plots in Functions page)**
+- #### **MATLAB, The MathWorks, Inc. (to generate function plots in Functions page and obtain Morlet function)**
 - #### **W3C Markup Validation Service**
 - #### **W3C CSS Validation Service**
 - #### **WAVE Web Accessibility Evaluation Tool**
@@ -259,7 +260,7 @@ The website consists of four pages, where each of them is divided in three parts
 - ### **Website logo**
 
 It is located in all pages, fixed, top-left, and always visible.
-*User Stories Addressed by this Feature:* 8; 9 and ........
+*User Stories Addressed by this Feature:* 8; 16; 17; 18 and 21.
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
@@ -273,7 +274,7 @@ It is located in all pages, fixed, top-left, and always visible.
 - ### **Fixed navigation menu**
 
 It is located in the header, fixed on all pages to facilitate navigation, and responsive.
-*User Stories Addressed by this Feature:* 4; 8; 15 and 21.
+*User Stories Addressed by this Feature:* 1; 7; 8; 16; 17; 18; 19; 20 and 21.
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
@@ -285,17 +286,67 @@ It is located in the header, fixed on all pages to facilitate navigation, and re
 </details>
 
 
-- ### **Fixed "Request Button"**
-It is located on top, in the navigation menu, to the right, fixed and present at all times, in all sizes. It allows to request any service from any page, in a simple way provided by a modal form.
+- ### **Summary of Functions**
 
-*User Stories Addressed by this Feature:* 4 and 15.
+It can be found in the Functions page and show the functions of the wavelts that can be plotted in the Generator page.
+*User Stories Addressed by this Feature: 1; 2; 3; 7; 9; 16; 17; 19 and 22.
 
-adasfasdfasdfa
+*Please check "7. Testing of User Stories" for more details.*
+<details>
+    <summary>Check Image</summary>
 
-- ### **Contact details**
+![Contact Details Image](docs/features-and-evidence/12-contact-details.PNG)
 
-It can be found in the Contact Us page, on the right, below the map. It contains the address and telephone of the company.
-*User Stories Addressed by this Feature: 6; 7 and 11.
+</details>
+
+
+- ### **Wavelet Generator**
+
+It can be found in the Generator page and gives the option to select type of wavelet, sampling rate, length of wavelet and frequency. The wavelet generated can then be plotted using Google Charts and/or be sent to an e-mail address, informing the user if the email successfully goes through.
+*User Stories Addressed by this Feature: 1; 4; 5; 7; 10; 15; 16; 17; 19; 20; 22 and 23.
+
+*Please check "7. Testing of User Stories" for more details.*
+<details>
+    <summary>Check Image</summary>
+
+![Contact Details Image](docs/features-and-evidence/12-contact-details.PNG)
+
+</details>
+
+
+- ### **Wavelet Graph**
+
+It can be found in the Generator page and graph the selected wavelet using Google Charts.
+*User Stories Addressed by this Feature: 1; 4; 7; 10; 15; 16; 17; 19; 20; 22 and 23.
+
+*Please check "7. Testing of User Stories" for more details.*
+<details>
+    <summary>Check Image</summary>
+
+![Contact Details Image](docs/features-and-evidence/12-contact-details.PNG)
+
+</details>
+
+
+- ### **Quiz**
+
+It can be found in the Quiz page; it is a very simple interactive quiz of ten questions where users can test theri basic knowledge and/or take a brake when they want. It contains a panel with the amount of questions and correct ones, a timer, a progress bar, the last answer and the last correct answer. A start button launches the quiz, which is stopped automatically after the tenth questions, with an alert message.
+*User Stories Addressed by this Feature: 1; 7; 11; 16; 17; 19; 20 and 24.
+
+*Please check "7. Testing of User Stories" for more details.*
+<details>
+    <summary>Check Image</summary>
+
+![Contact Details Image](docs/features-and-evidence/12-contact-details.PNG)
+
+</details>
+
+
+
+- ### **Contact Form**
+
+It can be found in the Contact and allows users to contact the website developer. It prevents the form to be sent with incomplete fields, informs the user if the message goes through and disables the send button in order not to send the consultation more than once.
+*User Stories Addressed by this Feature: 1; 6; 7; 12; 13; 14; 17; 19; 20; 25 and 26.
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
@@ -308,8 +359,8 @@ It can be found in the Contact Us page, on the right, below the map. It contains
 
 - ### **Footer**
 
-It is located at the bottom of all pages, containing icons with links to social networks and e-mail applications (to automatically load company's e-mail address in the addressee field).
-*User Stories Addressed by this Feature:* 6; 7; 11; 20 and 21.
+It is located at the bottom of all pages, containing icons with links to LinkedIn, GitHub and e-mail application (to automatically load developer's e-mail address in the addressee field).
+*User Stories Addressed by this Feature:* 1; 6; 7; 12; 14; 16; 17; 18; 19 and 25.
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
@@ -322,8 +373,8 @@ It is located at the bottom of all pages, containing icons with links to social 
 
 - ### **404 page**
 
-It is a different page that appears in case there is any issue loading the page, like a similar incorrect URL. It contains a background image related to the website, that repeats itself, and contains the message *"Sorry, something went wrong."*.
-*User Stories Addressed by this Feature:* 8 and 9.
+It is a different page that appears in case there is any issue when loading the page, like a similar incorrect URL. It contains a light red background and contains the message *"Sorry, something went wrong."*.
+*User Stories Addressed by this Feature:* 17; 27.
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
