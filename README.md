@@ -611,7 +611,7 @@ ___
 # **8 . Testing of User Stories**
 
 
-- ### **First time users**
+## **First time users**
 
 The following are testing of User Stories previously described above:
 <br><br>
@@ -706,7 +706,7 @@ The following are testing of User Stories previously described above:
 <br><br>
 
 
-- ### **Returning users**
+## **Returning users**
 
 7. As a returning user, I want to have the website accessible from any device, so I do not depend on only one device to access the information.
 
@@ -837,7 +837,7 @@ The following are testing of User Stories previously described above:
 
 
 
-- ### **Site Owner**
+## **Site Owner**
 15. As owner, I want to create a website that provides a basic service (wavelet generation) so users can use it to check and obtain wavelets without using longer solutions for the generation/checking of them.
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
