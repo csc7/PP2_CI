@@ -393,11 +393,11 @@ ___
 
 The introductory image on top of this README file was generated using the [Am I Responsive site](http://ami.responsivedesign.is/?url=https%3A%2F%2Fcsc7.github.io%2FPP1_CI_TGC) to test how the website displays in different screen sizes.
 
-Development tools of Google Chrome (Version 91.0.sdfsdfs, Official Build, 64-bit), Microsoft Edge (Version 91.0.asdfsdf, Official build, 64-bit) and Firefox (89.0.asdfsd, 64-bit) have been used to test the behaviour of the website for screen sizes between 320x568px to 1920x1370px.
+Development tools of Google Chrome (Version 92.0.4515.107, Official Build, 64-bit), Microsoft Edge (Version 92.0.902.62, Official build, 64-bit) and Firefox (Version 90.0.2, 64-bit) have been used to test the behaviour of the website for screen sizes between 320x568px to 1920x1370px.
 
-The website was tested using these browsers and also Microsoft Internet Explorer (Version 2004, OS Build 19041.1052).
+The website was tested using these browsers and also Microsoft Internet Explorer (Version 2004, OS Build 19041.1110).
 
-Android in two different cell phones were used .....
+Samsung Internet (version 14.0.1.62) was used to test the website. Also, some users have collaborated checking the website in the cell phones, mostly with Android-based operating systems.
 
 The following tools were used to validate the files of the website:
 
@@ -406,25 +406,25 @@ https://validator.w3.org/ was used to validate the HTML files. All files ended u
 Please check the evidence below:
 
 <details>
-    <summary>Home Page</summary>
+    <summary>Functions Page</summary>
 
 ![Evidence of no errors and warnings in the Home HTML file](docs/validation/validation-home.PNG) 
 </details>
 
 <details>
-    <summary>About Us Page</summary>
+    <summary>Generator Page</summary>
 
 ![Evidence of no errors and warnings in the About Us HTML file](docs/validation/validation-about-us.PNG)
 </details>
 
 <details>
-    <summary>Our Services Page</summary>
+    <summary>Quiz Page</summary>
 
 ![Evidence of no errors and warnings in the Our Services HTML file](docs/validation/validation-our-services.PNG) 
 </details>
 
 <details>
-    <summary>Contact Us Page</summary>
+    <summary>Contact Page</summary>
 
 ![Evidence of no errors and warnings in the Contact Us HTML file](docs/validation/validation-contact-us.PNG) 
 </details>
@@ -471,30 +471,63 @@ Please check the evidence below:
 
 <br><br>
 
+## **JavaScript Files**
+https://jshint.com/ was used to validate the JavaScript files.
+Please check the evidence below:
+
+<details>
+    <summary>Functions Page</summary>
+
+![Evidence of no errors and warnings in the Home HTML file](docs/validation/validation-home.PNG) 
+</details>
+
+<details>
+    <summary>Generator Page</summary>
+
+![Evidence of no errors and warnings in the About Us HTML file](docs/validation/validation-about-us.PNG)
+</details>
+
+<details>
+    <summary>Quiz Page</summary>
+
+![Evidence of no errors and warnings in the Our Services HTML file](docs/validation/validation-our-services.PNG) 
+</details>
+
+<details>
+    <summary>Contact Page</summary>
+
+![Evidence of no errors and warnings in the Contact Us HTML file](docs/validation/validation-contact-us.PNG) 
+</details>
+
+#### [Back to Index](#index)
+
+<br>
+
+
 
 ## **Accessibility**
 https://wave.webaim.org/ was used to validate accessibility. Although there are warnings, all pages contains zero errors. Please check evidence below:
 
 <details>
-    <summary>Home Page</summary>
+    <summary>Functions Page</summary>
 
 ![Evidence of no accessibility errors in the Home HTML file](docs/validation/validation-home-accessibility.PNG) 
 </details>
 
 <details>
-    <summary>About Us Page</summary>
+    <summary>Generator Page</summary>
 
 ![Evidence of no accessibility errors in the About Us HTML file](docs/validation/validation-about-us-accessibility.PNG)
 </details>
 
 <details>
-    <summary>Our Services Page</summary>
+    <summary>Quiz Page</summary>
 
 ![Evidence of no accessibility errors in the Our Services HTML file](docs/validation/validation-our-services-accessibility.PNG) 
 </details>
 
 <details>
-    <summary>Contact Us Page</summary>
+    <summary>Contact Page</summary>
 
 ![Evidence of no accessibility errors in the Contact Us HTML file](docs/validation/validation-contact-us-accessibility.PNG) 
 </details>
@@ -514,49 +547,49 @@ https://wave.webaim.org/ was used to validate accessibility. Although there are 
 Google Lighthouse (used in Google, Microsoft Edge and Firefox) were used to evaluate the performance of the pages. Please check the results below:
 
 <details>
-    <summary>Home Page for Mobile(94)</summary>
+    <summary>Functions Page for Mobile(94)</summary>
 
 ![Evidence of no accessibility errors in the Home HTML file](docs/validation/validation-home-performance-mobile.PNG) 
 </details>
 
 <details>
-    <summary>Home Page for Desktop (99)</summary>
+    <summary>Functions Page for Desktop (99)</summary>
 
 ![Evidence of no accessibility errors in the Home HTML file](docs/validation/validation-home-performance-desktop.PNG) 
 </details>
 
 <details>
-    <summary>About Us Page for Mobile (98)</summary>
+    <summary>Generator Page for Mobile (98)</summary>
 
 ![Evidence of no accessibility errors in the About Us HTML file](docs/validation/validation-about-us-performance-mobile.PNG)
 </details>
 
 <details>
-    <summary>About Us Page for Desktop (99)</summary>
+    <summary>Generator Page for Desktop (99)</summary>
 
 ![Evidence of no accessibility errors in the About Us HTML file](docs/validation/validation-about-us-performance-desktop.PNG)
 </details>
 
 <details>
-    <summary>Our Services Page for Mobile (94)</summary>
+    <summary>Quiz Page for Mobile (94)</summary>
 
 ![Evidence of no accessibility errors in the Our Services HTML file](docs/validation/validation-our-services-performance-mobile.PNG) 
 </details>
 
 <details>
-    <summary>Our Services Page for Desktop (99)</summary>
+    <summary>Quiz Page for Desktop (99)</summary>
 
 ![Evidence of no accessibility errors in the Our Services HTML file](docs/validation/validation-our-services-performance-desktop.PNG) 
 </details>
 
 <details>
-    <summary>Contact Us Page for Mobile (91)</summary>
+    <summary>Contact Page for Mobile (91)</summary>
 
 ![Evidence of no accessibility errors in the Contact Us HTML file](docs/validation/validation-contact-us-performance-mobile.PNG) 
 </details>
 
 <details>
-    <summary>Contact Us Page for Desktop (100)</summary>
+    <summary>Contact Page for Desktop (100)</summary>
 
 ![Evidence of no accessibility errors in the Contact Us HTML file](docs/validation/validation-contact-us-performance-desktop.PNG) 
 </details>
