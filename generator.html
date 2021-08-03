@@ -26,11 +26,11 @@
     <link rel="icon" type="image/png" href="wavelet-icon.PNG">
 
     <!-- Credit: EmailJS
-    Code copied on July 31st, 2021, at 6:37, from EmailJS personal account-->
+    Code copied on August 2nd, 2021, at 2:07, from EmailJS personal account-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script type="text/javascript">
     (function() {
-    emailjs.init("user_MNQL3PP8hE3qKe1AHoGqQ");
+    emailjs.init("user_o5O0kmL8NWgC0wZzvn6X8");
     })();
     </script>
 </head>
@@ -115,6 +115,12 @@
             </div>
             <button id="generate-button" type="submit">Generate</button>
             <form id="export-data" onsubmit="return sendData(this);">
+                <div class="panel-row-label">
+                    <label for="email-field">E-mail</label>
+                </div>
+                <div class="panel-row-input">
+                    <input id="email-field" class="input-field" type="email" name="email" placeholder="Your e-mail" required>
+                </div>
                 <input id="export-button" type="submit" value="E-mail Data">
             <form>
             <div id="data-status">

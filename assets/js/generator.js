@@ -209,8 +209,9 @@ function sendData(dataToSend) {
     let data = computeGraphData();
     //console.log(data);
 
-   emailjs.send("service_v7z0j0h", "Code_Institute_MS2_Data", {
-       "data": data
+   emailjs.send("service_euotwqk", "Code_Institute_MS2_WData", {
+        "to_email": dataToSend.email.value,
+        "data": data
    })
    .then(
        function(response) {
