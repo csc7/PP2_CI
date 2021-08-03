@@ -687,8 +687,8 @@ body > footer > nav > a > i {
     }
 
     #basic-concepts {
-    width: 76%;
-    margin-left: 12%;
+        width: 76%;
+        margin-left: 12%;
     }
 
     .wavelet-function-image {
@@ -701,7 +701,6 @@ body > footer > nav > a > i {
         margin-top: 2%;
         width: 70%;
     }
-
 
     /* GENERATOR PAGE */
 
@@ -717,7 +716,6 @@ body > footer > nav > a > i {
         width: 100%;
         margin-left: 0;
         border-radius: 25px;
-        /*background-color: cornflowerblue;*/
     }
 
     #conf-panel {
@@ -735,8 +733,6 @@ body > footer > nav > a > i {
     #wavelet-type-field {
         width: 100%;
     }
-
-
 
     /* QUIZ PAGE */
 
@@ -760,10 +756,8 @@ body > footer > nav > a > i {
     #text-area {
         width: 100%;
         margin-left: 0;
-        /*background-color: cyan;*/
         resize: none;
     }
-
 }
 
 /* SCREEN SIZE BETWEEN 800px AND 950px */
@@ -785,29 +779,20 @@ body > footer > nav > a > i {
 
     /* GENERATOR PAGE */
 
-
     #left-graph-div {
-        /*float: right;*/
         width: 100%;
         height: 725px;
         position: absolute;
         top: 725px;
-        /*background-color: rgb(104, 236, 137);*/
         margin-left: 0;
-        /*padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 150px;
-        padding-top: 75px;*/
         padding: 200px 10px 150px 10px;
     }    
    
     #right-conf-panel-div {
-        /*float: left;*/
         width: 100%;
         height: 550px;
         position: absolute;
         top: 200px;
-        /*background-color: rgb(146, 28, 214);*/
     }
 
     #score-panel-div-info, #last-answer-div-info {
@@ -831,8 +816,7 @@ body > footer > nav > a > i {
 
     #powered-by-Google {
         width: 100%;
-        text-align: center;
-    
+        text-align: center;    
     }
 
     #conf-panel {
@@ -849,15 +833,12 @@ body > footer > nav > a > i {
 
     #questions-area {
         width: 90%;
-
         height: 70%;
     }
 
     #question {
         height: 65%;
     }
-
-
   
     /* CONTACT PAGE */
 
@@ -877,7 +858,6 @@ body > footer > nav > a > i {
     }
 
 }
-
 
 /* SCREEN SIZE BELOW 800px */
 
