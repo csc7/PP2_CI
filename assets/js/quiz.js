@@ -149,7 +149,7 @@ function displayQuestion (num) {
 
     console.log(document.getElementById('question').children[0]);
 
-    questionStart = ['What is the frequency of the following signal: 100 sin ',
+    let questionStart = ['What is the frequency of the following signal: 100 sin ',
                 'What sampling frequency should be assigned to a  ',
                 'How long does it take (in msec) to a ',
                 'What is the frequency of the following signal: 50 cos 2Pi',
@@ -161,7 +161,7 @@ function displayQuestion (num) {
                 'How long does it take (in msec) to a  ',
                ];
 
-    questionEnd = ['t',
+    let questionEnd = ['t',
                'Hz signal in order to have it fully recovered',
                'Hz signal to complete 10 cycles',
                't',
@@ -195,13 +195,7 @@ function getCorrectAnswer() {
     return result[i-1];
 }
 
-function addPoint() {
 
-}
-
-function nextQuestion () {
-
-}
 
 function updateProgressBar() {
     if (i != 0) {
@@ -219,7 +213,7 @@ function resetQuiz() {
     totalCorrect = 0;
     document.getElementById("answer").value = null;
     document.getElementById("answer").focus();
-    for (j = 0; j < 10; j++) {
+    for (let j = 0; j < 10; j++) {
         document.getElementById('prog-bar').children[j].style.backgroundColor = "rgb(148, 157, 240)";
     }
     //document.getElementById('prog-bar').children[0].style.backgroundColor= "blue";
