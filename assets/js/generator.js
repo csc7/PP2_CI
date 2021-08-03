@@ -175,7 +175,20 @@ function computeGraphData() {
                 console.log(dataForGraph);
                 break;
             case 'Morlet':
-                // Morlet function computation (real part)
+                // Time Vector including previous first sample and the rest
+                for (let i = -totalSamples + 1; i < totalSamples; i++) {
+                    timeVector.push(samplingRate * i);
+                }
+                // Computation of amplitudes for each time
+                // From zero to the double rather than from -totalSamples to +totalSamples
+                // because the timeVector is already created and cannot be indexed with
+                // negative indexes.
+                for (let j = 0; j < 2 * totalSamples - 1; j++) {
+                    amplitude.push( Math.exp((timeVector[j] * timeVector[j]) / (-2)) * Math.cos(5 * timeVector[j]) );
+                    dataForGraph.push([timeVector[j], amplitude[j]]);
+                }
+                console.log(dataForGraph);
+                break;
             case 'Ricker':
                 // Time Vector including previous first sample and the rest
                 for (let i = -totalSamples + 1; i < totalSamples; i++) {
@@ -186,8 +199,8 @@ function computeGraphData() {
                 // because the timeVector is already created and cannot be indexed with
                 // negative indexes.
                 for (let j = 0; j < 2 * totalSamples - 1; j++) {
-                    amplitude.push( (1 - 0.5 * frequency * frequency * timeVector[j] * timeVector[j]) * 
-                    Math.exp((-1) * frequency * frequency * timeVector[j] * timeVector[j]) );
+                    amplitude.push( (1 - 0.5 * 2 * 2 * Math.PI * Math.PI * frequency * frequency * timeVector[j] * timeVector[j]) * 
+                    Math.exp( (-1/4) * 2 * 2 * Math.PI * Math.PI * frequency * frequency * timeVector[j] * timeVector[j] ) );
                     dataForGraph.push([timeVector[j], amplitude[j]]);
                 }
                 console.log(dataForGraph);
