@@ -1116,7 +1116,7 @@ Balsamiq Wireframes: I have used it to create all the wireframes.
 
 Jesse James Garrett's process for user experience.
 
-Bootstrap:
+- Bootstrap:
 
     - Bootstrap Navbar, copied from https://getbootstrap.com/docs/4.0/components/navbar/, July 8th, 2021, at 00:35. Menu content modified.
 
@@ -1136,7 +1136,7 @@ Bootstrap:
     - To center elements in Navs and Navbar: justify-content-center class. Copied on July 8th, 2021, 03:43 from https://getbootstrap.com/docs/4.0/components/navs/ .
 
 
-Font Awesome:
+- Font Awesome:
 
     - Icon for WAVELET logo, downloaded on July 8th, 2021, 2:46 from https://fontawesome.com/v5.15/icons/creative-commons-sampling-plus?style=brands .
 
@@ -1148,17 +1148,17 @@ Font Awesome:
 
     - Icon for E-mail/Envelope: downloaded on July 8th, 2021, 03:05 from https://fontawesome.com/v5.15/icons/envelope?style=regular . <i class="far fa-envelope"></i>
 
-Geeks for Geeks:
+- Geeks for Geeks:
 
     - Positioning of footer on bottom: https://www.geeksforgeeks.org/how-to-create-footer-to-stay-at-the-bottom-of-a-web-page/; accessed on July 20th, 2021, at 00:20.
 
-Google:
+- Google:
 
     - Google Fonts: Nunito (Regular 400) and Montserrat (Regular 400), first imported on July 19th, 2021, 23:05, from: https://fonts.google.com/; https://fonts.google.com/specimen/Nunito#license .
 
     - Google Charts: https://developers.google.com/chart . Accessed first time on July 24th, 2021, at 23:00. Getting started with https://developers.google.com/chart/interactive/docs/quick_start; at 23:04. Line charts with https://developers.google.com/chart/interactive/docs/gallery/linechart at 23:06.
 
-MATLAB:
+- MATLAB:
 
     - The following pages were visited on July 25th, 2021, between 8:00 and 9:10 to consult plot properties:
         - https://uk.mathworks.com/help/wavelet/ref/wavefun.html#d123e93233 .
@@ -1170,13 +1170,13 @@ MATLAB:
         - https://uk.mathworks.com/matlabcentral/answers/9559-change-the-font-size-of-the-current-axis .
     - Morlet function: copied from Mathworks, https://uk.mathworks.com/help/wavelet/ref/morlet.html, on August 3rd, 2021, at 03:00.
 
-MDN Web Docs Moz://a;
+- MDN Web Docs Moz://a;
     - Confirming return value of Math.floor() function, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor , accessed on July 24th, 2021, at 6:57.
 
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow, accessed on July 25th, 2021, 7:25.
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log, accessed on July 25th, 2021, 7:27.
 
-Stack Overflow:
+- Stack Overflow:
 
     - Assigning height for header and footer, and rest of screen for body: https://stackoverflow.com/questions/10228280/how-to-make-div-height-100-between-header-and-footer; accessed on July 20th, 2021, at 00:30.
 
@@ -1188,7 +1188,7 @@ Stack Overflow:
     - https://stackoverflow.com/questions/14395050/slice-array-from-n-to-last-element, accessed on July 25th, 2021, at 6:39.
 
 
-W3Schools (Powered by W3.CSS):
+- W3Schools (Powered by W3.CSS):
 
     - Position of "div" elements: https://www.w3schools.com/css/css_positioning.asp; accessed on July 19th, 2021, at 23:55.
     - https://www.w3schools.com/jsref/met_document_addeventlistener.asp .
