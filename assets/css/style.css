@@ -5,6 +5,7 @@
 /* Specific element styles are commented on top of the element, without break line */
 
 /* FONTS */
+
 /* From Google Fonts:
 Nunito (Regular 400) and Montserrat (Regular 400),
 first imported on July 19th, 2021, 23:05, from:
@@ -38,11 +39,9 @@ https://fonts.google.com/specimen/Nunito#license */
     padding-top: 20px;
     color: blue;
     height: 75px;
-    /*background-color: grey;*/
     position: relative;
     top: 75px;
 }
-
 
 /* HEADER */
 
@@ -62,14 +61,12 @@ Style copied from on July 8th, 2021, at 00:35,
 from https://getbootstrap.com/docs/4.0/components/navbar/
 */
 
-
 #header > nav {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 0;
     padding-right: 0;
 }
-
 
 .navbar-brand {
     padding-left: 10px;
@@ -99,7 +96,6 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
     text-decoration: underline;
 }
 
-
 .navbar-brand {
     font-size: 125%;
     font-weight: bold;
@@ -118,21 +114,11 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 }
 
 .collapse {
-    
-    /*background-color: rgb(243, 134, 134);*/
     background-color: red;
     border-radius: 5px;
 }
 
-/* BODY */
-
-
-
-
-
 /* FUNCTIONS PAGE */
-
-/* Main Body */
 
 /* To avoid moving the fixed navigation menu when clicking the
 Bootstrap hamburguer button, these properties will be changed
@@ -142,8 +128,7 @@ when clicking such button */
 }
 
 #functions-page-heading {
-    width: 50%;
-    
+    width: 50%;    
     background-color: white;
 }
 
@@ -153,8 +138,6 @@ when clicking such button */
 
 #home-body {
     width: 100%;
-    /*height: 500px; Define to fint in 1920x1080px screen (width x height); then
-                    height = 75px + 75 px + 855px + 75px = 1080px */
     background-color: rgb(247, 235, 235);
     position: absolute;
     top: 150px;
@@ -168,7 +151,6 @@ when clicking such button */
     padding-bottom: 10%; /* Change to add space below for more content/functions */
     padding-left: 1%;
     padding-right: 1%;
-    /*background-color: aqua;*/
     text-align: justify;
     background-color: white;
 }
@@ -186,16 +168,14 @@ when clicking such button */
 .wavelet-function-image {
     margin: auto;
     margin-left: 25%;
-    width: 50%;
-    
+    width: 50%;    
 }
 
 .wavelet-graph-image {
     margin: auto;
     margin-left: 25%;
     margin-top: 2%;
-    width: 50%;
-    
+    width: 50%;    
 }
 
 #references {
@@ -210,7 +190,6 @@ when clicking such button */
 
 /* GENERATOR PAGE */
 
-
 #disclaimer {
     width: 100%;
     color: rgb(98, 98, 161);
@@ -218,22 +197,13 @@ when clicking such button */
     font-weight: bold;
     font-size: 100%;
     top: 150px;
-
-
-    margin: auto; /* It does not read "margin: 0" from above, general style*/
+    margin: auto;
     text-align: center;
     padding-top: 0px;
     height: 20px;
-    /*background-color: grey;*/
     position: relative;
     top: 75px;
-
-
-
-
 }
-
-
 
 /* To avoid moving the fixed navigation menu when clicking the
 Bootstrap hamburguer button, these properties will be changed
@@ -243,9 +213,6 @@ when clicking such button */
     transition: margin-top 0.35s;
 }
 
-
-/* Graph and Configuration Panel Body Height of 725px */
-
 #left-graph-div {
     float: left;
     width: 48%;
@@ -254,40 +221,20 @@ when clicking such button */
     top: 75px;
     margin-left: 5%;
     padding-top: 50px;  
-   
-    /*background-color: rgb(104, 236, 137);*/
 }
 
 #graph {
-
     padding-top: 0;
     padding-bottom: 0;
     margin-top: 50px;
-    /*margin-bottom: 5%;*/
     padding-left: 0;
     margin-left: 5%;
     height: 100%;
     margin-bottom: 50px;
-    float: right;
-   
+    float: right;   
     border: 2px solid rgb(247, 235, 235);
     border-radius: 25px;
-    /*background-color: cornflowerblue;*/
-
-
-
-
-    /*
-    height: 510px;
-    margin-top: 5%;
-    margin-right: 25px;
-    margin-left: 50%;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    border-radius: 25px;*/
 }
-
-
 
 #curve_chart-top {
     width: 90%;
@@ -303,19 +250,8 @@ when clicking such button */
     height: 625px;
     position: relative;
     top: 75px;
-    
-    /*background-color: rgb(146, 28, 214);*/
 }
 
-/*#bottom-left-graph-div {
-    float: left;
-    width: 50%;
-    height: 365px;
-    position: relative;
-    top: 75px;
-    background-color: rgb(39, 162, 184);
-}
-*/
 #conf-panel {
     padding-top: 0%;
     padding-bottom: 5%;
@@ -328,22 +264,18 @@ when clicking such button */
     float: left;
     width: 50%;
     border-radius: 25px;
-    /*background-color: chocolate;*/
 }
-
 
 .panel-row-label {    
     width: 50%;
     height: 50px;
-    margin-left: 0;
-    
+    margin-left: 0;    
     padding-top: 10px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 125%;
     text-align: left;
     color: blue;
-    /*background-color: coral;*/
 }
 
 .panel-row-input {
@@ -352,7 +284,6 @@ when clicking such button */
     margin-left: 0;
     border: red;
     border-radius: 10px;
-    /*background-color: rgb(230, 186, 13);*/
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 125%;
@@ -360,13 +291,10 @@ when clicking such button */
     background-color: coral;
 }
 
-
-
 /* Applies also for input fields in Contact page */
 .input-field {
     border: 2px solid rgb(111, 155, 236);
-    border-radius: 5px;
-    
+    border-radius: 5px;    
 }
 
 #wavelet-type-field {
@@ -382,10 +310,8 @@ when clicking such button */
     font-weight: bold;
     font-size: 125%;
     text-align: left;
-    color: red;
-    
+    color: red;    
 }
-
 
 #generate-button, #export-button {
     width: 50%;    
@@ -398,7 +324,6 @@ when clicking such button */
     font-weight: bold;
     font-size: 125%;
     outline: none;
-
     border-width: 10px;
     border-radius: 10px;
 }
@@ -411,20 +336,15 @@ when clicking such button */
     height: 25px;
     margin-left: 0;
     width: 50%;
-    /*background-color: cyan;*/
     padding-top: 0px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 125%;
     text-align: center;
-    /*background-color: coral;*/
     color: blue;
-
 }
 
 /* QUIZ */
-
-/* Socre-Progress Panel plus Quiz Body Height of 725px  ????? */
 
 /* To avoid moving the fixed navigation menu when clicking the
 Bootstrap hamburguer button, these properties will be changed
@@ -435,17 +355,14 @@ when clicking such button */
 }
 
 #funny-message-div {
-
     color: rgb(98, 98, 161);
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 125%;
-
     text-align: center;
     padding-top: 0px;
     width: 100%;
     height: 30px;
-    /*background-color: rgb(115, 43, 223);*/
     position: relative;
     top: 75px;
 }
@@ -453,7 +370,6 @@ when clicking such button */
 #start-panel-div {
     width: 100%;
     height: 60px;
-    /*background-color: rgb(209, 207, 212);*/
     position: relative;
     top: 75px;
 }
@@ -461,7 +377,6 @@ when clicking such button */
 #score-panel-div {
     width: 100%;
     height: 75px;
-    /*background-color: rgb(111, 29, 218);*/
     position: relative;
     top: 75px;
 }
@@ -469,7 +384,6 @@ when clicking such button */
 #last-answer-div {
     width: 100%;
     height: 75px;
-    /*background-color: rgb(209, 207, 212);*/
     position: relative;
     top: 75px;
 }
@@ -478,14 +392,12 @@ when clicking such button */
     width: 50%;
     margin: auto;
     height: 75px;
-    /*background-color: burlywood;*/
 }
 
 #last-answer-div-info {
     width: 50%;
     margin: auto;
     height: 75px;
-    /*background-color: burlywood;*/
 }
 
 #score-div {
@@ -498,9 +410,7 @@ when clicking such button */
     font-weight: bold;
     font-size: 125%;
     text-align: center;
-
     color: rgb(98, 98, 161);
-    /*background-color: coral;*/
 }
 
 #time-div {
@@ -513,11 +423,7 @@ when clicking such button */
     font-weight: bold;
     font-size: 125%;
     text-align: center;
-
     color: rgb(98, 98, 161);
-
-
-    /*background-color: rgb(155, 51, 13);*/
 }
 
 #last-answer {
@@ -530,7 +436,6 @@ when clicking such button */
     font-weight: bold;
     font-size: 125%;
     text-align: center;
-
     color: rgb(98, 98, 161);
 }
 
@@ -544,14 +449,12 @@ when clicking such button */
     font-weight: bold;
     font-size: 125%;
     text-align: center;
-
     color: rgb(98, 98, 161);
 }
 
 #progress-panel-div {
     width: 100%;
     height: 25px;
-    /*background-color: rgb(186, 138, 248);*/
     position: relative;
     top: 75px;
 }
@@ -577,7 +480,6 @@ when clicking such button */
     width: 100%;
     padding-top: 20px;
     height: 650px;
-    /*background-color: rgb(32, 223, 64);*/
     position: relative;
     top: 75px;
 }
@@ -601,8 +503,6 @@ when clicking such button */
     position: relative;
     margin: auto;
     text-align: center;
-
-    /*background-color: chartreuse;*/
 }
 
 #answer {
@@ -611,7 +511,6 @@ when clicking such button */
     margin-left: 35%;
     margin-top: 25px;
     margin-bottom: 25px;
-
     border: 2px solid red;
     border-radius: 5px;
 }
@@ -644,8 +543,6 @@ when clicking such button */
     border-width: 10px;
     border-radius: 10px;
 }
-    
-
 
 /* CONTACT PAGE */
 
@@ -657,12 +554,9 @@ when clicking such button */
     transition: margin-top 0.35s;
 }
 
-/* Main Body */
-
 #contact-form-div {
     padding: 0px;
     width: 100%;
-    /*background-color: rgb(191, 241, 50);*/
     position: absolute;
     top: 150px;
     bottom: 75px;
@@ -674,61 +568,32 @@ when clicking such button */
     height: 675px; /* To keep proportions with other sections of the website */
     width: 50%;
     margin: auto;
-    /*background-color: rgb(241, 108, 19);*/
 }
 
-.form-row-label {    
-    
+.form-row-label {        
     height: 50px;
     margin-left: 0;
-    /*background-color: cyan;*/
     padding-top: 10px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 125%;
     text-align: left;
-    /*background-color: coral;*/
     color: blue;
 }
 
 .form-row-input {
     height: 50px;
-    margin-left: 0;
-    
+    margin-left: 0;    
     border-radius: 10px;
-    /*background-color: rgb(230, 186, 13);*/
-    font-family: 'Nunito', sans-serif;
-    
+    font-family: 'Nunito', sans-serif;    
     font-size: 125%;
     text-align: left;
 }
-
-/*.form-row-label {    
-    width: 50%;
-    height: 50px;
-    margin-left: 25%;
-}
-
-/*.form-row-input {
-    width: 50%;
-    height: 50px;
-    margin-left: 25%;
-    border: blue;
-    border-radius: 10px;
-    background-color: rgb(230, 186, 13);
-}*/
 
 .input-field {
     width: 100%;
     height: 100%;
 }
-
-/*#text-area {
-
-    padding-left: 0px;
-    padding-right: 0px;
-
-}*/
 
 #form-description {
     resize: none;
@@ -736,7 +601,6 @@ when clicking such button */
     margin-left: 0;
     border: 2px solid rgb(111, 155, 236);
     border-radius: 5px;
-    /*background-color: rgb(230, 186, 13);*/
     font-family: 'Nunito', sans-serif;
     font-size: 125%;
     text-align: left;
@@ -761,17 +625,13 @@ when clicking such button */
 #email-status {    
     height: 50px;
     margin-left: 0;
-    /*background-color: cyan;*/
     padding-top: 10px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 125%;
     text-align: center;
-    /*background-color: coral;*/
     color: blue;
-
 }
-
 
 /* FOOTER */
 
@@ -792,13 +652,9 @@ body > footer > nav > a > i {
     color: white;
 }
 
-
 /* 404 page */
 
 #body-404 {
-    /*background-image: url("/assets/images/morlet-wavelet.PNG");
-    background-repeat: repeat;*/
-    
     background-color: rgb(247, 235, 235); /* To have contrast for exceptional very big screens, above 1920px*/
 }
 
@@ -845,10 +701,9 @@ body > footer > nav > a > i {
         margin-top: 2%;
         width: 70%;
     }
-}
+
 
     /* GENERATOR PAGE */
-
 
     #left-graph-div {
         width: 50%;
@@ -909,7 +764,7 @@ body > footer > nav > a > i {
         resize: none;
     }
 
-
+}
 
 /* SCREEN SIZE BETWEEN 800px AND 950px */
 
