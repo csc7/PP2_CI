@@ -724,9 +724,9 @@ ___
 
 Code Institute: I have used the learning material in the course as a guide and reference. "Love Maths - Essentials Project" was the main reference for the Quiz page and "Sending Emails Using EmailJS" for sending e-mails from the contact form in the Contact page.
 
+Love Maths - Essentials Project, from Code Institute, as a guide, source of design, concepts and code for this project, especially for the Quiz page.
 
-
-Love Running - E
+Love Running - Essentials Project, from Code Institute, as a guide, source of design, concepts and code for this project.
 
 Balsamiq Wireframes: I have used it to create all the wireframes.
 
@@ -752,7 +752,6 @@ Bootstrap:
     - To center elements in Navs and Navbar: justify-content-center class. Copied on July 8th, 2021, 03:43 from https://getbootstrap.com/docs/4.0/components/navs/ .
 
 
-
 Font Awesome:
 
     - Icon for WAVELET logo, downloaded on July 8th, 2021, 2:46 from https://fontawesome.com/v5.15/icons/creative-commons-sampling-plus?style=brands .
@@ -765,11 +764,45 @@ Font Awesome:
 
     - Icon for E-mail/Envelope: downloaded on July 8th, 2021, 03:05 from https://fontawesome.com/v5.15/icons/envelope?style=regular . <i class="far fa-envelope"></i>
 
+Geeks for Geeks:
+
+    - Positioning of footer on bottom: https://www.geeksforgeeks.org/how-to-create-footer-to-stay-at-the-bottom-of-a-web-page/; accessed on July 20th, 2021, at 00:20.
+
 Google:
 
     - Google Fonts: Nunito (Regular 400) and Montserrat (Regular 400), first imported on July 19th, 2021, 23:05, from: https://fonts.google.com/; https://fonts.google.com/specimen/Nunito#license .
 
     - Google Charts: https://developers.google.com/chart . Accessed first time on July 24th, 2021, at 23:00. Getting started with https://developers.google.com/chart/interactive/docs/quick_start; at 23:04. Line charts with https://developers.google.com/chart/interactive/docs/gallery/linechart at 23:06.
+
+MATLAB:
+
+    - The following pages were visited on July 25th, 2021, between 8:00 and 9:10 to consult plot properties:
+        - https://uk.mathworks.com/help/wavelet/ref/wavefun.html#d123e93233 .
+        - https://uk.mathworks.com/matlabcentral/answers/301349-how-to-set-different-colors-for-the-text-in-a-legend .
+        - https://uk.mathworks.com/matlabcentral/answers/99232-how-can-i-change-the-gridline-color-without-changing-the-tick-and-tick-label-colors-in-matlab .
+        - https://uk.mathworks.com/help/matlab/ref/matlab.graphics.illustration.legend-properties.html .
+        - https://uk.mathworks.com/matlabcentral/answers/688854-legend-is-it-possible-to-remove-the-border-while-leaving-the-background-color .
+        - https://uk.mathworks.com/matlabcentral/answers/32617-how-to-remove-ticks-from-the-x-axis .
+        - https://uk.mathworks.com/matlabcentral/answers/9559-change-the-font-size-of-the-current-axis .
+    - Morlet function: copied from Mathworks, https://uk.mathworks.com/help/wavelet/ref/morlet.html, on August 3rd, 2021, at 03:00.
+
+MDN Web Docs Moz://a;
+    - Confirming return value of Math.floor() function, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor , accessed on July 24th, 2021, at 6:57.
+
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow, accessed on July 25th, 2021, 7:25.
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log, accessed on July 25th, 2021, 7:27.
+
+Stack Overflow:
+
+    - Assigning height for header and footer, and rest of screen for body: https://stackoverflow.com/questions/10228280/how-to-make-div-height-100-between-header-and-footer; accessed on July 20th, 2021, at 00:30.
+
+    - https://stackoverflow.com/questions/256754/how-to-pass-arguments-to-addeventlistener-listener-function .
+    - https://stackoverflow.com/questions/44935185/enable-and-disable-onkeydown-event .
+
+    - Avoid resizing of text areas. https://stackoverflow.com/questions/5235142/how-do-i-disable-the-resizable-property-of-a-textarea, accessed on July 24th, 2021, at 8:44.
+
+    - https://stackoverflow.com/questions/14395050/slice-array-from-n-to-last-element, accessed on July 25th, 2021, at 6:39.
+
 
 W3Schools (Powered by W3.CSS):
 
@@ -789,40 +822,6 @@ W3Schools (Powered by W3.CSS):
 
     - JavaScript Form Validation. https://www.w3schools.com/js/js_validation.asp, first accessed on July 31st, 2021, at 8:23.
 
-
-Geeks for Geeks:
-
-    - Positioning of footer on bottom: https://www.geeksforgeeks.org/how-to-create-footer-to-stay-at-the-bottom-of-a-web-page/; accessed on July 20th, 2021, at 00:20.
-
-
-Stack Overflow:
-
-    - Assigning height for header and footer, and rest of screen for body: https://stackoverflow.com/questions/10228280/how-to-make-div-height-100-between-header-and-footer; accessed on July 20th, 2021, at 00:30.
-
-    - https://stackoverflow.com/questions/256754/how-to-pass-arguments-to-addeventlistener-listener-function .
-    - https://stackoverflow.com/questions/44935185/enable-and-disable-onkeydown-event .
-
-    - Avoid resizing of text areas. https://stackoverflow.com/questions/5235142/how-do-i-disable-the-resizable-property-of-a-textarea, accessed on July 24th, 2021, at 8:44.
-
-    - https://stackoverflow.com/questions/14395050/slice-array-from-n-to-last-element, accessed on July 25th, 2021, at 6:39.
-
-MDN Web Docs Moz://a;
-    - Confirming return value of Math.floor() function, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor , accessed on July 24th, 2021, at 6:57.
-
-    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow, accessed on July 25th, 2021, 7:25.
-    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log, accessed on July 25th, 2021, 7:27.
-
-MATLAB:
-
-    - The following pages were visited on July 25th, 2021, between 8:00 and 9:10 to consult plot properties:
-        - https://uk.mathworks.com/help/wavelet/ref/wavefun.html#d123e93233 .
-        - https://uk.mathworks.com/matlabcentral/answers/301349-how-to-set-different-colors-for-the-text-in-a-legend .
-        - https://uk.mathworks.com/matlabcentral/answers/99232-how-can-i-change-the-gridline-color-without-changing-the-tick-and-tick-label-colors-in-matlab .
-        - https://uk.mathworks.com/help/matlab/ref/matlab.graphics.illustration.legend-properties.html .
-        - https://uk.mathworks.com/matlabcentral/answers/688854-legend-is-it-possible-to-remove-the-border-while-leaving-the-background-color .
-        - https://uk.mathworks.com/matlabcentral/answers/32617-how-to-remove-ticks-from-the-x-axis .
-        - https://uk.mathworks.com/matlabcentral/answers/9559-change-the-font-size-of-the-current-axis .
-    - Morlet function: copied from Mathworks, https://uk.mathworks.com/help/wavelet/ref/morlet.html, on August 3rd, 2021, at 03:00.
 
 Back to Index
 ___
