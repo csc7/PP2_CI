@@ -104,14 +104,14 @@ function computeGraphData() {
             case 'Haar':
                 let amplitudeHaarValue = [];
                 // Time Vector including previous first sample and the rest
-                for (let i = -totalSamples+1; i < totalSamples; i++) {
+                for (let i = -totalSamples + 1; i < totalSamples; i++) {
                     timeVector.push(samplingRate * i);
                 }
                 // Computation of amplitudes for each time
                 // From zero to the double rather than from -totalSamples to +totalSamples
                 // because the timeVector is already created and cannot be indexed with
                 // negative indexes.
-                for (let j = 0; j < 2 * totalSamples-1; j++) {
+                for (let j = 0; j < 2 * totalSamples - 1; j++) {
                     if (timeVector[j] >= 0 && timeVector[j] < 5) {
                         // 2 points are needed in time 0 in order to have the step,
                         // otherwise it will show a slope
@@ -161,34 +161,36 @@ function computeGraphData() {
                 break;
             case 'Mexican Hat':
                 // Time Vector including previous first sample and the rest
-                for (let i = -totalSamples; i < totalSamples; i++) {
+                for (let i = -totalSamples + 1; i < totalSamples; i++) {
                     timeVector.push(samplingRate * i);
                 }
                 // Computation of amplitudes for each time
                 // From zero to the double rather than from -totalSamples to +totalSamples
                 // because the timeVector is already created and cannot be indexed with
                 // negative indexes.
-                for (let j = 0; j < 2 * totalSamples; j++) {
+                for (let j = 0; j < 2 * totalSamples - 1; j++) {
                     amplitude.push( (2 / Math.sqrt(3)) * (Math.pow(Math.PI, (-1/4))) * (1 - timeVector[j] * timeVector[j]) * Math.exp(-timeVector[j] * timeVector[j] / 2) );
                     dataForGraph.push([timeVector[j], amplitude[j]]);
                 }
+                console.log(dataForGraph);
                 break;
             case 'Morlet':
                 // Morlet function computation (real part)
             case 'Ricker':
                 // Time Vector including previous first sample and the rest
-                for (let i = -totalSamples; i < totalSamples; i++) {
+                for (let i = -totalSamples + 1; i < totalSamples; i++) {
                     timeVector.push(samplingRate * i);
                 }
                 // Computation of amplitudes for each time
                 // From zero to the double rather than from -totalSamples to +totalSamples
                 // because the timeVector is already created and cannot be indexed with
                 // negative indexes.
-                for (let j = 0; j < 2 * totalSamples; j++) {
+                for (let j = 0; j < 2 * totalSamples - 1; j++) {
                     amplitude.push( (1 - 0.5 * frequency * frequency * timeVector[j] * timeVector[j]) * 
                     Math.exp((-1) * frequency * frequency * timeVector[j] * timeVector[j]) );
                     dataForGraph.push([timeVector[j], amplitude[j]]);
                 }
+                console.log(dataForGraph);
                 break;
             default:
                 // Default task
