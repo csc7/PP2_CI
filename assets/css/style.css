@@ -210,6 +210,31 @@ when clicking such button */
 
 /* GENERATOR PAGE */
 
+
+#disclaimer {
+    width: 100%;
+    color: rgb(98, 98, 161);
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    top: 150px;
+
+
+    margin: auto; /* It does not read "margin: 0" from above, general style*/
+    text-align: center;
+    padding-top: 0px;
+    height: 20px;
+    /*background-color: grey;*/
+    position: relative;
+    top: 75px;
+
+
+
+
+}
+
+
+
 /* To avoid moving the fixed navigation menu when clicking the
 Bootstrap hamburguer button, these properties will be changed
 when clicking such button */
@@ -911,7 +936,7 @@ body > footer > nav > a > i {
         width: 100%;
         height: 725px;
         position: absolute;
-        top: 675px;
+        top: 725px;
         /*background-color: rgb(104, 236, 137);*/
         margin-left: 0;
         /*padding-left: 10px;
@@ -926,7 +951,7 @@ body > footer > nav > a > i {
         width: 100%;
         height: 550px;
         position: absolute;
-        top: 150px;
+        top: 200px;
         /*background-color: rgb(146, 28, 214);*/
     }
 
@@ -1156,6 +1181,8 @@ body > footer > nav > a > i {
 
 /* GENERATOR PAGE */
 
+
+
     #graph {
         margin-top: 25px;
     }
@@ -1172,7 +1199,7 @@ body > footer > nav > a > i {
         width: 100%;
         height: 725px;
         position: absolute;
-        top: 725px;
+        top: 825px;
         /*background-color: rgb(104, 236, 137);*/
         margin-left: 0;
         /*padding-left: 10px;
@@ -1188,7 +1215,7 @@ body > footer > nav > a > i {
         width: 100%;
         height: 550px;
         position: absolute;
-        top: 150px;
+        top: 250px;
         /*background-color: rgb(146, 28, 214);*/
     }
 
