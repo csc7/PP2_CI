@@ -426,6 +426,13 @@ when clicking such button */
 
 }
 
+/* Change colour when focusing on the input field */
+#email-field:focus, .input-field:focus {
+    color:blue;
+    border: 3px solid blue;
+}
+
+
 /* QUIZ */
 
 /* Socre-Progress Panel plus Quiz Body Height of 725px  ????? */
@@ -620,6 +627,11 @@ when clicking such button */
     border-radius: 5px;
 }
 
+#answer:focus {
+    color:blue;
+    border: 3px solid blue;
+}
+
 #start-button {    
     width: 24%; 
     height: 50px;       
@@ -733,6 +745,11 @@ when clicking such button */
     padding-right: 0px;
 
 }*/
+
+#form-description:focus {
+    color:blue;
+    border: 3px solid blue;
+}
 
 #form-description {
     resize: none;
