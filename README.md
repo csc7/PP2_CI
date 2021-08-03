@@ -1152,6 +1152,8 @@ Jesse James Garrett's process for user experience.
 
     - Positioning of footer on bottom: https://www.geeksforgeeks.org/how-to-create-footer-to-stay-at-the-bottom-of-a-web-page/; accessed on July 20th, 2021, at 00:20.
 
+    - Icon for Google: downloaded on August 4th, 2021, 00:46 from https://fontawesome.com/v5.15/icons/google?style=brands .
+
 - Google:
 
     - Google Fonts: Nunito (Regular 400) and Montserrat (Regular 400), first imported on July 19th, 2021, 23:05, from: https://fonts.google.com/; https://fonts.google.com/specimen/Nunito#license .

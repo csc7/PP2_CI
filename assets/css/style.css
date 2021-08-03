@@ -5,6 +5,7 @@
 /* Specific element styles are commented on top of the element, without break line */
 
 /* FONTS */
+
 /* From Google Fonts:
 Nunito (Regular 400) and Montserrat (Regular 400),
 first imported on July 19th, 2021, 23:05, from:
@@ -190,6 +191,7 @@ when clicking such button */
     margin-left: 25%;
     width: 50%;
     
+    
 }
 
 .wavelet-graph-image {
@@ -197,6 +199,7 @@ when clicking such button */
     margin-left: 25%;
     margin-top: 2%;
     width: 50%;
+    border: 3px solid blue;
     
 }
 
@@ -385,8 +388,11 @@ when clicking such button */
     font-weight: bold;
     font-size: 125%;
     text-align: left;
-    color: red;
-    
+    color: red;    
+}
+
+#powered-by-Google > i {
+    color: blue;
 }
 
 
