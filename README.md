@@ -736,6 +736,7 @@ MATLAB:
         - https://uk.mathworks.com/matlabcentral/answers/688854-legend-is-it-possible-to-remove-the-border-while-leaving-the-background-color .
         - https://uk.mathworks.com/matlabcentral/answers/32617-how-to-remove-ticks-from-the-x-axis .
         - https://uk.mathworks.com/matlabcentral/answers/9559-change-the-font-size-of-the-current-axis .
+    - Morlet function: copied from Mathworks, https://uk.mathworks.com/help/wavelet/ref/morlet.html, on August 3rd, 2021, at 03:00.
 
 Back to Index
 ___

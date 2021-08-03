@@ -175,6 +175,8 @@ function computeGraphData() {
                 console.log(dataForGraph);
                 break;
             case 'Morlet':
+                // Function copied from Mathworks, https://uk.mathworks.com/help/wavelet/ref/morlet.html,
+                // on August 3rd, 2021, at 03:00.
                 // Time Vector including previous first sample and the rest
                 for (let i = -totalSamples + 1; i < totalSamples; i++) {
                     timeVector.push(samplingRate * i);
