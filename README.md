@@ -107,7 +107,7 @@ User stories are divided into the following three groups:
 2. As a user, I want to find a summary of type of wavelets, so I do not need to research for them in different sites on the web.
 3. As a user, I want fo have the functions (formulas) of the wavelets, so I do not need to go through long texts or the web to find them.
 4. As a user, I want to select the input parameters of the wavelets and see the corresponding graph of them, so I see how my parameters are affecting the wavelets.
-5. As a user, I want to have the wavelet I choose sent/exported to a server, so I can have it available for other applications and/on for download without having to use other applications that could take a longer time for the generation of the wavelet.
+5. As a user, I want to have the wavelet I choose sent to my e-mail address, so I can have it available for other applications and/on for download without having to use other applications that could take a longer time for the generation of the wavelet.
 6. As a user, I want to have the option to send comments or questions, so I can contribute with the website devolpment and/or indicate errors or bugs.
 
 - ### **Returning users**
@@ -134,9 +134,6 @@ User stories are divided into the following three groups:
 25. As owner, I want to give as many options to be contacted as possible, so users can choose forms or links in the footer to send their consultations and/or feedback in a very fast way without having to navigate throuth the website.
 26. As owner, I want to inform users if they consultation/message was succesfully sent, so they know if they need to resend it or they do not.
 27. As owner, I want to inform the user, through an error page, if there is any error when loading the website.
-
-
-
 
 
 
@@ -613,10 +610,13 @@ Google Lighthouse (used in Google, Microsoft Edge and Firefox) were used to eval
 ___
 # **8 . Testing of User Stories**
 
+
+- ### **First time users**
+
 The following are testing of User Stories previously described above:
 <br><br>
 
-1. As a client, I want to know what services I can hire, so do not need to ask for more information to learn their services.
+1. As a user, I want to find a responsive website, so I can access it in any device without having the content affected.
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
@@ -629,7 +629,7 @@ The following are testing of User Stories previously described above:
 </details>
 <br><br>
 
-2. As a client, I want to see a list of projects that has been carried out by the company, so I have an idea if they are able to address my own projects.
+2. As a user, I want to find a summary of type of wavelets, so I do not need to research for them in different sites on the web.
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
@@ -642,26 +642,410 @@ The following are testing of User Stories previously described above:
 </details>
 <br><br>
 
-3. As a client, I want to asdfsdfs
-
-
-
-23. As owner, I want users to have a direct link in the latest news (to the corresponding sections), so they immediately relate the news with the corresponding part of the company without "getting lost" in other areas.
+3. As a user, I want fo have the functions (formulas) of the wavelets, so I do not need to go through long texts or the web to find them.
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Latest news | Click on Latest News section title | Open selected page from Latest News section (About Us, Our Services and/or Contact Us pages) | Works as expected |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
 
 <details>
     <summary>Screenshot</summary>
 
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
 ![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
 ![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
-![Latest News Our Services Link](docs/features-and-evidence/16-latest-news-link-our-services.png) 
-![CLatest News Our Services Link Opening Page](docs/features-and-evidence/16-latest-news-link-our-services-page.PNG) 
-![Latest News Contact Us Link](docs/features-and-evidence/16-latest-news-link-contact-us.png) 
-![CLatest News Contact Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-contact-us-page.PNG) 
 </details>
+<br><br>
+
+
+4. As a user, I want to select the input parameters of the wavelets and see the corresponding graph of them, so I see how my parameters are affecting the wavelets.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+5. As a user, I want to have the wavelet I choose sent to my e-mail address, so I can have it available for other applications and/on for download without having to use other applications that could take a longer time for the generation of the wavelet.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+6. As a user, I want to have the option to send comments or questions, so I can contribute with the website devolpment and/or indicate errors or bugs.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+- ### **Returning users**
+
+7. As a returning user, I want to have the website accessible from any device, so I do not depend on only one device to access the information.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+8. As a returning user, I want a navigation menu on top and always visible, so I can access any content in the website from there and do not need to use the back button of the browser.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+9. As a returning user, I want to have a reference website with a summury of types and functions of wavelets so I do not need to look for them and/or check in different websites.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+10. As a returning user, I want to generate new wavelets so I can check them in a quick way.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+11. As a returning user, I want to test my knowledge against a quiz, so I refresh basic concepts and/or take a break to when I want to.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+12. As a returning user, I want to have a way to send feedback or make consultations, so I can collaborate and/or make consultations about the website and/or its content.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+13. As a returning user, I want to be informed if the contact form goes through, so I know if my message is sent or it is not.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+14. As a returning user, I want to have a way to contact the developer so I can contribute and/or indicate errors or bugs.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+
+- ### **Site Owner**
+15. As owner, I want to create a website that provides a basic service (wavelet generation) so users can use it to check and obtain wavelets without using longer solutions for the generation/checking of them.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+16. As owner, I want to create a website that is the base for further development, so I can keep showing my work and offer more solutions in the future.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+17. As owner, alogn with other points of this section, I want to show my work and give the option to users to contact me if they wish.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+18. As owner, I want to provide a website that can be browsed fully without using the back button, so users have a "map" of the website at all times and do not get issues while navigating (like sending data to a server interrupted or resent).
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+19. As owner, I want to provide a responsive website, so user can access it from any device without any constraint to navigate, find and/or use the website.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+20. As owner, I want to give an interactive website that update colours, graphs and information, so users enjoy the navigation in the website and intantly know if the website works properly or it does not.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+21. As owner, I want to put a brand in the top left, so users not only associate the brand with the website but also they can click it for the "home" (Functions) page.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+22. As owner, I want to provide a website that summarises the type of wavelets so users can use it as a reference.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+23. As owner, I want to give an interactive website, so users test their own wavelets without having to replicate the formulas with their own parameters themselves.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+24. As owner, I want to provide a quiz so users can use the website as a basic entertainment when they want a short break from their activities.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+25. As owner, I want to give as many options to be contacted as possible, so users can choose forms or links in the footer to send their consultations and/or feedback in a very fast way without having to navigate throuth the website.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+26. As owner, I want to inform users if they consultation/message was succesfully sent, so they know if they need to resend it or they do not.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
+27. As owner, I want to inform the user, through an error page, if there is any error when loading the website.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+
+<details>
+    <summary>Screenshot</summary>
+
+![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
+![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
+![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+</details>
+<br><br>
+
+
 
 <br><br>
 
