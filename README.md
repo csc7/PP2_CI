@@ -295,7 +295,7 @@ It can be found in the Functions page and show the functions of the wavelts that
 <details>
     <summary>Check Images</summary>
 
-![Functions Page Top Image](docs/features-and-evidence/functions-page-bottom.PNG)
+![Functions Page Top Image](docs/features-and-evidence/functions-page-top.PNG)
 
 ![Functions Page Bottom Image](docs/features-and-evidence/functions-page-bottom.PNG)
 
