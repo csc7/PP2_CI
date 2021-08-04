@@ -33,12 +33,12 @@ function sendMail(contactForm) {
     })
     .then(
         function(response) {
-            console.log("SUCCESS", response);
+            //console.log("SUCCESS", response);
             document.getElementById("email-status").textContent = "E-mail sent!";
             document.getElementById("form-send-button").style.display = "none";
         },
         function(error) {
-            console.log("FAILED", error);
+            //console.log("FAILED", error);
             document.getElementById("email-status").textContent = "E-mail could not be sent";
             document.getElementById("email-status").style.color = "red";
             document.getElementById("form-send-button").style.display = "none";

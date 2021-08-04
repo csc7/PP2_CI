@@ -198,11 +198,11 @@ function sendData(dataToSend) {
    })
    .then(
        function(response) {
-           console.log("SUCCESS", response);
+           //console.log("SUCCESS", response);
            document.getElementById("data-status").textContent = "Data sent!";
        },
        function(error) {
-           console.log("FAILED", error);
+           //console.log("FAILED", error);
            document.getElementById("data-status").textContent = "Data could not be sent.";
            document.getElementById("data-status").style.color = "red";
        }

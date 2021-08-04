@@ -32,30 +32,15 @@ document.addEventListener("DOMContentLoaded", function() {
     let startButton = document.getElementById("start-button");
     startButton.addEventListener("click", initialiseQuiz);
 
-    document.getElementById("start-button").focus();
-    document.getElementById("start-button").addEventListener("keydown", pressEnterOnStartButton);
+    startButton.focus();
+    startButton.addEventListener("keydown", pressEnterOnStartButton);
 
 
 });
 
-// Quiz initialization when clicking the Start button, expecting first answer if nothing
-// answered before, or reseting the quiz if one or more questions have been answered
-
-function initialiseQuiz() {
-    if (i == 0) {
-        document.getElementById("answer").addEventListener("keydown", pressEnter);
-        let sendButton = document.getElementById("quiz-send-button");
-        sendButton.addEventListener("click", sendAnswer);   
-        document.getElementById("quiz-send-button").disabled = false;
-        runQuiz();
-    } else {
-        resetQuiz();
-        runQuiz();
-    }
-}
 
 function pressEnterOnStartButton (event) {
-    if (event.key === "Enter") {
+    if (i == 0 && event.key === "Enter") {
         initialiseQuiz();
     }
 }
@@ -68,14 +53,33 @@ function pressEnter (event) {
     }
 }
 
+// Quiz initialization when clicking the Start button, expecting first answer if nothing
+// answered before, or reseting the quiz if one or more questions have been answered
+
+function initialiseQuiz() {
+    if (i == 0) {
+        document.getElementById("answer").addEventListener("keydown", pressEnter);
+        let sendButton = document.getElementById("quiz-send-button");
+        sendButton.addEventListener("click", sendAnswer);   
+        document.getElementById("quiz-send-button").disabled = false;
+
+        
+
+        runQuiz();
+    } else {
+        resetQuiz();
+        runQuiz();
+    }
+}
 
 
 // Core function: compute times, update quiz progress and display questions
 
-function runQuiz() {    
+function runQuiz() {           
 
     document.getElementById("answer").value = "";
     document.getElementById("answer").focus();
+
     // If i == 0, start omputing time lapse and reset score and progress bar
     if (i == 0) {
         startTime = new Date().getTime();
@@ -93,15 +97,16 @@ function runQuiz() {
     updateProgressBar();
     // Display question with previously computed random number
     displayQuestion(firstValue); 
+
 }
+
+
 
 // Send answer given in the input field
 
 function sendAnswer() {    
     i++; // Update global variable
-    console.log("Send button clicked");
     let answer = parseInt(document.getElementById("answer").value);
-    console.log(answer);
     let correctAnswer = getCorrectAnswer();
     if (answer === correctAnswer) {
         totalCorrect++;
@@ -112,10 +117,13 @@ function sendAnswer() {
         document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} / ${i}`;
     }
     document.getElementById('last-correct-answer').children[1].textContent = correctAnswer;
+    
     // Check if last question is reached; if it is, send alert, give summary and disable send button until it is restarted
-    if (i == 10) {
+    if (i == 10) {        
+        
         clearInterval(t);        
         document.getElementById('prog-bar').children[i-1].style.backgroundColor = "blue";
+        
         let timeSpent = document.getElementById("clock").textContent;
         // Same message, there are many options to choose from to avoid showing incorrect format of minutes and seconds, e.g., avoid showing seconds with three digits
         if (timeSpent[0] == 0 && timeSpent[5] == 0) {
@@ -127,13 +135,20 @@ function sendAnswer() {
         } else {
             alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent[0]}${timeSpent[1]}:${timeSpent[5]}${timeSpent[6]} (${timeSpent[0]}${timeSpent[1]} minutes and ${timeSpent[5]}${timeSpent[6]} seconds).`);
         }        
+        
+
         document.getElementById("quiz-send-button").disabled = true;    
-        document.getElementById("answer").removeEventListener("keydown", pressEnter);
+        //document.getElementById("answer").removeEventListener("keydown", pressEnter);
         document.getElementById("answer").blur();
 
- 
+        //document.getElementById("start-button").focus();
+        //document.getElementById("start-button").addEventListener("keydown", pressEnterOnStartButton);
+
         i = 0; // Reset Global variable
-             
+        //document.getElementById("start-button").focus();
+        //document.getElementById("start-button").blur();
+
+                
     // If not last question, call for next question
     } else {        
         runQuiz();        
@@ -197,6 +212,7 @@ function updateProgressBar() {
         let fillProgress = document.getElementById('prog-bar').children[i-1];
         fillProgress.style.backgroundColor = "blue";
     } 
+    
 }
 
 // Reset quiz when requested
@@ -242,7 +258,9 @@ function timer() {
         }
     }
     // Stop timer if last questions is reached
-    if (i == 10) {
-        return 0;
-    }
+    //if (i == 10) {
+    //   return 0;
+        
+        
+    //}
 }
