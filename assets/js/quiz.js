@@ -1,5 +1,8 @@
 // The structure of this quiz is based on the Code Institute's Love Maths - Essentials Project
 
+// Global variables to account for the start time and correct answers,
+// through different functions
+
 var i = 0;
 var totalCorrect = 0;
 var startTime = 0;
@@ -7,11 +10,9 @@ var t = 0;
 
 // Move content down when clicking the Bootstrap hamburguer
 // button in the fixed navigation menu
+
 let hamburguerButton = document.getElementsByTagName("button")[0];
 hamburguerButton.addEventListener("click", moveContent);
-
-//#header > nav > button
-//document.getElementsByTagName("button")[0]
 
 function moveContent () {
     if (document.getElementsByClassName("navbar-toggler")[0].getAttribute("aria-expanded") == "false") {
@@ -23,25 +24,17 @@ function moveContent () {
     }
 }
 
-
-
-
-
+// COPIED AND MODIFIED FROM Code Institute's Love Maths - Essentials Project
 // Event listener to check when the DOM has been loaded completely
 // and function to add event listeners to button elements
-// COPIED AND MOFIFIED FROM Code Institute's Love Maths - Essentials Project
+
 document.addEventListener("DOMContentLoaded", function() {
     let startButton = document.getElementById("start-button");
     startButton.addEventListener("click", initialiseQuiz);
-    //let sendButton = document.getElementById("quiz-send-button");
-    //sendButton.addEventListener("click", sendAnswer);    
-
-    //document.getElementById("answer").addEventListener("keydown", function(event) {
-    //    if (event.key === "Enter") {
-    //        sendAnswer();
-    //    }
-    //});
 });
+
+// Quiz initialization when clicking the Start button, expecting first answer if nothing
+// answered before, or reseting the quiz if one or more questions have been answered
 
 function initialiseQuiz() {
     if (i == 0) {
@@ -49,15 +42,14 @@ function initialiseQuiz() {
         let sendButton = document.getElementById("quiz-send-button");
         sendButton.addEventListener("click", sendAnswer);   
         document.getElementById("quiz-send-button").disabled = false;
-
         runQuiz();
-
     } else {
-
         resetQuiz();
         runQuiz();
     }
 }
+
+// Alternative to send answers with the Enter key
 
 function pressEnter (event) {
     if (event.key === "Enter") {
@@ -65,11 +57,9 @@ function pressEnter (event) {
     }
 }
 
+// Core function: compute times, update quiz progress and display questions
 
 function runQuiz() {
-    
-    console.log("Start button clicked");
-    //console.log("i = " + i);
     document.getElementById("answer").value = "";
     document.getElementById("answer").focus();
     // Compute time lapse
@@ -78,28 +68,19 @@ function runQuiz() {
         t = setInterval (timer, 1000);
         document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} / ${i}`;
     }
-
-    console.log(startTime);
     let firstValue = Math.floor(Math.random() * 100) + 1;
     updateProgressBar();
     displayQuestion(firstValue);   
 }
 
+// Send answer given in the input field
+
 function sendAnswer() {    
-    i++;
+    i++; // Update global variable
     console.log("Send button clicked");
     let answer = parseInt(document.getElementById("answer").value);
     console.log(answer);
     let correctAnswer = getCorrectAnswer();
-    // INITIAL DESIGN
-    // if (answer === correctAnswer) {
-    //     alert("Hey! You got it right! :D");
-    //     totalCorrect++;
-    //     document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} out of ${i}`;
-    // } else {
-    //     alert(`Awwww.... you answered ${answer}. The correct answer was ${correctAnswer}!`);
-    //     document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} out of ${i}`;
-    // }
     if (answer === correctAnswer) {
         totalCorrect++;
         document.getElementById('last-answer').children[1].textContent = answer;
@@ -109,10 +90,9 @@ function sendAnswer() {
         document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} / ${i}`;
     }
     document.getElementById('last-correct-answer').children[1].textContent = correctAnswer;
-    
+    // Check if last question is reached; if it is, send alert, give summary and disable send button until it is restarted
     if (i == 10) {
-        clearInterval(t);
-        
+        clearInterval(t);        
         document.getElementById('prog-bar').children[i-1].style.backgroundColor = "blue";
         let timeSpent = document.getElementById("clock").textContent;
         if (timeSpent[0] == 0 && timeSpent[5] == 0) {
@@ -123,32 +103,21 @@ function sendAnswer() {
             alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent[0]}${timeSpent[1]}:${timeSpent[5]}${timeSpent[6]} (${timeSpent[0]}${timeSpent[1]} minutes and ${timeSpent[6]} seconds).`);
         } else {
             alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent[0]}${timeSpent[1]}:${timeSpent[5]}${timeSpent[6]} (${timeSpent[0]}${timeSpent[1]} minutes and ${timeSpent[5]}${timeSpent[6]} seconds).`);
-        }
-        
+        }        
         document.getElementById("quiz-send-button").disabled = true;
-        console.log(timeSpent[0]);
-        
+        console.log(timeSpent[0]);        
         document.getElementById("answer").removeEventListener("keydown", pressEnter);
-
-
-        //updateProgressBar()        
-        //i = 0;
-        //totalCorrect = 0;
-        //resetQuiz();
+    // If not last question, call for next question
     } else {        
         runQuiz();        
-    }
-    
+    }    
 }
 
+// Display first or next question
+
 function displayQuestion (num) {
-    console.log("i = " + i);
-    console.log(num);
-    document.getElementById('question').children[0].textContent = num;
-     
-
-    console.log(document.getElementById('question').children[0]);
-
+    document.getElementById('question').children[0].textContent = num;   
+    // Predefined first part of the questions
     let questionStart = ['What is the frequency of the following signal: 100 sin ',
                 'What sampling frequency should be assigned to a  ',
                 'How long does it take (in msec) to a ',
@@ -160,7 +129,7 @@ function displayQuestion (num) {
                 'What is the maximum frequency you will recover without aliasing if you sample at ',
                 'How long does it take (in msec) to a  ',
                ];
-
+    // Predefined last part of the questions
     let questionEnd = ['t',
                'Hz signal in order to have it fully recovered',
                'Hz signal to complete 10 cycles',
@@ -172,10 +141,11 @@ function displayQuestion (num) {
                'msec',
                'Hz signal to complete 50 cycles',
                ];
-
+    // Build whole question, inserting a changing value between first and last part of questions, so values are different in each run of quiz
     document.getElementById('question').innerHTML = `${questionStart[i]} <span id="first-value">${num}</span>${questionEnd[i]}<span id="second-value">? (Give the whole part, largest integer less than or equal to your result).</span>`;
-    
 }
+
+// Get the correct answer based on the question previously generated
 
 function getCorrectAnswer() {
     let generatedRandomValueInQuestion = parseInt(document.getElementById('first-value').innerText);
@@ -190,12 +160,10 @@ function getCorrectAnswer() {
                   Math.floor((1000 / generatedRandomValueInQuestion) *2),
                   Math.floor((1 / generatedRandomValueInQuestion) * 50 * 1000),
                  ];
-    console.log(result);
-    console.log(result[i])
     return result[i-1];
 }
 
-
+// Update progress bar
 
 function updateProgressBar() {
     if (i != 0) {
@@ -204,28 +172,22 @@ function updateProgressBar() {
     } 
 }
 
+// Reset quiz when requested
+
 function resetQuiz() {
-    //updateProgressBar();
-    //document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} out of ${i}`;
-    //let timeSpent = document.getElementById("clock").textContent;
-    //alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent} .`);
-    i = 0;
+    i = 0; // Global variable again to zero
     totalCorrect = 0;
     document.getElementById("answer").value = null;
     document.getElementById("answer").focus();
     for (let j = 0; j < 10; j++) {
         document.getElementById('prog-bar').children[j].style.backgroundColor = "rgb(148, 157, 240)";
     }
-    //document.getElementById('prog-bar').children[0].style.backgroundColor= "blue";
-
-    //clearInterval(t);
-    //startTime = new Date().getTime();
-    //t = setInterval (timer, 1000);
 }
+
+// Show timer and display minutes and secons properly
 
 function timer() {
     let currentTime = new Date().getTime();
-
     let seconds = Math.floor(((currentTime - startTime)/1000));
     let minutes = Math.floor(((currentTime - startTime)/1000/60));
     if (minutes < 10 && seconds < 10) {
@@ -241,8 +203,6 @@ function timer() {
         }
     } else if (minutes >= 10 && seconds < 10) {
         document.getElementById("clock").innerHTML = minutes + " : " + "0" + seconds;
-        
-
     } else if (minutes >= 10 && seconds < 60) {
         document.getElementById("clock").innerHTML = "0" + minutes + " : " + seconds;
     } else if (minutes >= 10 && seconds >= 60) {
@@ -253,11 +213,7 @@ function timer() {
             document.getElementById("clock").innerHTML = minutes + " : " + "0" + seconds;
         }
     }
-
-    //} else {
-    //    document.getElementById("clock").innerHTML = minutes + " : " + seconds;
-    //}
-
+    // Stop timer if last questions is reached
     if (i == 10) {
         return 0;
     }

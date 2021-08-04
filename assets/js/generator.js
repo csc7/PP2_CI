@@ -1,10 +1,8 @@
 // Move content down when clicking the Bootstrap hamburguer
 // button in the fixed navigation menu
+
 let hamburguerButton = document.getElementsByTagName("button")[0];
 hamburguerButton.addEventListener("click", moveContent);
-
-//#header > nav > button
-//document.getElementsByTagName("button")[0]
 
 function moveContent () {
     if (document.getElementsByClassName("navbar-toggler")[0].getAttribute("aria-expanded") == "false") {
@@ -24,8 +22,7 @@ function moveContent () {
     }
 }
 
-
-// COPIED FROM Code Institute's Love Maths - Essentials Project
+// COPIED AND MODIFIED FROM Code Institute's Love Maths - Essentials Project
 // Event listener to check when the DOM has been loaded completely
 // and function to add event listeners to button elements
 
@@ -34,17 +31,10 @@ document.addEventListener("DOMContentLoaded", function() {
     generateButton.addEventListener("click", generateGraph);
 });
 
-//document.addEventListener("DOMContentLoaded", function() {
-//    let generateButton = document.getElementById("export-button");
-//    generateButton.addEventListener("click", sendData);
-//});
-
-
 document.getElementById("wavelet-type-field").value = "Haar";
 document.getElementById("sampling-field").value = "2";
 document.getElementById("length-field").value = "100";
 document.getElementById("frequency-field").value = "50";
-
 
 // GRAPH
 // Google Charts
@@ -52,29 +42,21 @@ document.getElementById("frequency-field").value = "50";
 // Copied and modified from https://developers.google.com/chart/interactive/docs/gallery/linechart on July 24th, 2021, at 23:06.
 
 function generateGraph() {
-
     dataForGoogleChartFunction = computeGraphData();
-
     google.charts.load('current', {'packages':['corechart']});
     google.charts.setOnLoadCallback(drawChart);
-
     function drawChart() {
         var data = google.visualization.arrayToDataTable(dataForGoogleChartFunction);
-
         var options = {
-          //title: 'Company Performance',
           curveType: 'none',
           legend: { position: 'bottom' }
         };
-
         var chart = new google.visualization.LineChart(document.getElementById('curve_chart-top'));
-
         chart.draw(data, options);
     }
-
 }
 
-//var dataForGraph =[];
+// Compute the data, for each wavelet type, that will be used to make the Google graph
 
 function computeGraphData() {
 
@@ -84,14 +66,13 @@ function computeGraphData() {
     let waveletLength = parseInt(document.getElementById('length-field').value) / 2;
     let frequency = parseInt(document.getElementById('frequency-field').value);
     totalSamples = Math.floor(waveletLength / samplingRate);
-
     let timeVector = []; 
     let amplitude = [];
     let dataForGraph = [];
     dataForGraph.push(["Time", "Amplitude"]);
     let k = 0; // To count the amount of times a pair of values is pushed to the data
-    let l = 0; // To count the amount of times a pair of values is pushed to the data
-    
+
+    // Give alert if some parameters are not appropriate for plotting, else compute data:
     if (samplingRate == 0 || waveletLength == 0) {
         alert(`Sammpling rate or wavelet length cannot be zero. Please assign a different value.`);
     } else if (samplingRate >= waveletLength) {
@@ -99,8 +80,8 @@ function computeGraphData() {
                Consider the former much longer that the latter for better results.
                Please assign different values`);
     } else {
-
         switch (waveletType) {
+
             case 'Haar':
                 let amplitudeHaarValue = [];
                 // Time Vector including previous first sample and the rest
@@ -121,7 +102,6 @@ function computeGraphData() {
                         amplitudeHaarValue [j] = 1;
                         amplitude.push(amplitudeHaarValue[j]);
                         dataForGraph.push([timeVector[j], amplitude[j]]);
-
                     } else if (timeVector[j] >= 5 && timeVector[j] < 10) {
                         // 2 points are needed in time 5 in order to have the step,
                         // otherwise it will show a slope.
@@ -130,8 +110,7 @@ function computeGraphData() {
                             dataForGraph.push([5, 1]);
                             dataForGraph.push([5, -1]);
                             k++;
-                        }                        
-                        
+                        }    
                         amplitudeHaarValue [j] = -1;
                         amplitude.push(amplitudeHaarValue[j]);
                         dataForGraph.push([timeVector[j], amplitude[j]]);
@@ -147,18 +126,11 @@ function computeGraphData() {
                             amplitudeHaarValue [j] = 0;
                             amplitude.push(amplitudeHaarValue[j]);
                             dataForGraph.push([timeVector[j], amplitudeHaarValue [j]]);
-                        }
-                        
+                        }                        
                     }
-                    // To show it correctly two points in 0; 5 and 10 are needed:
-                    
-                    
                 }
-                
-
-
-                console.log(dataForGraph);
                 break;
+
             case 'Mexican Hat':
                 // Time Vector including previous first sample and the rest
                 for (let i = -totalSamples + 1; i < totalSamples; i++) {
@@ -172,8 +144,8 @@ function computeGraphData() {
                     amplitude.push( (2 / Math.sqrt(3)) * (Math.pow(Math.PI, (-1/4))) * (1 - timeVector[j] * timeVector[j]) * Math.exp(-timeVector[j] * timeVector[j] / 2) );
                     dataForGraph.push([timeVector[j], amplitude[j]]);
                 }
-                console.log(dataForGraph);
                 break;
+
             case 'Morlet':
                 // Function copied from Mathworks, https://uk.mathworks.com/help/wavelet/ref/morlet.html,
                 // on August 3rd, 2021, at 03:00.
@@ -189,8 +161,8 @@ function computeGraphData() {
                     amplitude.push( Math.exp((timeVector[j] * timeVector[j]) / (-2)) * Math.cos(5 * timeVector[j]) );
                     dataForGraph.push([timeVector[j], amplitude[j]]);
                 }
-                console.log(dataForGraph);
                 break;
+
             case 'Ricker':
                 // Time Vector including previous first sample and the rest
                 for (let i = -totalSamples + 1; i < totalSamples; i++) {
@@ -205,27 +177,21 @@ function computeGraphData() {
                     Math.exp( (-1/4) * 2 * 2 * Math.PI * Math.PI * frequency * frequency * timeVector[j] * timeVector[j] ) );
                     dataForGraph.push([timeVector[j], amplitude[j]]);
                 }
-                console.log(dataForGraph);
                 break;
+
             default:
                 // Default task
-          }    
+        }    
     }
     return dataForGraph;
 }
 
-
-
-//function exportFile() {
-
-// EmailJS
+// E-mail Data
+// Credits: EmailJS
 // Copied and modified from Code Institute's material for "Sending Emails Using EmailJS" lessons
-// Used to send e-mails from the contact form in the Contact page
+
 function sendData(dataToSend) {
-
     let data = computeGraphData();
-    //console.log(data);
-
    emailjs.send("service_euotwqk", "Code_Institute_MS2_WData", {
         "to_email": dataToSend.email.value,
         "data": data
@@ -234,16 +200,12 @@ function sendData(dataToSend) {
        function(response) {
            console.log("SUCCESS", response);
            document.getElementById("data-status").textContent = "Data sent!";
-           //document.getElementById("form-send-button").style.display = "none";
        },
        function(error) {
            console.log("FAILED", error);
            document.getElementById("data-status").textContent = "Data could not be sent.";
            document.getElementById("data-status").style.color = "red";
-           //document.getElementById("form-send-button").style.display = "none";
        }
    );
     return false;  // To block from loading a new page
 }
-
-//}
