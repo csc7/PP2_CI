@@ -713,7 +713,7 @@ The following are testing of User Stories previously described above:
 
 | FEATURES | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Contact Form Footer | Navigate to Contact page and/or fixed on bottom, always visible | Send form and/or use contact information in footer | Works as expected | 
+| Contact Form and Footer | Navigate to Contact page and/or fixed on bottom, always visible | Send form and/or use contact information in footer | Works as expected | 
 
 <details>
     <summary>Screenshots</summary>
@@ -1041,30 +1041,33 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Quiz | Navigate to Quiz page | Run quiz with Start button  | Works as expected | 
 
 <details>
     <summary>Screenshot</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Quiz Image](docs/features-and-evidence/fixed-navigation-bar-on-top-quiz-page.PNG)
+
 </details>
 <br><br>
 
 
 25. As owner, I want to give as many options to be contacted as possible, so users can choose forms or links in the footer to send their consultations and/or feedback in a very fast way without having to navigate throuth the website.
 
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| FEATURES | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Contact Form and Footer | Navigate to Contact page and/or fixed on bottom, always visible | Send form and/or use contact information in footer | Works as expected | 
 
 <details>
-    <summary>Screenshot</summary>
+    <summary>Screenshots</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Contact Form](docs/features-and-evidence/contact-form-and-footer.png)
+
+![Footer - LinkedIn](docs/features-and-evidence/contact-form-and-footer-LinkedIn.PNG) 
+
+![Footer - GitHub](docs/features-and-evidence/contact-form-and-footer-GitHub.PNG)
+
+![Footer - Mail To](docs/features-and-evidence/contact-form-and-footer-mail-to.PNG) 
 </details>
 <br><br>
 
@@ -1073,14 +1076,13 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Contact Form | Indicate whether the form went through or it did not | Check message below Send button | Works as expected | 
 
 <details>
     <summary>Screenshot</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![E-mail Sent from Contact Form Image](docs/features-and-evidence/contact-form-email-sent.PNG)
+
 </details>
 <br><br>
 
@@ -1089,14 +1091,13 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| 404 page | Show 404 page when loading a page has been done with errors | Find a 404 page that is related to the website (not a default page from browser) | Works as expected | 
 
 <details>
     <summary>Screenshot</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![404 Page Image](docs/features-and-evidence/404.PNG)
+
 </details>
 <br><br>
 
