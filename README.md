@@ -254,22 +254,6 @@ ___
 The website consists of four pages, where each of them is divided in three parts: header, body and footer. The features contained in each of the pages and parts are the following ones:
 
 
-- ### **Functions Summary**
-
-It is the Functions page itself, showing a summary of currently available types of wavelets and their functions.
-*User Stories Addressed by this Feature:* 2; 3; ..........
-
-*Please check "7. Testing of User Stories" for more details.*
-<details>
-    <summary>Check Images</summary>
-
-![Functions Page Top Image](docs/features-and-evidence/functions-page-top.PNG)
-
-![Functions Page Bottom Image](docs/features-and-evidence/functions-page-bottom.PNG)
-
-</details>
-<br>
-
 
 - ### **Website logo**
 
@@ -300,7 +284,7 @@ It is located in the header, fixed on all pages to facilitate navigation, and re
 ![Fixed Navigation Menu for Cell Phones Image](docs/features-and-evidence/fixed-navigation-menu-cell-1.png)
 ![Fixed Expanded Navigation Menu for Cell Phones Image](docs/features-and-evidence/fixed-navigation-menu-cell-2.png)
 </details>
-
+<br>
 
 - ### **Summary of Functions**
 
@@ -309,11 +293,14 @@ It can be found in the Functions page and show the functions of the wavelts that
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
-    <summary>Check Image</summary>
+    <summary>Check Images</summary>
 
-![Contact Details Image](docs/features-and-evidence/12-contact-details.PNG)
+![Functions Page Top Image](docs/features-and-evidence/functions-page-bottom.PNG)
+
+![Functions Page Bottom Image](docs/features-and-evidence/functions-page-bottom.PNG)
 
 </details>
+<br>
 
 
 - ### **Wavelet Generator**
@@ -325,9 +312,10 @@ It can be found in the Generator page and gives the option to select type of wav
 <details>
     <summary>Check Image</summary>
 
-![Contact Details Image](docs/features-and-evidence/12-contact-details.PNG)
+![Wavelet Generator Image](docs/features-and-evidence/wavelet-generator.png)
 
 </details>
+<br>
 
 
 - ### **Wavelet Graph**
@@ -339,10 +327,10 @@ It can be found in the Generator page and graph the selected wavelet using Googl
 <details>
     <summary>Check Image</summary>
 
-![Contact Details Image](docs/features-and-evidence/12-contact-details.PNG)
+![Google Charts Image](docs/features-and-evidence/Google-Charts.png)
 
 </details>
-
+<br>
 
 - ### **Quiz**
 
@@ -353,10 +341,10 @@ It can be found in the Quiz page; it is a very simple interactive quiz of ten qu
 <details>
     <summary>Check Image</summary>
 
-![Contact Details Image](docs/features-and-evidence/12-contact-details.PNG)
+![Quiz Image](docs/features-and-evidence/quiz.PNG)
 
 </details>
-
+<br>
 
 
 - ### **Contact Form**
@@ -368,10 +356,10 @@ It can be found in the Contact and allows users to contact the website developer
 <details>
     <summary>Check Image</summary>
 
-![Contact Details Image](docs/features-and-evidence/12-contact-details.PNG)
+![Contact Form Image](docs/features-and-evidence/fixed-navigation-bar-on-top-contact-page.PNG)
 
 </details>
-
+<br>
 
 - ### **Footer**
 
@@ -382,9 +370,10 @@ It is located at the bottom of all pages, containing icons with links to LinkedI
 <details>
     <summary>Check Image</summary>
 
-![Footer Image](docs/features-and-evidence/13-footer.PNG)
+![Footer Image](docs/features-and-evidence/footer.PNG)
 
 </details>
+<br>
 
 
 - ### **404 page**
@@ -396,7 +385,7 @@ It is a different page that appears in case there is any issue when loading the 
 <details>
     <summary>Check Image</summary>
 
-![404-page Image](docs/features-and-evidence/14-404-page.PNG)
+![404-page Image](docs/features-and-evidence/404.PNG)
 
 </details>
 
@@ -1139,7 +1128,7 @@ ___
 
 The website was fully written in Gitpod, permanently tested with Gitpod preview, and periodically deployed to GigHub Pages (in a main branch).
 
-The fully deployment to be accessible by anyone is found [here](https://csc7.github.io/asdfsdfs), whose URL is https://csc7.github.io/PP2_asdfsdfs/ .
+The fully deployment to be accessible by anyone is found [here](https://csc7.github.io/asdfsdfs), whose URL is https://csc7.github.io/PP2_CI_WW/ .
 
 Based on the Code Institute's Love Running project content, the following steps has been applied to have the front-end final version deployed:
 1. Select website repository in GitHub account.
