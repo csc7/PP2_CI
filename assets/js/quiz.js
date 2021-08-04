@@ -11,7 +11,6 @@ var t = 0;
 // button in the fixed navigation menu
 let hamburguerButton = document.getElementsByTagName("button")[0];
 hamburguerButton.addEventListener("click", moveContent);
-
 function moveContent () {
     if (document.getElementsByClassName("navbar-toggler")[0].getAttribute("aria-expanded") == "false") {
         let elementToMove = document.getElementById('quiz-page-heading');

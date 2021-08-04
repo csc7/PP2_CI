@@ -1,9 +1,7 @@
 // Move content down when clicking the Bootstrap hamburguer
 // button in the fixed navigation menu
-
 let hamburguerButton = document.getElementsByTagName("button")[0];
 hamburguerButton.addEventListener("click", moveContent);
-
 function moveContent () {
     if (document.getElementsByClassName("navbar-toggler")[0].getAttribute("aria-expanded") == "false") {
         let firstElementToMove = document.getElementById('generator-page-heading');
@@ -25,7 +23,6 @@ function moveContent () {
 // COPIED AND MODIFIED FROM Code Institute's Love Maths - Essentials Project
 // Event listener to check when the DOM has been loaded completely
 // and function to add event listeners to button elements
-
 document.addEventListener("DOMContentLoaded", function() {
     let generateButton = document.getElementById("generate-button");
     generateButton.addEventListener("click", generateGraph);
@@ -40,7 +37,6 @@ document.getElementById("frequency-field").value = "50";
 // Google Charts
 // Line Charts
 // Copied and modified from https://developers.google.com/chart/interactive/docs/gallery/linechart on July 24th, 2021, at 23:06.
-
 function generateGraph() {
     dataForGoogleChartFunction = computeGraphData();
     google.charts.load('current', {'packages':['corechart']});
@@ -57,9 +53,7 @@ function generateGraph() {
 }
 
 // Compute the data, for each wavelet type, that will be used to make the Google graph
-
 function computeGraphData() {
-
     let waveletType = (document.getElementById('wavelet-type-field').value);
     let samplingRate = parseInt(document.getElementById('sampling-field').value);
     // Divide length by 2 since symmetrical negative values are being generated:
@@ -71,7 +65,6 @@ function computeGraphData() {
     let dataForGraph = [];
     dataForGraph.push(["Time", "Amplitude"]);
     let k = 0; // To count the amount of times a pair of values is pushed to the data
-
     // Give alert if some parameters are not appropriate for plotting, else compute data:
     if (samplingRate == 0 || waveletLength == 0) {
         alert(`Sammpling rate or wavelet length cannot be zero. Please assign a different value.`);
@@ -81,7 +74,7 @@ function computeGraphData() {
                Please assign different values`);
     } else {
         switch (waveletType) {
-
+            // HAAR FUNCTION
             case 'Haar':
                 let amplitudeHaarValue = [];
                 // Time Vector including previous first sample and the rest
@@ -130,7 +123,7 @@ function computeGraphData() {
                     }
                 }
                 break;
-
+            // MEXICAN HAT FUNCTION
             case 'Mexican Hat':
                 // Time Vector including previous first sample and the rest
                 for (let i = -totalSamples + 1; i < totalSamples; i++) {
@@ -145,7 +138,7 @@ function computeGraphData() {
                     dataForGraph.push([timeVector[j], amplitude[j]]);
                 }
                 break;
-
+            // MORLET FUNCTION
             case 'Morlet':
                 // Function copied from Mathworks, https://uk.mathworks.com/help/wavelet/ref/morlet.html,
                 // on August 3rd, 2021, at 03:00.
@@ -162,7 +155,7 @@ function computeGraphData() {
                     dataForGraph.push([timeVector[j], amplitude[j]]);
                 }
                 break;
-
+            // RICKER FUNCTION
             case 'Ricker':
                 // Time Vector including previous first sample and the rest
                 for (let i = -totalSamples + 1; i < totalSamples; i++) {
@@ -178,7 +171,7 @@ function computeGraphData() {
                     dataForGraph.push([timeVector[j], amplitude[j]]);
                 }
                 break;
-
+            // DEFAULT CASE - DO NOTHING
             default:
                 // Default task
         }    
@@ -189,7 +182,6 @@ function computeGraphData() {
 // E-mail Data
 // Credits: EmailJS
 // Copied and modified from Code Institute's material for "Sending Emails Using EmailJS" lessons
-
 function sendData(dataToSend) {
     let data = computeGraphData();
    emailjs.send("service_euotwqk", "Code_Institute_MS2_WData", {

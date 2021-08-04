@@ -2,10 +2,6 @@
 // button in the fixed navigation menu
 let hamburguerButton = document.getElementsByTagName("button")[0];
 hamburguerButton.addEventListener("click", moveContent);
-
-//#header > nav > button
-//document.getElementsByTagName("button")[0]
-
 function moveContent () {
     if (document.getElementsByClassName("navbar-toggler")[0].getAttribute("aria-expanded") == "false") {
         let firstElementToMove = document.getElementById('functions-page-heading');

@@ -2,10 +2,6 @@
 // button in the fixed navigation menu
 let hamburguerButton = document.getElementsByTagName("button")[0];
 hamburguerButton.addEventListener("click", moveContent);
-
-//#header > nav > button
-//document.getElementsByTagName("button")[0]
-
 function moveContent () {
     if (document.getElementsByClassName("navbar-toggler")[0].getAttribute("aria-expanded") == "false") {
         let firstElementToMove = document.getElementById('contact-us-heading');
@@ -24,7 +20,6 @@ function moveContent () {
 // Copied and modified from Code Institute's material for "Sending Emails Using EmailJS" lessons
 // Used to send e-mails from the contact form in the Contact page
 function sendMail(contactForm) {
-
     emailjs.send("service_v7z0j0h", "Code_Institute_MS2", {
         "from_name": contactForm.name.value,
         "from_surname": contactForm.surname.value,
