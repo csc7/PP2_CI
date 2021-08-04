@@ -114,7 +114,7 @@ function computeGraphData() {
                         if (timeVector[j] == 10) {
                             dataForGraph.push([10, -1]);
                             dataForGraph.push([10, 0]);
-                            l++;
+                            //l++;
                         } else {
                             amplitudeHaarValue [j] = 0;
                             amplitude.push(amplitudeHaarValue[j]);
@@ -190,11 +190,9 @@ function sendData(dataToSend) {
    })
    .then(
        function(response) {
-           //console.log("SUCCESS", response);
            document.getElementById("data-status").textContent = "Data sent!";
        },
        function(error) {
-           //console.log("FAILED", error);
            document.getElementById("data-status").textContent = "Data could not be sent.";
            document.getElementById("data-status").style.color = "red";
        }
