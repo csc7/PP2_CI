@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
     startButton.addEventListener("click", initialiseQuiz);
 
     document.getElementById("start-button").focus();
-    document.getElementById("start-button").addEventListener("keydown", initialiseQuiz);
+    document.getElementById("start-button").addEventListener("keydown", pressEnterOnStartButton);
 
 
 });
@@ -54,6 +54,12 @@ function initialiseQuiz() {
     }
 }
 
+function pressEnterOnStartButton (event) {
+    if (event.key === "Enter") {
+        initialiseQuiz();
+    }
+}
+
 // Alternative to send answers with the Enter key
 
 function pressEnter (event) {
@@ -62,9 +68,12 @@ function pressEnter (event) {
     }
 }
 
+
+
 // Core function: compute times, update quiz progress and display questions
 
-function runQuiz() {
+function runQuiz() {    
+
     document.getElementById("answer").value = "";
     document.getElementById("answer").focus();
     // If i == 0, start omputing time lapse and reset score and progress bar
@@ -120,11 +129,11 @@ function sendAnswer() {
         }        
         document.getElementById("quiz-send-button").disabled = true;    
         document.getElementById("answer").removeEventListener("keydown", pressEnter);
+        document.getElementById("answer").blur();
+
+ 
         i = 0; // Reset Global variable
-        //document.getElementById("start-button").focus();
-        
-        //document.getElementById("start-button").addEventListener("keydown", initialiseQuiz);
-        
+             
     // If not last question, call for next question
     } else {        
         runQuiz();        
