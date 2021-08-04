@@ -1267,7 +1267,7 @@ Jesse James Garrett's process for user experience.
     - How to introduce author in anchor element: https://www.w3schools.com/tags/att_a_rel.asp, accessed on August 4th, 2021, at 00:07.
 
 
-Back to Index
+## [Back to Index](#index)
 ___
 # 12 . Acknowledgements
 
