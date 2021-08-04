@@ -648,7 +648,7 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Functions Summary | Scroll down to find all currently available types of wavelets | Find requested information, in one page | Works as expected | 
+| Summary of Functions | Scroll down to find all currently available types of wavelets | Find requested information, in one page | Works as expected | 
 
 <details>
     <summary>Screenshots</summary>
@@ -663,7 +663,7 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Functions Summary | Scroll down to find all currently available formulas for the types of wavelets | Find requested information, in one page | Works as expected | 
+| Summary of Functions | Scroll down to find all currently available formulas for the types of wavelets | Find requested information, in one page | Works as expected | 
 
 <details>
     <summary>Screenshots</summary>
@@ -702,6 +702,7 @@ The following are testing of User Stories previously described above:
     <summary>Screenshot</summary>
 
 ![Wavelet Generator Send E-Mail Image](docs/features-and-evidence/wavelet-generator-send-email.png)
+
 ![Wavelet Generator Send E-Mail Receipt Image](docs/features-and-evidence/wavelet-generator-send-email-receipt.PNG) 
 
 </details>
@@ -710,16 +711,20 @@ The following are testing of User Stories previously described above:
 
 6. As a user, I want to have the option to send comments or questions, so I can contribute with the website devolpment and/or indicate errors or bugs.
 
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| FEATURES | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Contact Form Footer | Navigate to Contact page and/or fixed on bottom, always visible | Send form and/or use contact information in footer | Works as expected | 
 
 <details>
     <summary>Screenshot</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Contact Form](docs/features-and-evidence/contact-form-and-footer.png)
+
+![Footer - LinkedIn](docs/features-and-evidence/contact-form-and-footer-LinkedIn.PNG) 
+
+![Footer - GitHub](docs/features-and-evidence/contact-form-and-footer-GitHub.PNG)
+
+![Footer - Mail To](docs/features-and-evidence/contact-form-and-footer-mail-to.PNG) 
 </details>
 <br><br>
 
@@ -730,14 +735,12 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Website | Design of pages and their visualization adapt to different screen sizes | Different designs in different devices showing correctly | Works as expected | 
 
 <details>
     <summary>Screenshot</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Am I Responsive Image](docs/am-i-responsive.PNG) 
 </details>
 <br><br>
 
@@ -746,14 +749,18 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Fixed navigation menu | Access it on top, fixed and always visible | Navigate to different pages | Works as expected | 
 
 <details>
     <summary>Screenshot</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Fixed Navigation Menu - Functions Page](docs/features-and-evidence/fixed-navigation-bar-on-top-functions-page.PNG)
+
+![Fixed Navigation Menu - Generator Page](docs/features-and-evidence/fixed-navigation-bar-on-top-generator-page.PNG)
+
+![Fixed Navigation Menu - Quiz Page](docs/features-and-evidence/fixed-navigation-bar-on-top-quiz-page.PNG)
+
+![Fixed Navigation Menu - Contact Page](docs/features-and-evidence/fixed-navigation-bar-on-top-contact-page.PNG)
 </details>
 <br><br>
 
@@ -762,14 +769,16 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Summary of Functions | Scroll down to find all currently available formulas for the types of wavelets | Find requested information, in one page | Works as expected | 
 
 <details>
-    <summary>Screenshot</summary>
+    <summary>Screenshots</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Functions Page Top Formulas Image](docs/features-and-evidence/functions-page-formulas-top.PNG)
+
+![Functions Page Bottom Middle Image](docs/features-and-evidence/functions-page-formulas-middle.PNG) 
+
+![Functions Page Bottom Top Image](docs/features-and-evidence/functions-page-formulas-bottom.PNG) 
 </details>
 <br><br>
 
@@ -778,14 +787,13 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Wavelet Generator | Assign desired parameters in input fields and select type from dropdown list | Plot desired wavelet for checking. | Works as expected | 
 
 <details>
     <summary>Screenshot</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Wavelet Generator Image](docs/features-and-evidence/wavelet-generator.png)
+
 </details>
 <br><br>
 
@@ -794,30 +802,33 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Quiz | Navigate to Quiz page | Run quiz with Start button  | Works as expected | 
 
 <details>
     <summary>Screenshot</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Quiz Image](docs/features-and-evidence/fixed-navigation-bar-on-top-quiz-page.PNG)
+
 </details>
 <br><br>
 
 
 12. As a returning user, I want to have a way to send feedback or make consultations, so I can collaborate and/or make consultations about the website and/or its content.
 
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| FEATURES | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Contact Form Footer | Navigate to Contact page and/or fixed on bottom, always visible | Send form and/or use contact information in footer | Works as expected | 
 
 <details>
     <summary>Screenshot</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Contact Form](docs/features-and-evidence/contact-form-and-footer.png)
+
+![Footer - LinkedIn](docs/features-and-evidence/contact-form-and-footer-LinkedIn.PNG) 
+
+![Footer - GitHub](docs/features-and-evidence/contact-form-and-footer-GitHub.PNG)
+
+![Footer - Mail To](docs/features-and-evidence/contact-form-and-footer-mail-to.PNG) 
 </details>
 <br><br>
 
@@ -826,30 +837,33 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Contact Form | Indicate whether the form went through or it did not | Check message below Send button | Works as expected | 
 
 <details>
     <summary>Screenshot</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![E-mail Sent from Contact Form Image](docs/features-and-evidence/contact-form-email-sent.PNG)
+
 </details>
 <br><br>
 
 
 14. As a returning user, I want to have a way to contact the developer so I can contribute and/or indicate errors or bugs.
 
-| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| FEATURES | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Contact Form Footer | Navigate to Contact page and/or fixed on bottom, always visible | Send form and/or use contact information in footer | Works as expected | 
 
 <details>
     <summary>Screenshot</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Contact Form](docs/features-and-evidence/fixed-navigation-bar-on-top-contact-page.PNG)
+
+![Footer - LinkedIn](docs/features-and-evidence/contact-form-and-footer-LinkedIn.PNG) 
+
+![Footer - GitHub](docs/features-and-evidence/contact-form-and-footer-GitHub.PNG)
+
+![Footer - Mail To](docs/features-and-evidence/contact-form-and-footer-mail-to.PNG) 
 </details>
 <br><br>
 
@@ -860,14 +874,18 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Website | Navigate to all pages to find a summary of wavelet types and functions, an interactive wavelet generator with the capability of sending the wavelet to an e-mail address, a quiz to take a break and a contact form to send comments, suggestions or questions. | Find information and features in all website pages | Initial version deployed, working as expected | 
 
 <details>
-    <summary>Screenshot</summary>
+    <summary>Screenshots</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Functions Page](docs/features-and-evidence/fixed-navigation-bar-on-top-functions-page.PNG)
+
+![Generator Page](docs/features-and-evidence/fixed-navigation-bar-on-top-generator-page.PNG)
+
+![Quiz Page](docs/features-and-evidence/fixed-navigation-bar-on-top-quiz-page.PNG)
+
+![Contact Page](docs/features-and-evidence/fixed-navigation-bar-on-top-contact-page.PNG)
 </details>
 <br><br>
 
@@ -876,14 +894,18 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Website | Similar to previous testing of user story (number 15). Find information, features and tools for further development in all pages. | Find information, features and tools in all website pages | Initial version deployed | 
 
 <details>
-    <summary>Screenshot</summary>
+    <summary>Screenshots</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Functions Page](docs/features-and-evidence/fixed-navigation-bar-on-top-functions-page.PNG)
+
+![Generator Page](docs/features-and-evidence/fixed-navigation-bar-on-top-generator-page.PNG)
+
+![Quiz Page](docs/features-and-evidence/fixed-navigation-bar-on-top-quiz-page.PNG)
+
+![Contact Page](docs/features-and-evidence/fixed-navigation-bar-on-top-contact-page.PNG)
 </details>
 <br><br>
 
@@ -892,14 +914,26 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Website, Contact page and footer | Check my work on different pages, contact me through the contact form in the Contact page and/or throught the links provided in the footer | Find information and contact options | Works as expected | 
 
 <details>
-    <summary>Screenshot</summary>
+    <summary>Screenshots</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Functions Page](docs/features-and-evidence/fixed-navigation-bar-on-top-functions-page.PNG)
+
+![Generator Page](docs/features-and-evidence/fixed-navigation-bar-on-top-generator-page.PNG)
+
+![Quiz Page](docs/features-and-evidence/fixed-navigation-bar-on-top-quiz-page.PNG)
+
+![Contact Page](docs/features-and-evidence/fixed-navigation-bar-on-top-contact-page.PNG)
+
+![Contact Form](docs/features-and-evidence/fixed-navigation-bar-on-top-contact-page.PNG)
+
+![Footer - LinkedIn](docs/features-and-evidence/contact-form-and-footer-LinkedIn.PNG) 
+
+![Footer - GitHub](docs/features-and-evidence/contact-form-and-footer-GitHub.PNG)
+
+![Footer - Mail To](docs/features-and-evidence/contact-form-and-footer-mail-to.PNG) 
 </details>
 <br><br>
 
