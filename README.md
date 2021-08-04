@@ -254,6 +254,21 @@ ___
 The website consists of four pages, where each of them is divided in three parts: header, body and footer. The features contained in each of the pages and parts are the following ones:
 
 
+- ### **Functions Summary**
+
+It is the Functions page itself, showing a summary of currently available types of wavelets and their functions.
+*User Stories Addressed by this Feature:* 2; 3; ..........
+
+*Please check "7. Testing of User Stories" for more details.*
+<details>
+    <summary>Check Image</summary>
+
+![Company Logo Image](docs/features-and-evidence/00-company-logo.PNG)
+
+</details>
+
+
+
 - ### **Website logo**
 
 It is located in all pages, fixed, top-left, and always visible.
@@ -633,7 +648,7 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Functions Page | Scroll down to find all currently available types of wavelets | Find requested information, in one page | Works as expected | 
+| Functions Summary | Scroll down to find all currently available types of wavelets | Find requested information, in one page | Works as expected | 
 
 <details>
     <summary>Screenshots</summary>
@@ -648,7 +663,7 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Functions Page | Scroll down to find all currently available formulas for the types of wavelets | Find requested information, in one page | Works as expected | 
+| Functions Summary | Scroll down to find all currently available formulas for the types of wavelets | Find requested information, in one page | Works as expected | 
 
 <details>
     <summary>Screenshots</summary>
@@ -666,14 +681,13 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Wavelet Generator | Assign desired parameters in input fields and select type from dropdown list | Plot desired wavelet for checking. | Works as expected | 
 
 <details>
     <summary>Screenshot</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Wavelet Generator Image](docs/features-and-evidence/wavelet-generator.png)
+
 </details>
 <br><br>
 
@@ -682,14 +696,14 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Wavelet Generator | Click on "E-mail Data" button to send the data to the desired e-mail address | Find information about projects | Works as expected | 
 
 <details>
     <summary>Screenshot</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Wavelet Generator Send E-Mail Image](docs/features-and-evidence/wavelet-generator-send-email.png)
+![Wavelet Generator Send E-Mail Receipt Image](docs/features-and-evidence/wavelet-generator-send-email-receipt.PNG) 
+
 </details>
 <br><br>
 
