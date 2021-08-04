@@ -2,15 +2,13 @@
 
 // Global variables to account for the start time and correct answers,
 // through different functions
-
-var i = 0;
+var i = 0; // Question number
 var totalCorrect = 0;
 var startTime = 0;
 var t = 0;
 
 // Move content down when clicking the Bootstrap hamburguer
 // button in the fixed navigation menu
-
 let hamburguerButton = document.getElementsByTagName("button")[0];
 hamburguerButton.addEventListener("click", moveContent);
 
@@ -27,60 +25,48 @@ function moveContent () {
 // COPIED AND MODIFIED FROM Code Institute's Love Maths - Essentials Project
 // Event listener to check when the DOM has been loaded completely
 // and function to add event listeners to button elements
-
 document.addEventListener("DOMContentLoaded", function() {
     let startButton = document.getElementById("start-button");
     startButton.addEventListener("click", initialiseQuiz);
-
     startButton.focus();
     startButton.addEventListener("keydown", pressEnterOnStartButton);
-
-
 });
 
-
+// When loading the page, Start button is focused
+// Start quiz if Enter key is pressed
 function pressEnterOnStartButton (event) {
     if (i == 0 && event.key === "Enter") {
         initialiseQuiz();
-    }
+    }    
 }
 
 // Alternative to send answers with the Enter key
-
-function pressEnter (event) {
+function pressEnter (event) { 
     if (event.key === "Enter") {
         sendAnswer();
-    }
+    }    
 }
 
 // Quiz initialization when clicking the Start button, expecting first answer if nothing
 // answered before, or reseting the quiz if one or more questions have been answered
-
 function initialiseQuiz() {
     if (i == 0) {
         document.getElementById("answer").addEventListener("keydown", pressEnter);
         let sendButton = document.getElementById("quiz-send-button");
         sendButton.addEventListener("click", sendAnswer);   
-        document.getElementById("quiz-send-button").disabled = false;
-
-        
-
+        document.getElementById("quiz-send-button").disabled = false; 
         runQuiz();
     } else {
         resetQuiz();
         runQuiz();
-    }
+    }    
 }
 
-
 // Core function: compute times, update quiz progress and display questions
-
-function runQuiz() {           
-
+function runQuiz() {         
     document.getElementById("answer").value = "";
     document.getElementById("answer").focus();
-
-    // If i == 0, start omputing time lapse and reset score and progress bar
+    // If i == 0, start computing time lapse and reset score and progress bar
     if (i == 0) {
         startTime = new Date().getTime();
         t = setInterval (timer, 1000);
@@ -96,14 +82,10 @@ function runQuiz() {
     // Update progress bar
     updateProgressBar();
     // Display question with previously computed random number
-    displayQuestion(firstValue); 
-
+    displayQuestion(firstValue);
 }
 
-
-
 // Send answer given in the input field
-
 function sendAnswer() {    
     i++; // Update global variable
     let answer = parseInt(document.getElementById("answer").value);
@@ -116,14 +98,11 @@ function sendAnswer() {
         document.getElementById('last-answer').children[1].textContent = answer;
         document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} / ${i}`;
     }
-    document.getElementById('last-correct-answer').children[1].textContent = correctAnswer;
-    
+    document.getElementById('last-correct-answer').children[1].textContent = correctAnswer;    
     // Check if last question is reached; if it is, send alert, give summary and disable send button until it is restarted
-    if (i == 10) {        
-        
+    if (i == 10) {      
         clearInterval(t);        
-        document.getElementById('prog-bar').children[i-1].style.backgroundColor = "blue";
-        
+        document.getElementById('prog-bar').children[i-1].style.backgroundColor = "blue";        
         let timeSpent = document.getElementById("clock").textContent;
         // Same message, there are many options to choose from to avoid showing incorrect format of minutes and seconds, e.g., avoid showing seconds with three digits
         if (timeSpent[0] == 0 && timeSpent[5] == 0) {
@@ -134,21 +113,10 @@ function sendAnswer() {
             alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent[0]}${timeSpent[1]}:${timeSpent[5]}${timeSpent[6]} (${timeSpent[0]}${timeSpent[1]} minutes and ${timeSpent[6]} seconds).`);
         } else {
             alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent[0]}${timeSpent[1]}:${timeSpent[5]}${timeSpent[6]} (${timeSpent[0]}${timeSpent[1]} minutes and ${timeSpent[5]}${timeSpent[6]} seconds).`);
-        }        
-        
-
+        }      
         document.getElementById("quiz-send-button").disabled = true;    
-        //document.getElementById("answer").removeEventListener("keydown", pressEnter);
-        document.getElementById("answer").blur();
-
-        //document.getElementById("start-button").focus();
-        //document.getElementById("start-button").addEventListener("keydown", pressEnterOnStartButton);
-
-        i = 0; // Reset Global variable
-        //document.getElementById("start-button").focus();
-        //document.getElementById("start-button").blur();
-
-                
+        document.getElementById("answer").blur();   
+        return;                
     // If not last question, call for next question
     } else {        
         runQuiz();        
@@ -156,7 +124,6 @@ function sendAnswer() {
 }
 
 // Display first or next question
-
 function displayQuestion (num) {
     document.getElementById('question').children[0].textContent = num;   
     // Predefined first part of the questions
@@ -188,7 +155,6 @@ function displayQuestion (num) {
 }
 
 // Get the correct answer based on the question previously generated
-
 function getCorrectAnswer() {
     let generatedRandomValueInQuestion = parseInt(document.getElementById('first-value').innerText);
     let result = [Math.floor(generatedRandomValueInQuestion / (2 * 3.1416)),
@@ -206,30 +172,25 @@ function getCorrectAnswer() {
 }
 
 // Update progress bar
-
 function updateProgressBar() {
     if (i != 0) {
         let fillProgress = document.getElementById('prog-bar').children[i-1];
         fillProgress.style.backgroundColor = "blue";
-    } 
-    
+    }     
 }
 
 // Reset quiz when requested
-
 function resetQuiz() {
     i = 0; // Global variable again to zero
     totalCorrect = 0;
     document.getElementById("answer").value = null;
     document.getElementById("answer").focus();
-
     for (let j = 0; j < 10; j++) {
         document.getElementById('prog-bar').children[j].style.backgroundColor = "rgb(148, 157, 240)";
     }
 }
 
 // Show timer and display minutes and secons properly
-
 function timer() {
     let currentTime = new Date().getTime();
     let seconds = Math.floor(((currentTime - startTime)/1000));
@@ -257,10 +218,4 @@ function timer() {
             document.getElementById("clock").innerHTML = minutes + " : " + "0" + seconds;
         }
     }
-    // Stop timer if last questions is reached
-    //if (i == 10) {
-    //   return 0;
-        
-        
-    //}
 }
