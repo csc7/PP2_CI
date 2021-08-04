@@ -31,6 +31,11 @@ function moveContent () {
 document.addEventListener("DOMContentLoaded", function() {
     let startButton = document.getElementById("start-button");
     startButton.addEventListener("click", initialiseQuiz);
+
+    document.getElementById("start-button").focus();
+    document.getElementById("start-button").addEventListener("keydown", initialiseQuiz);
+
+
 });
 
 // Quiz initialization when clicking the Start button, expecting first answer if nothing
@@ -70,6 +75,8 @@ function runQuiz() {
         for (let j = 0; j < 10; j++) {
             document.getElementById('prog-bar').children[j].style.backgroundColor = "rgb(148, 157, 240)";
         }
+        document.getElementById('last-answer').children[1].textContent = "";
+        document.getElementById('last-correct-answer').children[1].textContent = "";
     }
     // Generate random number that will be used to construct different values in the questions
     let firstValue = Math.floor(Math.random() * 100) + 1;
@@ -114,7 +121,10 @@ function sendAnswer() {
         document.getElementById("quiz-send-button").disabled = true;    
         document.getElementById("answer").removeEventListener("keydown", pressEnter);
         i = 0; // Reset Global variable
-
+        //document.getElementById("start-button").focus();
+        
+        //document.getElementById("start-button").addEventListener("keydown", initialiseQuiz);
+        
     // If not last question, call for next question
     } else {        
         runQuiz();        
@@ -187,6 +197,7 @@ function resetQuiz() {
     totalCorrect = 0;
     document.getElementById("answer").value = null;
     document.getElementById("answer").focus();
+
     for (let j = 0; j < 10; j++) {
         document.getElementById('prog-bar').children[j].style.backgroundColor = "rgb(148, 157, 240)";
     }
