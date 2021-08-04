@@ -1128,7 +1128,7 @@ ___
 
 The website was fully written in Gitpod, permanently tested with Gitpod preview, and periodically deployed to GigHub Pages (in a main branch).
 
-The fully deployment to be accessible by anyone is found [here](https://csc7.github.io/PP2_CI_W), whose URL is https://csc7.github.io/PP2_CI_WW .
+The fully deployed website, accessible by anyone, is found [here](https://csc7.github.io/PP2_CI_W), whose URL is https://csc7.github.io/PP2_CI_WW . Its repository is found [here](docs/GitHub-Pages.PNG), whose URL is docs/GitHub-Pages.PNG.
 
 Based on the Code Institute's Love Running project content, the following steps has been applied to have the front-end final version deployed:
 1. Select website repository in GitHub account.
