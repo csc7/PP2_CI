@@ -8,8 +8,8 @@ This repository belongs to my second milestone project in the Full-stack Develop
 
 The live link for this project is this one (https://csc7.github.io/PP2_CI_WW/).
 
-
-Image of Project home page using Am I Responsive Website Image with home page of the project in different devices. Image generated with Am I Responsive? website http://ami.responsivedesign.is/?url=https%3A%2F%2Fcsc7.github.io%2FPP2_CI_WW
+![Projects Table Image](docs/am-i-responsive.PNG)
+Image obtained after checking the website in "Am I Responsive" website. The image shows the Functions page (Home) of the project in different devices. Image generated with Am I Responsive? website http://ami.responsivedesign.is/?url=https%3A%2F%2Fcsc7.github.io%2FPP2_CI_WW
 
 
 
@@ -620,25 +620,27 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Services | Scroll down in Our Services page | Find information about projects | Works as expected | 
+| Website | Design of pages and their visualization adapt to different screen sizes | Different designs in different devices showing correctly | Works as expected | 
 
 <details>
     <summary>Screenshot</summary>
 
-![Our Services Image](docs/features-and-evidence/09-our-services.PNG) 
+![Am I Responsive Image](docs/am-i-responsive.PNG) 
 </details>
 <br><br>
 
-2. As a user, I want to find a summary of type of wavelets, so I do not need to research for them in different sites on the web.
+2. As a user, I want to find a summary of types of wavelets, so I do not need to research for them in different sites on the web.
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Functions Page | Scroll down to find all currently available types of wavelets | Find requested information, in one page | Works as expected | 
 
 <details>
-    <summary>Screenshot</summary>
+    <summary>Screenshots</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG) 
+![Functions Page Top Image](docs/features-and-evidence/functions-page-top.PNG)
+
+![Functions Page Bottom Image](docs/features-and-evidence/functions-page-bottom.PNG) 
 </details>
 <br><br>
 
@@ -646,14 +648,16 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Functions Page | Scroll down to find all currently available formulas for the types of wavelets | Find requested information, in one page | Works as expected | 
 
 <details>
-    <summary>Screenshot</summary>
+    <summary>Screenshots</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Functions Page Top Formulas Image](docs/features-and-evidence/functions-page-formulas-top.PNG)
+
+![Functions Page Bottom Middle Image](docs/features-and-evidence/functions-page-formulas-middle.PNG) 
+
+![Functions Page Bottom Top Image](docs/features-and-evidence/functions-page-formulas-bottom.PNG) 
 </details>
 <br><br>
 
