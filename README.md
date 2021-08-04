@@ -699,7 +699,7 @@ The following are testing of User Stories previously described above:
 | Wavelet Generator | Click on "E-mail Data" button to send the data to the desired e-mail address | Find information about projects | Works as expected | 
 
 <details>
-    <summary>Screenshot</summary>
+    <summary>Screenshots</summary>
 
 ![Wavelet Generator Send E-Mail Image](docs/features-and-evidence/wavelet-generator-send-email.png)
 
@@ -716,7 +716,7 @@ The following are testing of User Stories previously described above:
 | Contact Form Footer | Navigate to Contact page and/or fixed on bottom, always visible | Send form and/or use contact information in footer | Works as expected | 
 
 <details>
-    <summary>Screenshot</summary>
+    <summary>Screenshots</summary>
 
 ![Contact Form](docs/features-and-evidence/contact-form-and-footer.png)
 
@@ -752,7 +752,7 @@ The following are testing of User Stories previously described above:
 | Fixed navigation menu | Access it on top, fixed and always visible | Navigate to different pages | Works as expected | 
 
 <details>
-    <summary>Screenshot</summary>
+    <summary>Screenshots</summary>
 
 ![Fixed Navigation Menu - Functions Page](docs/features-and-evidence/fixed-navigation-bar-on-top-functions-page.PNG)
 
@@ -820,7 +820,7 @@ The following are testing of User Stories previously described above:
 | Contact Form Footer | Navigate to Contact page and/or fixed on bottom, always visible | Send form and/or use contact information in footer | Works as expected | 
 
 <details>
-    <summary>Screenshot</summary>
+    <summary>Screenshots</summary>
 
 ![Contact Form](docs/features-and-evidence/contact-form-and-footer.png)
 
@@ -855,7 +855,7 @@ The following are testing of User Stories previously described above:
 | Contact Form Footer | Navigate to Contact page and/or fixed on bottom, always visible | Send form and/or use contact information in footer | Works as expected | 
 
 <details>
-    <summary>Screenshot</summary>
+    <summary>Screenshots</summary>
 
 ![Contact Form](docs/features-and-evidence/fixed-navigation-bar-on-top-contact-page.PNG)
 
@@ -942,14 +942,16 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Website logo (for Functions page), fixed navigation menu and footer | Find them in any pages, always fixed, website logo and navigation menu on top, footer in the bottom | All website accessible without using the browser back button | Works as expected | 
 
 <details>
-    <summary>Screenshot</summary>
+    <summary>Screenshots</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Website Logo](docs/features-and-evidence/website-logo.PNG)
+
+![Fixed Navigation Menu](docs/features-and-evidence/fixed-navigation-menu.PNG) 
+
+![Footer](docs/features-and-evidence/footer.PNG) 
 </details>
 <br><br>
 
@@ -960,44 +962,46 @@ The following are testing of User Stories previously described above:
 | --- | --- | --- | --- |
 | Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
 
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Website | Design of pages and their visualization adapt to different screen sizes | Different designs in different devices showing correctly | Works as expected | 
+
 <details>
     <summary>Screenshot</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Am I Responsive Image](docs/am-i-responsive.PNG) 
 </details>
 <br><br>
 
 
-20. As owner, I want to give an interactive website that update colours, graphs and information, so users enjoy the navigation in the website and intantly know if the website works properly or it does not.
+20. As owner, I want to give an interactive website that update colours, graphs and information, so users enjoy the navigation in the website and instantly know if the website works properly or it does not.
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Website | Interactivity is mainly observable in Generator and Quiz pages | Check interactivity and responses in all pages, especially in Generator and Quiz pages | Works as expected | 
 
 <details>
-    <summary>Screenshot</summary>
+    <summary>Screenshots</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Generator Page Image](docs/features-and-evidence/generator.PNG)
+
+![Quiz Page Image](docs/features-and-evidence/quiz.PNG) 
+
 </details>
 <br><br>
 
 
-21. As owner, I want to put a brand in the top left, so users not only associate the brand with the website but also they can click it for the "home" (Functions) page.
+21. As owner, I want to put a brand in the top left, so users not only associate the brand with the website but also they can click it for the "Home" (Functions) page.
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Website logo | Fixed on top left of all pages | Click for Functions page (Home) | Works as expected | 
 
 <details>
     <summary>Screenshot</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Website Logo](docs/features-and-evidence/website-logo-for-functions-page.png)
+ 
 </details>
 <br><br>
 
@@ -1006,14 +1010,14 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Summary of Functions | Scroll down to find all currently available types of wavelets | Find requested information, in one page | Works as expected | 
 
 <details>
-    <summary>Screenshot</summary>
+    <summary>Screenshots</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Functions Page Top Image](docs/features-and-evidence/functions-page-top.PNG)
+
+![Functions Page Bottom Image](docs/features-and-evidence/functions-page-bottom.PNG) 
 </details>
 <br><br>
 
@@ -1022,14 +1026,13 @@ The following are testing of User Stories previously described above:
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Projects table | Scroll down in About Us page | Find information about projects | Works as expected | 
+| Wavelet Generator | Assign desired parameters in input fields and select type from dropdown list | Plot desired wavelet for checking. | Works as expected | 
 
 <details>
     <summary>Screenshot</summary>
 
-![Projects Table Image](docs/features-and-evidence/06-projects-table.PNG)
-![Latest News About Us Link](docs/features-and-evidence/16-latest-news-link-about-us.png) 
-![CLatest News About Us Link Opening Page](docs/features-and-evidence/16-latest-news-link-about-us-page.PNG) 
+![Wavelet Generator Image](docs/features-and-evidence/wavelet-generator.png)
+
 </details>
 <br><br>
 
