@@ -68,9 +68,12 @@ function runQuiz() {
         t = setInterval (timer, 1000);
         document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} / ${i}`;
     }
+    // Generate random number that will be used to construct different values in the questions
     let firstValue = Math.floor(Math.random() * 100) + 1;
+    // Update progress bar
     updateProgressBar();
-    displayQuestion(firstValue);   
+    // Display question with previously computed random number
+    displayQuestion(firstValue); 
 }
 
 // Send answer given in the input field
@@ -95,6 +98,7 @@ function sendAnswer() {
         clearInterval(t);        
         document.getElementById('prog-bar').children[i-1].style.backgroundColor = "blue";
         let timeSpent = document.getElementById("clock").textContent;
+        // Same message, there are many options to choose from to avoid showing incorrect format of minutes and seconds, e.g., avoid showing seconds with three digits
         if (timeSpent[0] == 0 && timeSpent[5] == 0) {
             alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent[0]}${timeSpent[1]}:${timeSpent[5]}${timeSpent[6]} (${timeSpent[1]} minutes and ${timeSpent[6]} seconds).`);
         } else if (timeSpent[0] == 0 && timeSpent[5] != 0) {
@@ -104,9 +108,9 @@ function sendAnswer() {
         } else {
             alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent[0]}${timeSpent[1]}:${timeSpent[5]}${timeSpent[6]} (${timeSpent[0]}${timeSpent[1]} minutes and ${timeSpent[5]}${timeSpent[6]} seconds).`);
         }        
-        document.getElementById("quiz-send-button").disabled = true;
-        console.log(timeSpent[0]);        
+        document.getElementById("quiz-send-button").disabled = true;    
         document.getElementById("answer").removeEventListener("keydown", pressEnter);
+        i = 0; 
     // If not last question, call for next question
     } else {        
         runQuiz();        
