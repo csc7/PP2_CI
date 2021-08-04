@@ -261,12 +261,14 @@ It is the Functions page itself, showing a summary of currently available types 
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
-    <summary>Check Image</summary>
+    <summary>Check Images</summary>
 
-![Company Logo Image](docs/features-and-evidence/00-company-logo.PNG)
+![Functions Page Top Image](docs/features-and-evidence/functions-page-top.PNG)
+
+![Functions Page Bottom Image](docs/features-and-evidence/functions-page-bottom.PNG)
 
 </details>
-
+<br>
 
 
 - ### **Website logo**
@@ -278,9 +280,10 @@ It is located in all pages, fixed, top-left, and always visible.
 <details>
     <summary>Check Image</summary>
 
-![Company Logo Image](docs/features-and-evidence/00-company-logo.PNG)
+![Website Logo Image](docs/features-and-evidence/website-logo.PNG)
 
 </details>
+<br>
 
 
 - ### **Fixed navigation menu**
@@ -292,9 +295,10 @@ It is located in the header, fixed on all pages to facilitate navigation, and re
 <details>
     <summary>Check Image</summary>
 
-![Fixed Navigation Menu for Desktop Image](docs/features-and-evidence/01-fixed-menu.PNG)
-![Fixed Navigation Menu for Tablets Image](docs/features-and-evidence/01-fixed-menu-tablets.PNG)
-![Fixed Navigation Menu for Mobiles Image](docs/features-and-evidence/01-fixed-menu-mobiles.PNG)
+![Fixed Navigation Menu for Desktop Image](docs/features-and-evidence/fixed-navigation-menu.PNG)
+![Fixed Navigation Menu for Tablets Image](docs/features-and-evidence/fixed-navigation-menu-tablet.png)
+![Fixed Navigation Menu for Cell Phones Image](docs/features-and-evidence/fixed-navigation-menu-cell-1.png)
+![Fixed Expanded Navigation Menu for Cell Phones Image](docs/features-and-evidence/fixed-navigation-menu-cell-2.png)
 </details>
 
 
