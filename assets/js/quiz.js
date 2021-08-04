@@ -62,11 +62,14 @@ function pressEnter (event) {
 function runQuiz() {
     document.getElementById("answer").value = "";
     document.getElementById("answer").focus();
-    // Compute time lapse
+    // If i == 0, start omputing time lapse and reset score and progress bar
     if (i == 0) {
         startTime = new Date().getTime();
         t = setInterval (timer, 1000);
         document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} / ${i}`;
+        for (let j = 0; j < 10; j++) {
+            document.getElementById('prog-bar').children[j].style.backgroundColor = "rgb(148, 157, 240)";
+        }
     }
     // Generate random number that will be used to construct different values in the questions
     let firstValue = Math.floor(Math.random() * 100) + 1;
@@ -110,7 +113,8 @@ function sendAnswer() {
         }        
         document.getElementById("quiz-send-button").disabled = true;    
         document.getElementById("answer").removeEventListener("keydown", pressEnter);
-        i = 0; 
+        i = 0; // Reset Global variable
+
     // If not last question, call for next question
     } else {        
         runQuiz();        
