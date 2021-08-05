@@ -398,13 +398,13 @@ ___
 
 The introductory image on top of this README file was generated using the [Am I Responsive site](http://ami.responsivedesign.is/?url=https%3A%2F%2Fcsc7.github.io%2FPP1_CI_TGC) to test how the website displays in different screen sizes.
 
-Development tools of Google Chrome (Version 92.0.4515.107, Official Build, 64-bit), Microsoft Edge (Version 92.0.902.62, Official build, 64-bit) and Firefox (Version 90.0.2, 64-bit) have been used to test the behaviour of the website for screen sizes between 320x568px to 1920x1370px.
+**Development tools** of **Google Chrome** (Version 92.0.4515.107, Official Build, 64-bit), **Microsoft Edge** (Version 92.0.902.62, Official build, 64-bit) and **Firefox** (Version 90.0.2, 64-bit) have been used to test the behaviour of the website for screen sizes between 320x568px to 1920x1370px.
 
-The website was tested using these browsers and also Microsoft Internet Explorer (Version 2004, OS Build 19041.1110).
+The website was tested using these **browsers** and also **Microsoft Internet Explorer** (Version 2004, OS Build 19041.1110). **Samsung Internet** (version 14.0.1.62) was also used to test the website. In addition, some users have collaborated checking the website in the cell phones, mostly with **Android-based operating systems**.
 
-Samsung Internet (version 14.0.1.62) was used to test the website. Also, some users have collaborated checking the website in the cell phones, mostly with Android-based operating systems.
+**Devices** used for testing and validatio include Dell and Toshiba laptops, Samsung cell phones. **Operative systems** include Windows 10 Enterprise (remote desktop), Windows 10 Pro, Windows 10 Home and Android. **Processors** for desktop desktop and laptops were Intel.
 
-The following tools were used to validate the files of the website:
+The following tools were used to validate the **files of the website**:
 
 ## **HTML Files**
 https://validator.w3.org/ was used to validate the HTML files. All files ended up with zero errors and warnings.
