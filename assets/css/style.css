@@ -1034,25 +1034,49 @@ in order to have the items visible at all times */
 
     /* FUNCTIONS PAGE */
 
+    #basic-concepts {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .wavelet-function-image {
+        margin-left: -10%;
+        width: 120%;
+    }
+
     #functions-page-heading, #basic-concepts > h2 {
         font-size: 165%;
     }
 
+    #basic-concepts > p {
+        font-size: 90%;
+    }
+
     #doi {
-        font-size: 75%;
+        font-size: 100%;
+    }
+
+    #references > p {
+        margin-bottom: 50px;
     }
 
     /* GENERATOR PAGE */
+
+    #generator-page-heading {
+        font-size: 165%;
+    }
+
+    #disclaimer {
+        font-size: 90%;
+    }
 
     #graph {
         margin-top: 5px;
     }
 
     #generate-button, #export-button {
-
         width: 96%;
         margin-left: 2%;
-
     }
 
     #left-graph-div {
@@ -1078,6 +1102,7 @@ in order to have the items visible at all times */
 
     #funny-message-div {
         height: 60px;
+        font-size: 90%;
     }
 
     #score-div, #time-div {
