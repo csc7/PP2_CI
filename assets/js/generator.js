@@ -194,6 +194,7 @@ function sendData(dataToSend) {
    .then(
        function(response) {
            document.getElementById("data-status").textContent = "Data sent!";
+           document.getElementById("data-status").style.color = "blue";
        },
        function(error) {
            document.getElementById("data-status").textContent = "Data could not be sent.";
