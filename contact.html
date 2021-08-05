@@ -24,6 +24,7 @@
     </script>
 </head>
 <body>
+    <!-- Fixed Navigation Menu -->
     <header id="header">
         <!-- Bootstrap Navbar
         Copied from https://getbootstrap.com/docs/4.0/components/navbar/
@@ -56,9 +57,11 @@
             </div>
         </nav>
     </header>
+    <!-- Main Title for Page -->
     <h1 class="headings" id="contact-us-heading">
         Contact us with your suggestions!
-    </h1> 
+    </h1>
+    <!-- Contact form -->
     <div id="contact-form-div">
         <!--  The validation part (attribute "required" in input elements) has been taken from W3Schools
         https://www.w3schools.com/js/js_validation.asp
@@ -89,11 +92,13 @@
                 <textarea id="form-description" class="input-field" rows="6" cols="20"  name="description" placeholder="Describe your consultation" required></textarea>
             </div>
             <input id="form-send-button" type="submit" value="Send">
+            <!-- E-mail sent status message (empty, modified by JavaScript) -->
             <div id="email-status">
                 <label></label>
             </div>
         </form>
     </div>
+    <!-- Footer -->
     <footer>
         <!-- Bootstrap Navs
         Copied on July 8th, 2021, 03:20 from https://getbootstrap.com/docs/4.0/components/navs/

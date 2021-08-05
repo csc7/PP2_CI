@@ -28,6 +28,7 @@
     </script>
 </head>
 <body>
+    <!-- Fixed Navigation Menu -->
     <header id="header">
         <!-- Bootstrap Navbar
         Copied from https://getbootstrap.com/docs/4.0/components/navbar/
@@ -60,15 +61,19 @@
             </div>
         </nav>
     </header>
+    <!-- Main Title for Page -->
     <h1 class="headings" id="generator-page-heading">
         Create a Wavelet
     </h1>
+    <!-- Disclaimer -->
     <p id="disclaimer">Disclaimer: all data shown here is only to show my work at Code Institute. Use any data created from this website at your own risk.</p> 
+    <!-- Left container for graph -->
     <div id="left-graph-div">        
         <div id="graph">
             <div id="curve_chart-top"></div> 
         </div>
     </div>
+    <!-- Right container for parameter selection -->
     <div id="right-conf-panel-div">        
         <div id="conf-panel">
             <div class="panel-row-label">
@@ -101,6 +106,7 @@
                 <input id="frequency-field" class="input-field" type="number" name="name" placeholder="Sampling">
             </div>
             <button id="generate-button" type="submit">Generate</button>
+            <!-- Form to send data by e-mail using EmailJS -->
             <form id="export-data" onsubmit="return sendData(this);">
                 <div class="panel-row-label">
                     <label for="email-field">E-mail</label>
@@ -109,6 +115,7 @@
                     <input id="email-field" class="input-field" type="email" name="email" placeholder="Your e-mail" required>
                 </div>
                 <input id="export-button" type="submit" value="E-mail Data">
+                <!-- E-mail sent status message (empty, modified by JavaScript) -->
                 <div id="data-status">
                     <label></label>
                 </div>
@@ -122,6 +129,7 @@
             </div>
         </div>
     </div>
+    <!-- Footer -->
     <footer>
         <!-- Bootstrap Navs
         Copied on July 8th, 2021, 03:20 from https://getbootstrap.com/docs/4.0/components/navs/
