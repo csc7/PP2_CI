@@ -1035,13 +1035,13 @@ in order to have the items visible at all times */
     /* FUNCTIONS PAGE */
 
     #basic-concepts {
-        width: 80%;
-        margin-left: 10%;
+        width: 90%;
+        margin-left: 5%;
     }
 
     .wavelet-function-image {
-        margin-left: -10%;
-        width: 120%;
+        margin-left: -7%;
+        width: 114%;
     }
 
     #functions-page-heading, #basic-concepts > h2 {
