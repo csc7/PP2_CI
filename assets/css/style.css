@@ -325,9 +325,9 @@ when clicking such button */
 
 #powered-by-Google {
     width: 150%; /* Above 100% to avoid adding a second line. No impact since it is left-aligned */
-    height: 100%;
-    margin: 0;
-    padding-top: 10px;
+    /*height: 100%;*/
+    /*margin: 0;*/
+    padding-top: 20px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 125%;
@@ -339,7 +339,7 @@ when clicking such button */
     color: blue;
 }
 
-/* Benerator buttons */
+/* Generator buttons */
 
 #generate-button, #export-button {
     width: 50%;    
