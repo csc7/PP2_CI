@@ -208,6 +208,61 @@ ___
 Wireframes were developed in order to gather all goals, user stories, requirements and expectations, and have the design references for desktop, tablet and mobile devices.
 Please check the PDFs files for each case in the following links:
 
+<details>
+    <summary>Desktop Wireframe Image for Functions Page</summary>
+
+![Desktop Wireframe Image for Functions Page](docs/wireframes/wireframe-desktop-functions.PNG)
+</details>
+<details>
+    <summary>Desktop Wireframe Image for Generator Page</summary>
+
+![Desktop Wireframe Image for Generator Page](docs/wireframes/wireframe-desktop-generator.PNG)
+</details>
+<details>
+    <summary>Desktop Wireframe Image for Quiz Page</summary>
+
+![Desktop Wireframe Image for Quiz Page](docs/wireframes/wireframe-desktop-quiz.PNG)
+</details>
+<details>
+    <summary>Desktop Wireframe Image for Contact Page</summary>
+
+![Desktop Wireframe Image for Contact Page](docs/wireframes/wireframe-desktop-contact.PNG)
+</details>
+
+<details>
+    <summary>Tablet Wireframe Image for Functions Page</summary>
+
+![Tablet Wireframe Image for Functions Page](docs/wireframes/wireframe-tablet-functions.PNG)
+</details>
+<details>
+    <summary>Tablet Wireframe Image for Generator Page</summary>
+
+![Tablet Wireframe Image for Generator Page](docs/wireframes/wireframe-tablet-generator.PNG)
+</details>
+<details>
+    <summary>Tablet Wireframe Image for Quiz Page</summary>
+
+![Tablet Wireframe Image for Quiz Page](docs/wireframes/wireframe-tablet-quiz.PNG)
+</details>
+<details>
+    <summary>Tablet Wireframe Image for Contact Page</summary>
+
+![Tablet Wireframe Image for Contact Page](docs/wireframes/wireframe-tablet-contact.PNG)
+</details>
+<details>
+    <summary>Cell Wireframe Image for Functions and Generator Pages</summary>
+
+![Tablet Wireframe Image for Quiz Page](docs/wireframes/wireframe-cell-functions-generator-pages.PNG)
+</details>
+<details>
+    <summary>Cell Wireframe Image for Quiz and Contact Pages</summary>
+
+![Tablet Wireframe Image for Contact Page](docs/wireframes/wireframe-cell-quiz-contact-pages.PNG)
+</details>
+
+
+<br>
+
 [PDF File for Desktop Wireframe](docs/wireframes/wireframe-desktop.pdf)
 
 [PDF File for Tablet Wireframe](docs/wireframes/wireframe-tablet.pdf)
