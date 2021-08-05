@@ -211,7 +211,7 @@ Please check the PDFs files for each case in the following links:
 
 [PDF File for Tablet Wireframe](docs/wireframes/wireframe-tablet.pdf)
 
-[PDF File for Mobile Wireframe](docs/wireframes/wireframe-mobile.pdf)
+[PDF File for Cell Wireframe](docs/wireframes/wireframe-cell.pdf)
 <br><br>
 ## [Back to Index](#index)
 <br>
