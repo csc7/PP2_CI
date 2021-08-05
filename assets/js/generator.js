@@ -42,7 +42,7 @@ document.getElementById("frequency-field").value = "50";
 // Copied and modified from https://developers.google.com/chart/interactive/docs/gallery/linechart on July 24th, 2021, at 23:06.
 function generateGraph() {
     dataForGoogleChartFunction = computeGraphData();
-    google.charts.load('current', {'packages':["corechart"]});
+    google.charts.load('current', {packages:["corechart"]});
     google.charts.setOnLoadCallback(drawChart);
     function drawChart() {
         var data = google.visualization.arrayToDataTable(dataForGoogleChartFunction);
