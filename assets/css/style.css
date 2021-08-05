@@ -325,8 +325,6 @@ when clicking such button */
 
 #powered-by-Google {
     width: 150%; /* Above 100% to avoid adding a second line. No impact since it is left-aligned */
-    /*height: 100%;*/
-    /*margin: 0;*/
     padding-top: 20px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
