@@ -1,3 +1,6 @@
+// Credit: EmailJS - Code copied on August 2nd, 2021, at 2:07, from EmailJS personal account
+emailjs.init("user_o5O0kmL8NWgC0wZzvn6X8");
+
 // Move content down when clicking the Bootstrap hamburguer
 // button in the fixed navigation menu
 let hamburguerButton = document.getElementsByTagName("button")[0];
