@@ -8,8 +8,8 @@ This repository belongs to my second milestone project in the Full-stack Develop
 
 The live link for this project is this one (https://csc7.github.io/PP2_CI_WW/).
 
-![Projects Table Image](docs/am-i-responsive.PNG)
-Image obtained after checking the website in "Am I Responsive" website. The image shows the Functions page (Home) of the project in different devices. Image generated with Am I Responsive? website http://ami.responsivedesign.is/?url=https%3A%2F%2Fcsc7.github.io%2FPP2_CI_WW
+![Projects Table Image](docs/am-i-responsive-zoomed.PNG)
+Image obtained after checking the website in "Am I Responsive" website (giving "https://csc7.github.io/PP2_CI_WW/" as input). The image shows the Functions page (Home) of the project in different devices. Image generated with Am I Responsive? website http://ami.responsivedesign.is/?url=https%3A%2F%2Fcsc7.github.io%2FPP2_CI_WW
 
 
 
