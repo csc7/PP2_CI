@@ -134,6 +134,7 @@ User stories are divided into the following three groups:
 25. As owner, I want to give as many options to be contacted as possible, so users can choose forms or links in the footer to send their consultations and/or feedback in a very fast way without having to navigate throuth the website.
 26. As owner, I want to inform users if they consultation/message was succesfully sent, so they know if they need to resend it or they do not.
 27. As owner, I want to inform the user, through an error page, if there is any error when loading the website.
+28. As owner, I want to validate the contact form and e-mail field for sending wavelet data, so users cannot send empty forms or data, simultaneously letting them know if the form or data is succesfully sent.
 
 
 
@@ -306,7 +307,7 @@ It can be found in the Functions page and show the functions of the wavelts that
 - ### **Wavelet Generator**
 
 It can be found in the Generator page and gives the option to select type of wavelet, sampling rate, length of wavelet and frequency. The wavelet generated can then be plotted using Google Charts and/or be sent to an e-mail address, informing the user if the email successfully goes through.
-*User Stories Addressed by this Feature: 1; 4; 5; 7; 10; 15; 16; 17; 19; 20; 22 and 23.
+*User Stories Addressed by this Feature: 1; 4; 5; 7; 10; 15; 16; 17; 19; 20; 22, 23 and 28.
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
@@ -350,7 +351,7 @@ It can be found in the Quiz page; it is a very simple interactive quiz of ten qu
 - ### **Contact Form**
 
 It can be found in the Contact and allows users to contact the website developer. It prevents the form to be sent with incomplete fields, informs the user if the message goes through and disables the send button in order not to send the consultation more than once.
-*User Stories Addressed by this Feature: 1; 6; 7; 12; 13; 14; 17; 19; 20; 25 and 26.
+*User Stories Addressed by this Feature: 1; 6; 7; 12; 13; 14; 17; 19; 20; 25, 26 and 28.
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
@@ -1094,6 +1095,23 @@ The following are testing of User Stories previously described above:
 </details>
 <br><br>
 
+28. As owner, I want to validate the contact form and e-mail field for sending wavelet data, so users cannot send empty forms or data, simultaneously letting them know if the form or data is succesfully sent.
+
+| FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
+| --- | --- | --- | --- |
+| Wavelet Generator and Contact Form | Show a message in the E-mail field in the Generator page and all the fields of the contact form in the Contact page that some data/information is missing before the action can be completed | Show message/alert and prevent form or data to be sent | Works as expected | 
+
+<details>
+    <summary>Screenshots</summary>
+
+![Data E-mail Validation Image](docs/features-and-evidence/validation-for-email-data.PNG)
+![Form Name Validation Image](docs/features-and-evidence/validation-form-name.PNG)
+![Form Surname Validation Image](docs/features-and-evidence/validation-form-surname.PNG)
+![Form E-mail Validation Image](docs/features-and-evidence/validation-form-email.PNG)
+![Form Description Validation Image](docs/features-and-evidence/validation-form-description.PNG)
+
+</details>
+<br><br>
 
 
 <br><br>
