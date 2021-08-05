@@ -123,6 +123,9 @@ from https://getbootstrap.com/docs/4.0/components/navbar/
 /* To avoid moving the fixed navigation menu when clicking the
 Bootstrap hamburguer button, these properties will be changed
 when clicking such button */
+
+/* Functions page title */
+
 #functions-page-heading, #home-body {
     margin-top: 0px;
     transition: margin-top 0.35s;
@@ -132,6 +135,8 @@ when clicking such button */
     width: 50%;    
     background-color: white;
 }
+
+/* Functions page body/content */
 
 #functions-page-body {
     background-color: rgb(247, 235, 235);
@@ -156,6 +161,7 @@ when clicking such button */
     background-color: white;
 }
 
+/* Wavelet title */
 .wavelet-function {
     margin-top: 50px;
     text-align: center;
@@ -166,12 +172,14 @@ when clicking such button */
     text-align: center;
 }
 
+/* Wavelet formula - Shown as image */
 .wavelet-function-image {
     margin: auto;
     margin-left: 25%;
     width: 50%;    
 }
 
+/* Wavelet curve graph */
 .wavelet-graph-image {
     margin: auto;
     margin-left: 25%;
@@ -180,6 +188,7 @@ when clicking such button */
     border: 3px solid blue;    
 }
 
+/* References */
 #references {
     margin-top: 50px;
     text-align: left;
@@ -192,6 +201,7 @@ when clicking such button */
 
 /* GENERATOR PAGE */
 
+/* Disclaimer message */
 #disclaimer {
     width: 100%;
     color: rgb(98, 98, 161);
@@ -214,6 +224,8 @@ when clicking such button */
     margin-top: 0px;
     transition: margin-top 0.35s;
 }
+
+/* Main left container 50% width */
 
 #left-graph-div {
     float: left;
@@ -239,6 +251,7 @@ when clicking such button */
     border-radius: 25px;
 }
 
+/* Google Charts graph */
 #curve_chart-top {
     width: 90%;
     height: 90%;
@@ -247,6 +260,8 @@ when clicking such button */
     margin-top: 2%;
 }
 
+/* Main right container 50% width */
+
 #right-conf-panel-div {
     float: right;
     width: 40%;
@@ -254,6 +269,8 @@ when clicking such button */
     position: relative;
     top: 75px;
 }
+
+/* Configuration panel - Input parameters */
 
 #conf-panel {
     padding-top: 0%;
@@ -304,6 +321,8 @@ when clicking such button */
     height: 100%;
 }
 
+/* Powered by Google label/title */
+
 #powered-by-Google {
     width: 150%; /* Above 100% to avoid adding a second line. No impact since it is left-aligned */
     height: 100%;
@@ -319,6 +338,8 @@ when clicking such button */
 #powered-by-Google > i {
     color: blue;
 }
+
+/* Benerator buttons */
 
 #generate-button, #export-button {
     width: 50%;    
@@ -339,6 +360,7 @@ when clicking such button */
     margin-bottom: 25px;
 }
 
+/* Success or fail indication of data being sent */
 #data-status {    
     height: 25px;
     padding-top: 0;
@@ -382,6 +404,8 @@ when clicking such button */
     top: 75px;
 }
 
+/* Start section with Start button */
+
 #start-panel-div {
     width: 100%;
     height: 60px;
@@ -395,6 +419,8 @@ when clicking such button */
     position: relative;
     top: 75px;
 }
+
+/* Information panel and progress bar */
 
 #last-answer-div {
     width: 100%;
@@ -491,6 +517,8 @@ when clicking such button */
     background-color: rgb(159, 159, 235);
 }
 
+/* Quiz body/container - Questions, input and Send button */
+
 #quiz-body {
     width: 100%;
     padding-top: 20px;
@@ -574,6 +602,8 @@ when clicking such button */
     transition: margin-top 0.35s;
 }
 
+/* Contact form */
+
 #contact-form-div {
     padding: 0px;
     width: 100%;
@@ -647,6 +677,7 @@ when clicking such button */
     border-radius: 10px;
 }
 
+/* Success or fail indication after sending the form */
 #email-status {    
     height: 50px;
     margin-left: 0;
@@ -795,6 +826,8 @@ body > footer > nav > a > i {
 
     /* FUNCTIONS PAGE */
 
+    /* Adapt width of elements */
+
     .wavelet-function-image {
         margin-left: 10%;
         width: 80%;
@@ -807,6 +840,9 @@ body > footer > nav > a > i {
     }
 
     /* GENERATOR PAGE */
+
+    /* Put configuration panel/container on top and graph/left container below
+    instead of side by side. Adapt width of them. */
 
     #left-graph-div {
         width: 100%;
@@ -847,6 +883,8 @@ body > footer > nav > a > i {
     
     /* QUIZ PAGE */
 
+    /* Adapt width of elements */
+
     #score-panel-div-info, #last-answer-div-info {
         width: 75%;
     }
@@ -872,6 +910,8 @@ body > footer > nav > a > i {
   
     /* CONTACT PAGE */
 
+    /* Adapt width of elements */
+
     #contact-form {
         width: 70%;
         margin-left: 15%;
@@ -895,6 +935,8 @@ body > footer > nav > a > i {
 
     /* FUNCTIONS PAGE */
 
+    /* Take light-red side borders/areas for big screen sizes out */
+
     #functions-page-body {
         background-color: white;
     }
@@ -903,6 +945,8 @@ body > footer > nav > a > i {
         background-color: white;
     }
 
+    /* Long formula, placed with width greater than 100%
+    and negative left margin  */
     .wavelet-function-image {
         margin-left: -17%;
         width: 134%;
@@ -915,6 +959,8 @@ body > footer > nav > a > i {
     }
 
     /* GENERATOR PAGE */
+
+    /* Adapt width of elements */
 
     .panel-row-label, .form-row-label, #powered-by-Google {
         width: 96%;
@@ -939,6 +985,8 @@ body > footer > nav > a > i {
     }
 
     /* QUIZ PAGE */
+
+    /* Adapt width of elements */
 
     #quiz-page-heading {        
         font-size: 145%;
@@ -972,6 +1020,8 @@ body > footer > nav > a > i {
     }
     
     /* CONTACT PAGE */
+
+    /* Adapt width of elements */
 
     #contact-us-heading {
         font-size: 150%;
@@ -1034,6 +1084,8 @@ in order to have the items visible at all times */
 
     /* FUNCTIONS PAGE */
 
+    /* Adapt width of elements and change font size for cell phones*/
+
     #basic-concepts {
         width: 90%;
         margin-left: 5%;
@@ -1061,6 +1113,8 @@ in order to have the items visible at all times */
     }
 
     /* GENERATOR PAGE */
+
+    /* Adapt width of elements and change font size for cell phones*/
 
     #generator-page-heading {
         font-size: 165%;
@@ -1099,6 +1153,8 @@ in order to have the items visible at all times */
     }
 
     /* QUIZ PAGE */
+
+    /* Adapt width of elements and change font size for cell phones*/
 
     #funny-message-div {
         height: 60px;
