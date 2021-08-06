@@ -92,10 +92,10 @@ function sendAnswer() {
     if (answer === correctAnswer) {
         totalCorrect++;
         document.getElementById('last-answer').children[1].textContent = answer;
-        document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} / ${i}`;
+        document.getElementById('score-div').children[1].textContent = " " + totalCorrect + " / " + i;
     } else {
         document.getElementById('last-answer').children[1].textContent = answer;
-        document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} / ${i}`;
+        document.getElementById('score-div').children[1].textContent = " " + totalCorrect + " / " + i;
     }
     document.getElementById('last-correct-answer').children[1].textContent = correctAnswer;    
     // Check if last question is reached; if it is, send alert, give summary and disable send button until it is restarted
