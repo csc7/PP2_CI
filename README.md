@@ -300,6 +300,7 @@ The following languages, software and tools were implemented using Windows 10 Pr
 - #### **Microsoft Edge, version 91.0.864.59, Official build, 64-bit (and its development tool)**
 - #### **Firefox, 89.0.2, 64-bit (and its development tool)**
 - #### **Microsoft Internet Explorer, version 2004, OS Build 19041.1052**
+- #### Babel JavaScript compiler (transpiler, to try to solve ES5 issues for Internet Explorer, finally not implemented).
 <br><br>
 ## [Back to Index](#index)
 
@@ -1191,6 +1192,8 @@ Bugs who required more time and specific solutions were the following ones:
 | Send button in Quiz page does not respond to width styling in CSS | Since the first id value (send-button) might have been interfering with another id (in a downloaded library, because it has not been found anywhere else in the files of this website), it was changed to "quiz-send-button", solving the issue and assigning a width similar to the answer/input box.|
 | Fixed navigation header moves along with headings and body when expanding the menu after clicking the Bootstrap hamburguer button | Solved by adding a top property with a value of zero in the CSS style file.|
 | Brand with website name and Bootstrap hamburguer button move up when expanding the menu after clicking the Bootstrap hamburguer button | Solved by adding a padding-bottom property with the same value of the previous added padding-top property in the CSS style file.|
+| While checking JavaScript files for Internet Explorer browser (Version 2004, OS Build 19041.1110), website lost interactivity as a result of scripts not being loaded | Correction was achieved by converting strings defined between backtick characters to a sum of strings involving short strings between double quotes plus variables. The solution has made the quiz to run normally in this browser, however it could not solve the issue of sending the form and/or data with EmailJS, which runs for ES6 (while the browser does it for ES5). **Therefore, sending data and/or forms is not supported for Internet Explorer.** |
+| While checking JavaScript files for Internet Explorer browser (Version 2004, OS Build 19041.1110), it was notices that data and forms are does not work. | After investigation it was observed that EmailJS, technology used for achieving these tasks, is designed for ES6, while Internet Explorer supports ES5. A solution was attempted with Babel transpiler, however the solution requires (at least for the moment) further investigation. **Therefore, sending data and/or forms is not supported for Internet Explorer.** |
 
 <br><br>
 ## [Back to Index](#index)
