@@ -19,7 +19,6 @@ function moveContent () {
 // EmailJS
 // Copied and modified from Code Institute's material for "Sending Emails Using EmailJS" lessons
 // Used to send e-mails from the contact form in the Contact page
-
 function sendMail(contactForm) {
     // Credit: EmailJS - Code copied on July 31st, 2021, at 6:37, from EmailJS personal account
     // First line in head element of contact.html file
