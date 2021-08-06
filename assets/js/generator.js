@@ -1,4 +1,7 @@
-
+// Credit: EmailJS - Code copied on August 2nd, 2021, at 2:07, from EmailJS personal account
+(function() {
+    emailjs.init("user_MNQL3PP8hE3qKe1AHoGqQ");
+    })();
 
 // Move content down when clicking the Bootstrap hamburguer
 // button in the fixed navigation menu
@@ -184,13 +187,11 @@ function computeGraphData() {
 // Copied and modified from Code Institute's material for "Sending Emails Using EmailJS" lessons
 function sendData(dataToSend) {
     let data = computeGraphData();
-    // Credit: EmailJS - Code copied on August 2nd, 2021, at 2:07, from EmailJS personal account
-    emailjs.init("user_o5O0kmL8NWgC0wZzvn6X8");
     emailjs.send("service_euotwqk", "Code_Institute_MS2_WData", {
         "to_email": dataToSend.email.value,
         "data": data
     })
-   .then(
+    .then(
        function(response) {
            document.getElementById("data-status").textContent = "Data sent!";
            document.getElementById("data-status").style.color = "blue";
