@@ -69,7 +69,7 @@ function runQuiz() {
     if (i == 0) {
         startTime = new Date().getTime();
         t = setInterval (timer, 1000);
-        document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} / ${i}`;
+        //document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} / ${i}`;
         for (let j = 0; j < 10; j++) {
             document.getElementById('prog-bar').children[j].style.backgroundColor = "rgb(148, 157, 240)";
         }
