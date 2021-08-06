@@ -1,3 +1,6 @@
+// Credit: EmailJS - Code copied on July 31st, 2021, at 6:37, from EmailJS personal account
+emailjs.init("user_MNQL3PP8hE3qKe1AHoGqQ");
+
 // Move content down when clicking the Bootstrap hamburguer
 // button in the fixed navigation menu
 let hamburguerButton = document.getElementsByTagName("button")[0];
@@ -20,7 +23,6 @@ function moveContent () {
 // Copied and modified from Code Institute's material for "Sending Emails Using EmailJS" lessons
 // Used to send e-mails from the contact form in the Contact page
 function sendMail(contactForm) {
-    emailjs.init("user_MNQL3PP8hE3qKe1AHoGqQ");
     emailjs.send("service_v7z0j0h", "Code_Institute_MS2", {
         "from_name": contactForm.name.value,
         "from_surname": contactForm.surname.value,
