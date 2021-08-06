@@ -59,7 +59,7 @@ function computeGraphData() {
     // Divide length by 2 since symmetrical negative values are being generated:
     let waveletLength = parseInt(document.getElementById('length-field').value) / 2;
     let frequency = parseInt(document.getElementById('frequency-field').value);
-    totalSamples = Math.floor(waveletLength / samplingRate);
+    let totalSamples = Math.floor(waveletLength / samplingRate);
     let timeVector = []; 
     let amplitude = [];
     let dataForGraph = [];
@@ -180,7 +180,7 @@ function computeGraphData() {
 // E-mail Data
 // Credits: EmailJS
 // Copied and modified from Code Institute's material for "Sending Emails Using EmailJS" lessons
-function sendData(dataToSend) {
+function sendData (dataToSend) {
     let data = computeGraphData();
     // Credit: EmailJS - Code copied on August 2nd, 2021, at 2:07, from EmailJS personal account
     // First line in head element of generator.html file
