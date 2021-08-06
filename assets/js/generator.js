@@ -1,7 +1,5 @@
 // Credit: EmailJS - Code copied on August 2nd, 2021, at 2:07, from EmailJS personal account
-//(function() {
-//   emailjs.init("user_MNQL3PP8hE3qKe1AHoGqQ");
-//    })();
+emailjs.init("user_MNQL3PP8hE3qKe1AHoGqQ");
 
 // Move content down when clicking the Bootstrap hamburguer
 // button in the fixed navigation menu

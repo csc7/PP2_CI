@@ -1295,6 +1295,9 @@ Jesse James Garrett's process for user experience.
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow, accessed on July 25th, 2021, 7:25.
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log, accessed on July 25th, 2021, 7:27.
 
+- SitePoint Community / SitePoint Forums:
+    - Alternative to backticking: https://www.sitepoint.com/community/t/why-to-use-backtick-in-js/273507, accessed on August 6th, 2021, at 3:00.
+
 - Stack Overflow:
 
     - Assigning height for header and footer, and rest of screen for body: https://stackoverflow.com/questions/10228280/how-to-make-div-height-100-between-header-and-footer; accessed on July 20th, 2021, at 00:30.
