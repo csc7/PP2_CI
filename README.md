@@ -12,7 +12,7 @@ Image obtained after checking the website in "Am I Responsive" website (http://a
 
 
 # **Index**
-#### [*Website Live Link*](https://csc7.github.io/PP1_CI_TGC/)
+#### [*Website Live Link*](https://csc7.github.io/PP2_CI_WW/)
 ### [1. Project Goals](#1--project-goals)
 ### [2. User Experience](#2--user-experience)
 - #### [User Goals](#user-goals-1)
