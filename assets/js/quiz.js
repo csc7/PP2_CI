@@ -114,7 +114,8 @@ function sendAnswer() {
             alert("You answered " + i + " questions, with " + totalCorrect + " correct. You took " + timeSpent[0] + timeSpent[1] + ":" + timeSpent[5] + timeSpent[6] + " (" + timeSpent[0] + timeSpent[1] + " minutes and " + timeSpent[5] + timeSpent[6] + " seconds).");
         }      
         document.getElementById("quiz-send-button").disabled = true;    
-        document.getElementById("answer").blur();   
+        document.getElementById("answer").blur();
+        i = 0; 
         return;                
     // If not last question, call for next question
     } else {        
