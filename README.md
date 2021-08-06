@@ -401,25 +401,25 @@ Questions of the quiz are build by concatenating a first-part string, a random n
 
 Being X the random number, questions and correct answers of the quiz are the following ones:
 
- - "What is the frequency of the following signal: 100 sin X Hz signal in order to have it fully recovered?"
+ - "What is the frequency of the following signal: 100 sin X Hz signal in order to have it fully recovered?" \
  Correct answer: whole part of (X / (2 * 3.1416)).
- - "What sampling frequency should be assigned to a X Hz signal in order to have it fully recovered?"
+ - "What sampling frequency should be assigned to a X Hz signal in order to have it fully recovered?" \
  Correct answer: whole part of (X * 2).
- - "How long does it take (in msec) to a X Hz signal to complete 10 cycles?"
+ - "How long does it take (in msec) to a X Hz signal to complete 10 cycles?" \
  Correct answer: whole part of ((1 / X) * 10 * 1000).
- - "What is the frequency of the following signal: 50 cos 2PiXt?"
+ - "What is the frequency of the following signal: 50 cos 2PiXt?" \
  Correct answer: whole part of (X).
- - "What is the maximum frequency you will recover without aliasing if you sample at X msec?"
+ - "What is the maximum frequency you will recover without aliasing if you sample at X msec?" \
  Correct answer: whole part of ((1000 / X) *2).
- - "What sampling frequency should be assigned to a X Hz signal in order to have it fully recovered?"
+ - "What sampling frequency should be assigned to a X Hz signal in order to have it fully recovered?" \
  Correct answer: whole part of (X * 2).
- - "How long does it take (in msec) to a X Hz signal to complete 250 cycles?"
+ - "How long does it take (in msec) to a X Hz signal to complete 250 cycles?" \
  Correct answer: whole part of ((1 / X) * 250 * 1000).
- - "What is the frequency of the following signal: 2 A sinXt?"
+ - "What is the frequency of the following signal: 2 A sinXt?" \
  Correct answer: whole part of (X / (2 * 3.1416)).
- - "What is the maximum frequency you will recover without aliasing if you sample at X msec?"
+ - "What is the maximum frequency you will recover without aliasing if you sample at X msec?" \
  Correct answer: whole part of ((1000 / X) *2).
- - "How long does it take (in msec) to a X Hz signal to complete 50 cycles?"
+ - "How long does it take (in msec) to a X Hz signal to complete 50 cycles?" \
  Correct answer: whole part of ((1 / X) * 50 * 1000).
  
 *User Stories Addressed by this Feature: 1; 7; 11; 16; 17; 19; 20 and 24.*
