@@ -150,7 +150,7 @@ function displayQuestion (num) {
                'Hz signal to complete 50 cycles',
                ];
     // Build whole question, inserting a changing value between first and last part of questions, so values are different in each run of quiz
-    document.getElementById('question').innerHTML = `${questionStart[i]} <span id="first-value">${num}</span>${questionEnd[i]}<span id="second-value">? (Give the whole part, largest integer less than or equal to your result).</span>`;
+//    document.getElementById('question').innerHTML = `${questionStart[i]} <span id="first-value">${num}</span>${questionEnd[i]}<span id="second-value">? (Give the whole part, largest integer less than or equal to your result).</span>`;
 }
 
 // Get the correct answer based on the question previously generated
