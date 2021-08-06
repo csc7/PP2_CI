@@ -92,10 +92,10 @@ function sendAnswer() {
     if (answer === correctAnswer) {
         totalCorrect++;
         document.getElementById('last-answer').children[1].textContent = answer;
-        document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} / ${i}`;
+        //document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} / ${i}`;
     } else {
         document.getElementById('last-answer').children[1].textContent = answer;
-        document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} / ${i}`;
+        //document.getElementById('score-div').children[1].textContent = ` ${totalCorrect} / ${i}`;
     }
     document.getElementById('last-correct-answer').children[1].textContent = correctAnswer;    
     // Check if last question is reached; if it is, send alert, give summary and disable send button until it is restarted
@@ -103,16 +103,16 @@ function sendAnswer() {
         clearInterval(t);        
         document.getElementById('prog-bar').children[i-1].style.backgroundColor = "blue";        
         let timeSpent = document.getElementById("clock").textContent;
-        // Same message, there are many options to choose from to avoid showing incorrect format of minutes and seconds, e.g., avoid showing seconds with three digits
-        if (timeSpent[0] == 0 && timeSpent[5] == 0) {
-            alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent[0]}${timeSpent[1]}:${timeSpent[5]}${timeSpent[6]} (${timeSpent[1]} minutes and ${timeSpent[6]} seconds).`);
-        } else if (timeSpent[0] == 0 && timeSpent[5] != 0) {
-            alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent[0]}${timeSpent[1]}:${timeSpent[5]}${timeSpent[6]} (${timeSpent[1]} minutes and ${timeSpent[5]}${timeSpent[6]} seconds).`);
-        } else if (timeSpent[0] != 0 && timeSpent[5] == 0) {
-            alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent[0]}${timeSpent[1]}:${timeSpent[5]}${timeSpent[6]} (${timeSpent[0]}${timeSpent[1]} minutes and ${timeSpent[6]} seconds).`);
-        } else {
-            alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent[0]}${timeSpent[1]}:${timeSpent[5]}${timeSpent[6]} (${timeSpent[0]}${timeSpent[1]} minutes and ${timeSpent[5]}${timeSpent[6]} seconds).`);
-        }      
+        //// Same message, there are many options to choose from to avoid showing incorrect format of minutes and seconds, e.g., avoid showing seconds with three digits
+        //if (timeSpent[0] == 0 && timeSpent[5] == 0) {
+        //    alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent[0]}${timeSpent[1]}:${timeSpent[5]}${timeSpent[6]} (${timeSpent[1]} minutes and ${timeSpent[6]} seconds).`);
+        //} else if (timeSpent[0] == 0 && timeSpent[5] != 0) {
+        //    alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent[0]}${timeSpent[1]}:${timeSpent[5]}${timeSpent[6]} (${timeSpent[1]} minutes and ${timeSpent[5]}${timeSpent[6]} seconds).`);
+        //} else if (timeSpent[0] != 0 && timeSpent[5] == 0) {
+        //    alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent[0]}${timeSpent[1]}:${timeSpent[5]}${timeSpent[6]} (${timeSpent[0]}${timeSpent[1]} minutes and ${timeSpent[6]} seconds).`);
+        //} else {
+        //    alert(`You answered ${i} questions, with ${totalCorrect} correct. You took ${timeSpent[0]}${timeSpent[1]}:${timeSpent[5]}${timeSpent[6]} (${timeSpent[0]}${timeSpent[1]} minutes and ${timeSpent[5]}${timeSpent[6]} seconds).`);
+        //}      
         document.getElementById("quiz-send-button").disabled = true;    
         document.getElementById("answer").blur();   
         return;                
