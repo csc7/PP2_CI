@@ -183,6 +183,7 @@ function computeGraphData() {
 function sendData(dataToSend) {
     let data = computeGraphData();
     // Credit: EmailJS - Code copied on August 2nd, 2021, at 2:07, from EmailJS personal account
+    // First line in head element of generator.html file
     emailjs.init("user_MNQL3PP8hE3qKe1AHoGqQ");
     emailjs.send("service_euotwqk", "Code_Institute_MS2_WData", {
         "to_email": dataToSend.email.value,
