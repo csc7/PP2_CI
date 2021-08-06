@@ -300,7 +300,7 @@ The following languages, software and tools were implemented using Windows 10 Pr
 - #### **Microsoft Edge, version 91.0.864.59, Official build, 64-bit (and its development tool)**
 - #### **Firefox, 89.0.2, 64-bit (and its development tool)**
 - #### **Microsoft Internet Explorer, version 2004, OS Build 19041.1052**
-- #### Babel JavaScript compiler (transpiler, to try to solve ES5 issues for Internet Explorer, finally not implemented).
+- #### Babel JavaScript compiler (transpiler, to try to solve ES5 issues for Internet Explorer, finally not implemented, https://babeljs.io/docs/en/babel-standalone).
 <br><br>
 ## [Back to Index](#index)
 
@@ -1240,6 +1240,8 @@ Love Running - Essentials Project, from Code Institute, as a guide, source of de
 Balsamiq Wireframes: I have used it to create all the wireframes.
 
 Jesse James Garrett's process for user experience.
+
+- Babel JavaScript compiler (transpiler, to try to solve ES5 issues for Internet Explorer, finally not implemented, https://babeljs.io/docs/en/babel-standalone). Tested on August 6th, 2021, between 5:30 and 6:30 approximately.
 
 - Bootstrap:
 
