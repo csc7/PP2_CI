@@ -1,6 +1,3 @@
-// Credit: EmailJS - Code copied on August 2nd, 2021, at 2:07, from EmailJS personal account
-emailjs.init("user_MNQL3PP8hE3qKe1AHoGqQ");
-
 // Move content down when clicking the Bootstrap hamburguer
 // button in the fixed navigation menu
 let hamburguerButton = document.getElementsByTagName("button")[0];
@@ -185,6 +182,8 @@ function computeGraphData() {
 // Copied and modified from Code Institute's material for "Sending Emails Using EmailJS" lessons
 function sendData(dataToSend) {
     let data = computeGraphData();
+    // Credit: EmailJS - Code copied on August 2nd, 2021, at 2:07, from EmailJS personal account
+    emailjs.init("user_MNQL3PP8hE3qKe1AHoGqQ");
     emailjs.send("service_euotwqk", "Code_Institute_MS2_WData", {
         "to_email": dataToSend.email.value,
         "data": data

@@ -1,5 +1,3 @@
-
-
 // Move content down when clicking the Bootstrap hamburguer
 // button in the fixed navigation menu
 let hamburguerButton = document.getElementsByTagName("button")[0];
@@ -21,6 +19,11 @@ function moveContent () {
 // EmailJS
 // Copied and modified from Code Institute's material for "Sending Emails Using EmailJS" lessons
 // Used to send e-mails from the contact form in the Contact page
+
+(function(){
+    emailjs.init("user_MNQL3PP8hE3qKe1AHoGqQ");
+ })();
+
 function sendMail(contactForm) {
     // Credit: EmailJS - Code copied on July 31st, 2021, at 6:37, from EmailJS personal account
     emailjs.init("user_MNQL3PP8hE3qKe1AHoGqQ");
