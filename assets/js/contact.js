@@ -22,7 +22,8 @@ function moveContent () {
 
 function sendMail(contactForm) {
     // Credit: EmailJS - Code copied on July 31st, 2021, at 6:37, from EmailJS personal account
-    //emailjs.init("user_MNQL3PP8hE3qKe1AHoGqQ");
+    // First line in head element of contact.html file
+    emailjs.init("user_MNQL3PP8hE3qKe1AHoGqQ");
     emailjs.send("service_v7z0j0h", "Code_Institute_MS2", {
         "from_name": contactForm.name.value,
         "from_surname": contactForm.surname.value,
