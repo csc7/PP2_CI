@@ -1,5 +1,3 @@
-# *Sorry, website under construction*
-
 # Wavelet Website
 
 This website is about wavelet theory and generation. Except for the content referenced in this README file and/or the code and/or the website, all content is invented by me, anything matching reality is just a coincidence.
