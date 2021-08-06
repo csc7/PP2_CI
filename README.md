@@ -315,7 +315,8 @@ The website consists of four pages, where each of them is divided in three parts
 - ### **Website logo**
 
 It is located in all pages, fixed, top-left, and always visible.
-*User Stories Addressed by this Feature:* 8; 16; 17; 18 and 21.
+
+*User Stories Addressed by this Feature:* 8; 16; 17; 18 and 21.*
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
@@ -330,7 +331,8 @@ It is located in all pages, fixed, top-left, and always visible.
 - ### **Fixed navigation menu**
 
 It is located in the header, fixed on all pages to facilitate navigation, and responsive.
-*User Stories Addressed by this Feature:* 1; 7; 8; 16; 17; 18; 19; 20 and 21.
+
+*User Stories Addressed by this Feature:* 1; 7; 8; 16; 17; 18; 19; 20 and 21.*
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
@@ -346,7 +348,8 @@ It is located in the header, fixed on all pages to facilitate navigation, and re
 - ### **Summary of Functions**
 
 It can be found in the Functions page and show the functions of the wavelts that can be plotted in the Generator page.
-*User Stories Addressed by this Feature: 1; 2; 3; 7; 9; 16; 17; 19 and 22.
+
+*User Stories Addressed by this Feature: 1; 2; 3; 7; 9; 16; 17; 19 and 22.*
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
@@ -362,8 +365,9 @@ It can be found in the Functions page and show the functions of the wavelts that
 
 - ### **Wavelet Generator**
 
-It can be found in the Generator page and gives the option to select type of wavelet, sampling rate, length of wavelet and frequency. The wavelet generated can then be plotted using Google Charts and/or be sent to an e-mail address, informing the user if the email successfully goes through.
-*User Stories Addressed by this Feature: 1; 4; 5; 7; 10; 15; 16; 17; 19; 20; 22, 23 and 28.
+It can be found in the Generator page and gives the option to select type of wavelet, sampling rate, length of wavelet and frequency. The wavelet generated can then be plotted according to the functions shown in the Functions page using Google Charts and/or be sent to an e-mail address, informing the user if the email successfully goes through.
+
+*User Stories Addressed by this Feature: 1; 4; 5; 7; 10; 15; 16; 17; 19; 20; 22, 23 and 28.*
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
@@ -378,7 +382,8 @@ It can be found in the Generator page and gives the option to select type of wav
 - ### **Wavelet Graph**
 
 It can be found in the Generator page and graph the selected wavelet using Google Charts.
-*User Stories Addressed by this Feature: 1; 4; 7; 10; 15; 16; 17; 19; 20; 22 and 23.
+
+*User Stories Addressed by this Feature: 1; 4; 7; 10; 15; 16; 17; 19; 20; 22 and 23.*
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
@@ -392,7 +397,33 @@ It can be found in the Generator page and graph the selected wavelet using Googl
 - ### **Quiz**
 
 It can be found in the Quiz page; it is a very simple interactive quiz of ten questions where users can test theri basic knowledge and/or take a brake when they want. It contains a panel with the amount of questions and correct ones, a timer, a progress bar, the last answer and the last correct answer. A start button launches the quiz, which is stopped automatically after the tenth questions, with an alert message.
-*User Stories Addressed by this Feature: 1; 7; 11; 16; 17; 19; 20 and 24.
+
+Questions of the quiz are build by concatenating a first-part string, a random number (which changes the answer for other instances of the quiz) and last-part string.
+
+Being X the random number, questions and correct answers of the quiz are the following ones:
+
+ - "What is the frequency of the following signal: 100 sin X Hz signal in order to have it fully recovered?"
+ Correct answer: whole part of (X / (2 * 3.1416)).
+ - "What sampling frequency should be assigned to a X Hz signal in order to have it fully recovered?"
+ Correct answer: whole part of (X * 2).
+ - "How long does it take (in msec) to a X Hz signal to complete 10 cycles?"
+ Correct answer: whole part of ((1 / X) * 10 * 1000).
+ - "What is the frequency of the following signal: 50 cos 2PiXt?"
+ Correct answer: whole part of (X).
+ - "What is the maximum frequency you will recover without aliasing if you sample at X msec?"
+ Correct answer: whole part of ((1000 / X) *2).
+ - "What sampling frequency should be assigned to a X Hz signal in order to have it fully recovered?"
+ Correct answer: whole part of (X * 2).
+ - "How long does it take (in msec) to a X Hz signal to complete 250 cycles?"
+ Correct answer: whole part of ((1 / X) * 250 * 1000).
+ - "What is the frequency of the following signal: 2 A sinXt?"
+ Correct answer: whole part of (X / (2 * 3.1416)).
+ - "What is the maximum frequency you will recover without aliasing if you sample at X msec?"
+ Correct answer: whole part of ((1000 / X) *2).
+ - "How long does it take (in msec) to a X Hz signal to complete 50 cycles?"
+ Correct answer: whole part of ((1 / X) * 50 * 1000).
+ 
+*User Stories Addressed by this Feature: 1; 7; 11; 16; 17; 19; 20 and 24.*
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
@@ -407,7 +438,8 @@ It can be found in the Quiz page; it is a very simple interactive quiz of ten qu
 - ### **Contact Form**
 
 It can be found in the Contact and allows users to contact the website developer. It prevents the form to be sent with incomplete fields, informs the user if the message goes through and disables the send button in order not to send the consultation more than once.
-*User Stories Addressed by this Feature: 1; 6; 7; 12; 13; 14; 17; 19; 20; 25, 26 and 28.
+
+*User Stories Addressed by this Feature: 1; 6; 7; 12; 13; 14; 17; 19; 20; 25, 26 and 28.*
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
@@ -421,7 +453,8 @@ It can be found in the Contact and allows users to contact the website developer
 - ### **Footer**
 
 It is located at the bottom of all pages, containing icons with links to LinkedIn, GitHub and e-mail application (to automatically load developer's e-mail address in the addressee field).
-*User Stories Addressed by this Feature:* 1; 6; 7; 12; 14; 16; 17; 18; 19 and 25.
+
+*User Stories Addressed by this Feature: 1; 6; 7; 12; 14; 16; 17; 18; 19 and 25.*
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
@@ -436,7 +469,8 @@ It is located at the bottom of all pages, containing icons with links to LinkedI
 - ### **404 page**
 
 It is a different page that appears in case there is any issue when loading the page, like a similar incorrect URL. It contains a light red background and contains the message *"Sorry, something went wrong."*.
-*User Stories Addressed by this Feature:* 17; 27.
+
+*User Stories Addressed by this Feature:* 17; 27.*
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
