@@ -70,9 +70,9 @@ function computeGraphData() {
     let k = 0; // To count the amount of times a pair of values is pushed to the data
     // Give alert if some parameters are not appropriate for plotting, else compute data:
     if (samplingRate == 0 || waveletLength == 0) {
-        alert(`Sammpling rate or wavelet length cannot be zero. Please assign a different value.`);
+        alert("Sammpling rate or wavelet length cannot be zero. Please assign a different value.");
     } else if (samplingRate >= waveletLength) {
-        alert(`Wavelet length should be greater than sampling rate. Consider the former much longer that the latter for better results. Please assign different values.`);
+        alert("Wavelet length should be greater than sampling rate. Consider the former much longer that the latter for better results. Please assign different values.");
     } else {
         switch (waveletType) {
             // HAAR FUNCTION
