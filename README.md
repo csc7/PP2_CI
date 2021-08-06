@@ -470,31 +470,31 @@ Please check the evidence below:
 <details>
     <summary>Functions Page</summary>
 
-![Evidence of no errors and warnings in the Home HTML file](docs/validation/validation-home.PNG) 
+![Evidence of no errors and warnings in the Functions HTML (index) file](docs/validation/validation-html-index.PNG) 
 </details>
 
 <details>
     <summary>Generator Page</summary>
 
-![Evidence of no errors and warnings in the About Us HTML file](docs/validation/validation-about-us.PNG)
+![Evidence of no errors and warnings in the Generator HTML file](docs/validation/validation-html-generator.PNG)
 </details>
 
 <details>
     <summary>Quiz Page</summary>
 
-![Evidence of no errors and warnings in the Our Services HTML file](docs/validation/validation-our-services.PNG) 
+![Evidence of no errors and warnings in the Quiz HTML file](docs/validation/validation-html-quiz.PNG) 
 </details>
 
 <details>
     <summary>Contact Page</summary>
 
-![Evidence of no errors and warnings in the Contact Us HTML file](docs/validation/validation-contact-us.PNG) 
+![Evidence of no errors and warnings in the Contact HTML file](docs/validation/validation-html-contact.PNG) 
 </details>
 
 <details>
     <summary>404 Page</summary>
 
-![Evidence of no errors and warnings in the 404 file](docs/validation/validation-404.PNG) 
+![Evidence of no errors and warnings in the 404 file](docs/validation/validation-html-404.PNG) 
 </details>
 
 #### [Back to Index](#index)
@@ -526,7 +526,6 @@ Please check the evidence below:
     <summary>CSS Filee</summary>
 
 ![Evidence of no errors in the CSS file](docs/validation/validation-css.PNG) 
-![Evidence of warnings in the CSS file](docs/validation/validation-css_2.PNG) 
 </details>
 
 #### [Back to Index](#index)
@@ -540,25 +539,25 @@ Please check the evidence below:
 <details>
     <summary>Functions Page</summary>
 
-![Evidence of no errors and warnings in the Home HTML file](docs/validation/validation-home.PNG) 
+![Evidence of no errors and warnings in the Functions (index) JavaScript file](docs/validation/validation-js-index.PNG) 
 </details>
 
 <details>
     <summary>Generator Page</summary>
 
-![Evidence of no errors and warnings in the About Us HTML file](docs/validation/validation-about-us.PNG)
+![Evidence of no errors and warnings in the Generator JavaScript file](docs/validation/validation-js-generator.PNG)
 </details>
 
 <details>
     <summary>Quiz Page</summary>
 
-![Evidence of no errors and warnings in the Our Services HTML file](docs/validation/validation-our-services.PNG) 
+![Evidence of no errors and warnings in the Quiz JavaScript file](docs/validation/validation-js-quiz.PNG) 
 </details>
 
 <details>
     <summary>Contact Page</summary>
 
-![Evidence of no errors and warnings in the Contact Us HTML file](docs/validation/validation-contact-us.PNG) 
+![Evidence of no errors and warnings in the Contact JavaScript  file](docs/validation/validation-js-contact.PNG) 
 </details>
 
 #### [Back to Index](#index)
@@ -573,31 +572,31 @@ https://wave.webaim.org/ was used to validate accessibility. Although there are 
 <details>
     <summary>Functions Page</summary>
 
-![Evidence of no accessibility errors in the Home HTML file](docs/validation/validation-home-accessibility.PNG) 
+![Evidence of no accessibility errors in the Functions (index) HTML file](docs/validation/validation-accessibility-index.PNG) 
 </details>
 
 <details>
     <summary>Generator Page</summary>
 
-![Evidence of no accessibility errors in the About Us HTML file](docs/validation/validation-about-us-accessibility.PNG)
+![Evidence of no accessibility errors in the Generator HTML file](docs/validation/validation-accessibility-generator.PNG)
 </details>
 
 <details>
     <summary>Quiz Page</summary>
 
-![Evidence of no accessibility errors in the Our Services HTML file](docs/validation/validation-our-services-accessibility.PNG) 
+![Evidence of no accessibility errors in the Quiz HTML file](docs/validation/validation-accessibility-quiz.PNG) 
 </details>
 
 <details>
     <summary>Contact Page</summary>
 
-![Evidence of no accessibility errors in the Contact Us HTML file](docs/validation/validation-contact-us-accessibility.PNG) 
+![Evidence of no accessibility errors in the Contact HTML file](docs/validation/validation-accessibility-contact.PNG) 
 </details>
 
 <details>
     <summary>404 Page</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-accessibility.PNG) 
+![Evidence of no accessibility errors in the 404 file](docs/validation/validation-accessibility-404.PNG) 
 </details>
 
 #### [Back to Index](#index)
@@ -609,63 +608,63 @@ https://wave.webaim.org/ was used to validate accessibility. Although there are 
 Google Lighthouse (used in Google, Microsoft Edge and Firefox) were used to evaluate the performance of the pages. Please check the results below:
 
 <details>
-    <summary>Functions Page for Mobile(94)</summary>
+    <summary>Functions Page for Cell Phones(93)</summary>
 
-![Evidence of no accessibility errors in the Home HTML file](docs/validation/validation-home-performance-mobile.PNG) 
+![Evidence of no accessibility errors in the Functions (index) HTML file](docs/validation/performance-functions-cell.PNG) 
 </details>
 
 <details>
     <summary>Functions Page for Desktop (99)</summary>
 
-![Evidence of no accessibility errors in the Home HTML file](docs/validation/validation-home-performance-desktop.PNG) 
+![Evidence of no accessibility errors in the Functions (index) HTML file](docs/validation/performance-functions-desktop.PNG) 
 </details>
 
 <details>
-    <summary>Generator Page for Mobile (98)</summary>
+    <summary>Generator Page for Cell Phones(97)</summary>
 
-![Evidence of no accessibility errors in the About Us HTML file](docs/validation/validation-about-us-performance-mobile.PNG)
+![Evidence of no accessibility errors in the Generator HTML file](docs/validation/performance-generator-cell.PNG)
 </details>
 
 <details>
-    <summary>Generator Page for Desktop (99)</summary>
+    <summary>Generator Page for Desktop (100)</summary>
 
-![Evidence of no accessibility errors in the About Us HTML file](docs/validation/validation-about-us-performance-desktop.PNG)
+![Evidence of no accessibility errors in the Generator HTML file](docs/validation/performance-generator-desktop.PNG)
 </details>
 
 <details>
-    <summary>Quiz Page for Mobile (94)</summary>
+    <summary>Quiz Page for Cell Phones(95)</summary>
 
-![Evidence of no accessibility errors in the Our Services HTML file](docs/validation/validation-our-services-performance-mobile.PNG) 
+![Evidence of no accessibility errors in the Quiz HTML file](docs/validation/performance-quiz-cell.PNG) 
 </details>
 
 <details>
     <summary>Quiz Page for Desktop (99)</summary>
 
-![Evidence of no accessibility errors in the Our Services HTML file](docs/validation/validation-our-services-performance-desktop.PNG) 
+![Evidence of no accessibility errors in the Quiz HTML file](docs/validation/performance-quiz-desktop.PNG) 
 </details>
 
 <details>
-    <summary>Contact Page for Mobile (91)</summary>
+    <summary>Contact Page for Cell Phones(97)</summary>
 
-![Evidence of no accessibility errors in the Contact Us HTML file](docs/validation/validation-contact-us-performance-mobile.PNG) 
+![Evidence of no accessibility errors in the Contact HTML file](docs/validation/performance-contact-cell.PNG) 
 </details>
 
 <details>
     <summary>Contact Page for Desktop (100)</summary>
 
-![Evidence of no accessibility errors in the Contact Us HTML file](docs/validation/validation-contact-us-performance-desktop.PNG) 
+![Evidence of no accessibility errors in the Contact HTML file](docs/validation/performance-contact-desktop.PNG) 
 </details>
 
 <details>
-    <summary>404 Page for Mobile (95, although it has been observed values from 84 to 99)</summary>
+    <summary>404 Page for Cell Phones(92)</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance-mobile.PNG) 
+![Evidence of no accessibility errors in the 404 file](docs/validation/performanc-404-cell.PNG) 
 </details>
 
 <details>
-    <summary>404 Page for Desktop (99)</summary>
+    <summary>404 Page for Desktop (100)</summary>
 
-![Evidence of no accessibility errors in the 404 file](docs/validation/validation-404-performance-desktop.PNG) 
+![Evidence of no accessibility errors in the 404 file](docs/validation/performanc-404-desktop.PNG) 
 </details>
 
 <br><br>
