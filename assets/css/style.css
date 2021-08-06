@@ -546,6 +546,11 @@ when clicking such button */
     text-align: center;
 }
 
+/* Do not display label for input */
+#label-for-quiz-answer {
+    display: none;
+}
+
 #answer {
     width: 30%;
     height: 40px;
