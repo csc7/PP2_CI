@@ -292,6 +292,7 @@ The following languages, software and tools were implemented using Windows 10 Pr
 - #### **MATLAB, The MathWorks, Inc. (to generate function plots in Functions page and obtain Morlet function)**
 - #### **W3C Markup Validation Service**
 - #### **W3C CSS Validation Service**
+- #### **JSHint (version 2.13.0)**
 - #### **WAVE Web Accessibility Evaluation Tool**
 - #### **Google Lighthouse (used in Google, Microsoft Edge and Firefox)**
 - #### **Google Chrome, version 91.0.4472.114, Official Build, 64-bit (and its development tool)**
@@ -566,7 +567,13 @@ Please check the evidence below:
 
 ## **JavaScript Files**
 https://jshint.com/ was used to validate the JavaScript files.
-Please check the evidence below:
+Please check the parameters used for validation and evidence below:
+
+<details>
+    <summary>Parameters used for JavaScript validation in JSHint version 2.13.0</summary>
+
+![Evidence of no errors and warnings in the Functions (index) JavaScript file](docs/validation/validation-js-parameters.PNG) 
+</details>
 
 <details>
     <summary>Functions Page</summary>
