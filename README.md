@@ -96,6 +96,7 @@ ADD RESPONSIVENESS AND INTERACTIVITY REQUIREMNTS
 - To provide a basic and scalable website and framework for signal processing that allows for the incorporation of more tools in the future.
 
 #### [Back to Index](#index)
+<br>
 
 ## **User Stories**
 User stories are divided into the following three groups:
@@ -159,6 +160,7 @@ The design was planned to cover screen sizes from 320x568px to 1920x1370px.
 Red, white (as background) and blue is the base of the website. The goal is to provide strong contrast and use colours that show a vivid website.
 
 #### [Back to Index](#index)
+<br>
 
 ## **Fonts**
 Google fonts (please see credits section below) were implemented in the website. Nunito/Montserrat were selected as the font pair for the website (following Google's suggestion), however only Nunito has been applied.
@@ -167,6 +169,7 @@ Sans-serif font is used as a back-up in case the previous font cannot be loaded.
 Colour #rgb(98, 98, 161), dark blue, was selected for paragraphs, while red and blue for headings.
 
 #### [Back to Index](#index)
+<br>
 
 ## **Structure**
 The metadata includes the following keywords to help search engines to find the website: wavelet, wavelets, signal, signals, signal processing, seismic processing, wavelet generation, txt, export, quiz. signal quiz, wavelet functions, wavelet formulas, wavelet summary, wavelet reference, processing, Code Institute, software development, student, full-stack course, milestone project.
@@ -192,6 +195,7 @@ The body of the pages are structured as follows for each of the pages:
     It contains a start button on top, a progress bar below (which progress one step per question), a score and time panel below, and the quiz itself under thesesections,     which indeed contains a field where the user writes the answer and a button to send it.
 - #### *Contact:*
     It has a simple contact form, center-aligned, with name, surname, e-mail and description fields, before it finds the send button.
+<br>
     
 - ### **Footer**
 
