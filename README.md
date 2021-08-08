@@ -46,7 +46,7 @@ The goal of the project is to develop a website where seismic data processors, s
 
 Specifically, the goals of the project are the following ones:
 - To show the functions of the wavelets being calculated and plotted.
-- To build graphs of wavelets based input parameters given by the user.
+- To build graphs of wavelets-based input parameters given by the user.
 - To export the generated wavelet to a TXT file (just communication with server in this deployment version).
 - To give users the chance to test their basic knowledge, thorough o quiz, about signals (very basic, just Nyquist and wave properties for this deployment version).
 - To give users a contact form so they can send suggestions or comments if they wish.
@@ -76,7 +76,7 @@ UX has been addressed (and remains as a constant activity) around Jesse James Ga
     - A fixed navigation bar on top.
     - A fixed footer.
 - **SKELETON**: the information is accessed through a fixed navigation menu on top of the pages.
-- **SURFACE**: the website is based on red, white and blue colours to give strong contrast and simoultaneously a "live" design.
+- **SURFACE**: the website is based on red, white and blue colours to give strong contrast and simultaneously a "live" design.
 
 ADD RESPONSIVENESS AND INTERACTIVITY REQUIREMNTS
 
@@ -104,15 +104,15 @@ User stories are divided into the following three groups:
 - ### **First time users**
 1. As a user, I want to find a responsive website, so I can access it in any device without having the content affected.
 2. As a user, I want to find a summary of type of wavelets, so I do not need to research for them in different sites on the web.
-3. As a user, I want fo have the functions (formulas) of the wavelets, so I do not need to go through long texts or the web to find them.
+3. As a user, I want to have the functions (formulas) of the wavelets, so I do not need to go through long texts or the web to find them.
 4. As a user, I want to select the input parameters of the wavelets and see the corresponding graph of them, so I see how my parameters are affecting the wavelets.
-5. As a user, I want to have the wavelet I choose sent to my e-mail address, so I can have it available for other applications and/on for download without having to use other applications that could take a longer time for the generation of the wavelet.
-6. As a user, I want to have the option to send comments or questions, so I can contribute with the website devolpment and/or indicate errors or bugs.
+5. As a user, I want to have the wavelet I choose sent to my e-mail address, so I can have it available for other applications and/or for download without having to use other applications that could take a longer time for the generation of the wavelet.
+6. As a user, I want to have the option to send comments or questions, so I can contribute with the website development and/or indicate errors or bugs.
 
 - ### **Returning users**
 7. As a returning user, I want to have the website accessible from any device, so I do not depend on only one device to access the information.
-8. As a returning user, I want a navigation menu on top and always visible, so I can access any content in the website from there and do not need to use the back button of the browser.
-9. As a returning user, I want to have a reference website with a summury of types and functions of wavelets so I do not need to look for them and/or check in different websites.
+8. As a returning user, I want a navigation menu on top and always visible, so I can access any content on the website from there and do not need to use the back button of the browser.
+9. As a returning user, I want to have a reference website with a summary of types and functions of wavelets, so I do not need to look for them and/or check in different websites.
 10. As a returning user, I want to generate new wavelets so I can check them in a quick way.
 11. As a returning user, I want to test my knowledge against a quiz, so I refresh basic concepts and/or take a break to when I want to.
 12. As a returning user, I want to have a way to send feedback or make consultations, so I can collaborate and/or make consultations about the website and/or its content.
@@ -122,18 +122,18 @@ User stories are divided into the following three groups:
 - ### **Site Owner**
 15. As owner, I want to create a website that provides a basic service (wavelet generation) so users can use it to check and obtain wavelets without using longer solutions for the generation/checking of them.
 16. As owner, I want to create a website that is the base for further development, so I can keep showing my work and offer more solutions in the future.
-17. As owner, alogn with other points of this section, I want to show my work and give the option to users to contact me if they wish.
+17. As owner, along with other points of this section, I want to show my work and give the option to users to contact me if they wish.
 18. As owner, I want to provide a website that can be browsed fully without using the back button, so users have a "map" of the website at all times and do not get issues while navigating (like sending data to a server interrupted or resent).
 19. As owner, I want to provide a responsive website, so user can access it from any device without any constraint to navigate, find and/or use the website.
-20. As owner, I want to give an interactive website that update colours, graphs and information, so users enjoy the navigation in the website and intantly know if the website works properly or it does not.
+20. As owner, I want to give an interactive website that update colours, graphs and information, so users enjoy the navigation on the website and instantly know if the website works properly or it does not.
 21. As owner, I want to put a brand in the top left, so users not only associate the brand with the website but also they can click it for the "home" (Functions) page.
 22. As owner, I want to provide a website that summarises the type of wavelets so users can use it as a reference.
 23. As owner, I want to give an interactive website, so users test their own wavelets without having to replicate the formulas with their own parameters themselves.
 24. As owner, I want to provide a quiz so users can use the website as a basic entertainment when they want a short break from their activities.
-25. As owner, I want to give as many options to be contacted as possible, so users can choose forms or links in the footer to send their consultations and/or feedback in a very fast way without having to navigate throuth the website.
-26. As owner, I want to inform users if they consultation/message was succesfully sent, so they know if they need to resend it or they do not.
+25. As owner, I want to give as many options to be contacted as possible, so users can choose forms or links in the footer to send their consultations and/or feedback in a very fast way without having to navigate through the website.
+26. As owner, I want to inform users if they consultation/message was successfully sent, so they know if they need to resend it or they do not.
 27. As owner, I want to inform the user, through an error page, if there is any error when loading the website.
-28. As owner, I want to validate the contact form and e-mail field for sending wavelet data, so users cannot send empty forms or data, simultaneously letting them know if the form or data is succesfully sent.
+28. As owner, I want to validate the contact form and e-mail field for sending wavelet data, so users cannot send empty forms or data, simultaneously letting them know if the form or data is successfully sent.
 
 
 
@@ -163,7 +163,7 @@ Red, white (as background) and blue is the base of the website. The goal is to p
 <br>
 
 ## **Fonts**
-Google fonts (please see credits section below) were implemented in the website. Nunito/Montserrat were selected as the font pair for the website (following Google's suggestion), however only Nunito has been applied.
+Google fonts (please see credits section below) were implemented on the website. Nunito/Montserrat were selected as the font pair for the website (following Google's suggestion), however only Nunito has been applied.
 Sans-serif font is used as a back-up in case the previous font cannot be loaded.
 
 Colour #rgb(98, 98, 161), dark blue, was selected for paragraphs, while red and blue for headings.
@@ -174,7 +174,7 @@ Colour #rgb(98, 98, 161), dark blue, was selected for paragraphs, while red and 
 ## **Structure**
 The metadata includes the following keywords to help search engines to find the website: wavelet, wavelets, signal, signals, signal processing, seismic processing, wavelet generation, txt, export, quiz. signal quiz, wavelet functions, wavelet formulas, wavelet summary, wavelet reference, processing, Code Institute, software development, student, full-stack course, milestone project.
 
-The visible websites is organised in a header, a body and a footer.
+The visible website is organised in a header, a body and a footer.
 
 Wireframes were developed at the beginning in order to have a first design of the website.
 
@@ -187,14 +187,14 @@ The header contains the navigation bar with the four links to the body pages (pl
 
 The body of the pages are structured as follows for each of the pages:
 - #### *Functions:*
-    It contains a summary of wavelets (four type at the moment of deploying this website) and their mathematical functions. The idea is to add more with time, the page is designed to allow for an easy inclusion of the in the future, since it only involves paragraphs and headings whose width is 100% (with respect to their containers), sono   more than adding the relevant tags is needed to add more types of wavelets and their functions.
+    It contains a summary of wavelets (four type at the moment of deploying this website) and their mathematical functions. The idea is to add more with time, the page is designed to allow for an easy inclusion of the in the future, since it only involves paragraphs and headings whose width is 100% (with respect to their containers), so no more than adding the relevant tags is needed to add more types of wavelets and their functions.
 - #### *Generator:*
-    It has a section on the right (or top in tablet and cell phone screen sizes) with fields where the user can select the type of wavelet from a dropdown list and enterthe   sampling rate, length of wavelet and frequency of the desired wavelet to plot.
+    It has a section on the right (or top in tablet and cell phone screen sizes) with fields where the user can select the type of wavelet from a dropdown list and enter the sampling rate, length of wavelet and frequency of the desired wavelet to plot.
     The graph is generated with Google Charts (please see credit below) and is located on the left (of bottom in tablet and cell phone screen sizes).
 - #### *Quiz:*
-    It contains a start button on top, a progress bar below (which progress one step per question), a score and time panel below, and the quiz itself under thesesections,     which indeed contains a field where the user writes the answer and a button to send it.
+    It contains a start button on top, a progress bar below (which progress one step per question), a score and time panel below, and the quiz itself under these sections, which indeed contains a field where the user writes the answer and a button to send it.
 - #### *Contact:*
-    It has a simple contact form, center-aligned, with name, surname, e-mail and description fields, before it finds the send button.
+    It has a simple contact form, centre-aligned, with name, surname, e-mail and description fields, before it finds the send button.
 <br>
     
 - ### **Footer**
@@ -350,7 +350,7 @@ It is located in the header, fixed on all pages to facilitate navigation, and re
 
 - ### **Summary of Functions**
 
-It can be found in the Functions page and show the functions of the wavelts that can be plotted in the Generator page.
+It can be found in the Functions page and show the functions of the wavelets that can be plotted in the Generator page.
 
 *User Stories Addressed by this Feature: 1; 2; 3; 7; 9; 16; 17; 19 and 22.*
 
@@ -399,9 +399,9 @@ It can be found in the Generator page and graph the selected wavelet using Googl
 
 - ### **Quiz**
 
-It can be found in the Quiz page; it is a very simple interactive quiz of ten questions where users can test theri basic knowledge and/or take a brake when they want. It contains a panel with the amount of questions and correct ones, a timer, a progress bar, the last answer and the last correct answer. A start button launches the quiz, which is stopped automatically after the tenth questions, with an alert message.
+It can be found in the Quiz page; it is a very simple and basic interactive quiz of ten questions where users can test their knowledge and/or take a break when they want. It contains a panel with the number of questions and correct ones, a timer, a progress bar, the last answer and the last correct answer. A start button launches the quiz, which is stopped automatically after the tenth questions, with an alert message.
 
-Questions of the quiz are build by concatenating a first-part string, a random number (which changes the answer for other instances of the quiz) and last-part string.
+Questions of the quiz are built by concatenating a first-part string, a random number (which changes the answer for other instances of the quiz) and last-part string.
 
 Being X the random number, questions and correct answers of the quiz are the following ones:
 
@@ -496,7 +496,7 @@ The introductory image on top of this README file was generated using the [Am I 
 
 The website was tested using these **browsers** and also **Microsoft Internet Explorer** (Version 2004, OS Build 19041.1110). **Samsung Internet** (version 14.0.1.62) was also used to test the website. In addition, some users have collaborated checking the website in the cell phones, mostly with **Android-based operating systems**.
 
-**Devices** used for testing and validatio include Dell and Toshiba laptops, Samsung cell phones. **Operative systems** include Windows 10 Enterprise (remote desktop), Windows 10 Pro, Windows 10 Home and Android. **Processors** for desktop desktop and laptops were Intel.
+**Devices** used for testing and validation include Dell and Toshiba laptops, Samsung cell phones. **Operative systems** include Windows 10 Enterprise (remote desktop), Windows 10 Pro, Windows 10 Home and Android. **Processors** for desktop and laptops were Intel.
 
 The following tools were used to validate the **files of the website**:
 
@@ -801,7 +801,7 @@ The following are testing of User Stories previously described above:
 <br><br>
 
 
-6. As a user, I want to have the option to send comments or questions, so I can contribute with the website devolpment and/or indicate errors or bugs.
+6. As a user, I want to have the option to send comments or questions, so I can contribute with the website development and/or indicate errors or bugs.
 
 | FEATURES | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
@@ -857,7 +857,7 @@ The following are testing of User Stories previously described above:
 <br><br>
 
 
-9. As a returning user, I want to have a reference website with a summury of types and functions of wavelets so I do not need to look for them and/or check in different websites.
+9. As a returning user, I want to have a reference website with a summary of types and functions of wavelets, so I do not need to look for them and/or check in different websites.
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
@@ -1002,11 +1002,11 @@ The following are testing of User Stories previously described above:
 <br><br>
 
 
-17. As owner, alogn with other points of this section, I want to show my work and give the option to users to contact me if they wish.
+17. As owner, along with other points of this section, I want to show my work and give the option to users to contact me if they wish.
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
-| Website, Contact page and footer | Check my work on different pages, contact me through the contact form in the Contact page and/or throught the links provided in the footer | Find information and contact options | Works as expected | 
+| Website, Contact page and footer | Check my work on different pages, contact me through the contact form in the Contact page and/or through the links provided in the footer | Find information and contact options | Works as expected | 
 
 <details>
     <summary>Screenshots</summary>
@@ -1164,7 +1164,7 @@ The following are testing of User Stories previously described above:
 <br><br>
 
 
-26. As owner, I want to inform users if they consultation/message was succesfully sent, so they know if they need to resend it or they do not.
+26. As owner, I want to inform users if they consultation/message was successfully sent, so they know if they need to resend it or they do not.
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
@@ -1193,7 +1193,7 @@ The following are testing of User Stories previously described above:
 </details>
 <br><br>
 
-28. As owner, I want to validate the contact form and e-mail field for sending wavelet data, so users cannot send empty forms or data, simultaneously letting them know if the form or data is succesfully sent.
+28. As owner, I want to validate the contact form and e-mail field for sending wavelet data, so users cannot send empty forms or data, simultaneously letting them know if the form or data is successfully sent.
 
 | FEATURE | ACTION | EXPECTED RESULT | ACTUAL RESULT |
 | --- | --- | --- | --- |
@@ -1229,12 +1229,12 @@ Bugs who required more time and specific solutions were the following ones:
 | Bug | Solution |
 | ---- | ---- |
 | The quiz was not able to read and compute the correct value of the answer | The issue was caused by an improper use of the textContent property, which replaced the content of the "p" element deleting its inner "span" elements. Solved with the help of the Code Institute's material by using the innerHTML property, where values for computation were read with the value property. | 
-| The correct answers are generated ten times each, times the funcion is called, while the function returns only one value. This way, extra/useless memory is assigned. | The issue could be solved be creating a global variable and reading the values from there.|
-| Time in Quiz page show three digits for the seconds, after 70 seconds has been taken by the quiz. | The issue was solved by adding an extra if contition for the case when seconds are greater than 70 seconds. Before it just added the value of secons, now it first check that the value is less than ten before assigning the value to the document.|
+| The correct answers are generated ten times each, times the function is called, while the function returns only one value. This way, extra/useless memory is assigned. | The issue could be solved be creating a global variable and reading the values from there.|
+| Time in Quiz page show three digits for the seconds, after 70 seconds has been taken by the quiz. | The issue was solved by adding an extra if condition for the case when seconds are greater than 70 seconds. Before it just added the value of seconds, now it first checks that the value is less than ten before assigning the value to the document.|
 | Send button in Quiz page does not respond to width styling in CSS | Since the first id value (send-button) might have been interfering with another id (in a downloaded library, because it has not been found anywhere else in the files of this website), it was changed to "quiz-send-button", solving the issue and assigning a width similar to the answer/input box.|
-| Fixed navigation header moves along with headings and body when expanding the menu after clicking the Bootstrap hamburguer button | Solved by adding a top property with a value of zero in the CSS style file.|
-| Brand with website name and Bootstrap hamburguer button move up when expanding the menu after clicking the Bootstrap hamburguer button | Solved by adding a padding-bottom property with the same value of the previous added padding-top property in the CSS style file.|
-| While checking JavaScript files for Internet Explorer browser (Version 2004, OS Build 19041.1110), website lost interactivity as a result of scripts not being loaded | Correction was achieved by converting strings defined between backtick characters to a sum of strings involving short strings between double quotes plus variables. The solution has made the quiz to run normally in this browser, however it could not solve the issue of sending the form and/or data with EmailJS, which runs for ES6 (while the browser does it for ES5). **Therefore, sending data and/or forms is not supported for Internet Explorer.** |
+| Fixed navigation header moves along with headings and body when expanding the menu after clicking the Bootstrap hamburger button | Solved by adding a top property with a value of zero in the CSS style file.|
+| Brand with website name and Bootstrap hamburger button move up when expanding the menu after clicking the Bootstrap hamburger button | Solved by adding a padding-bottom property with the same value of the previous added padding-top property in the CSS style file.|
+| While checking JavaScript files for Internet Explorer browser (Version 2004, OS Build 19041.1110), website lost interactivity because of scripts not being loaded | Correction was achieved by converting strings defined between backtick characters to a sum of strings involving short strings between double quotes plus variables. The solution has made the quiz to run normally in this browser, however it could not solve the issue of sending the form and/or data with EmailJS, which runs for ES6 (while the browser does it for ES5). **Therefore, sending data and/or forms is not supported for Internet Explorer.** |
 | While checking JavaScript files for Internet Explorer browser (Version 2004, OS Build 19041.1110), it was notices that data and forms are does not work. | After investigation it was observed that EmailJS, technology used for achieving these tasks, is designed for ES6, while Internet Explorer supports ES5. A solution was attempted with Babel transpiler, however the solution requires (at least for the moment) further investigation. Check commit "Try EmailJS with Babel transpiler in contact.js file", b1c6181, on August 6th, 2021, plus previous EmailJS testing, to check these attempts. **Therefore, sending data and/or forms is not supported for Internet Explorer.** |
 
 <br><br>
@@ -1297,7 +1297,7 @@ Jesse James Garrett's process for user experience.
 
     - Bootstrap Navs (for footer): copied on July 8th, 2021, 03:20 from https://getbootstrap.com/docs/4.0/components/navs/ . Content modified.
 
-    - To center elements in Navs and Navbar: justify-content-center class. Copied on July 8th, 2021, 03:43 from https://getbootstrap.com/docs/4.0/components/navs/ .
+    - To centre elements in Navs and Navbar: justify-content-center class. Copied on July 8th, 2021, 03:43 from https://getbootstrap.com/docs/4.0/components/navs/ .
 
 
 - Font Awesome:
@@ -1334,7 +1334,7 @@ Jesse James Garrett's process for user experience.
         - https://uk.mathworks.com/matlabcentral/answers/688854-legend-is-it-possible-to-remove-the-border-while-leaving-the-background-color .
         - https://uk.mathworks.com/matlabcentral/answers/32617-how-to-remove-ticks-from-the-x-axis .
         - https://uk.mathworks.com/matlabcentral/answers/9559-change-the-font-size-of-the-current-axis .
-    - Morlet function: copied from Mathworks, https://uk.mathworks.com/help/wavelet/ref/morlet.html, on August 3rd, 2021, at 03:00.
+    - Morlet function: copied from MathWorks, https://uk.mathworks.com/help/wavelet/ref/morlet.html, on August 3rd, 2021, at 03:00.
 
 - MDN Web Docs Moz://a;
     - Confirming return value of Math.floor() function, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor , accessed on July 24th, 2021, at 6:57.
@@ -1343,7 +1343,7 @@ Jesse James Garrett's process for user experience.
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log, accessed on July 25th, 2021, 7:27.
 
 - SitePoint Community / SitePoint Forums:
-    - Alternative to backticking: https://www.sitepoint.com/community/t/why-to-use-backtick-in-js/273507, accessed on August 6th, 2021, at 3:00.
+    - Alternative to backticks: https://www.sitepoint.com/community/t/why-to-use-backtick-in-js/273507, accessed on August 6th, 2021, at 3:00.
 
 - Stack Overflow:
 
