@@ -16,7 +16,7 @@ Image obtained after checking the website in "Am I Responsive" website (http://a
 ### [1. Project Goals](#1--project-goals)
 ### [2. User Experience](#2--user-experience)
 - #### [User Goals](#user-goals-1)
-- #### [Organisation/Site Owner Goals](#organisationsite-owner-goals-1)
+- #### [Site Owner Goals](#organisationsite-owner-goals-1)
 - #### [User Stories](#user-stories-1)
 - #### [User Requirements and Expectations](#user-requirements-and-expectations-1)
 ### [3. Design Choices](#3--design-choices)
