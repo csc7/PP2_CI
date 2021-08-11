@@ -322,7 +322,7 @@ The website consists of four pages, where each of them is divided in three parts
 
 It is located in all pages, fixed, top-left, and always visible.
 
-*User Stories Addressed by this Feature:* 8; 16; 17; 18 and 21.*
+*User Stories Addressed by this Feature: 8; 16; 17; 18 and 21.*
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
@@ -338,7 +338,7 @@ It is located in all pages, fixed, top-left, and always visible.
 
 It is located in the header, fixed on all pages to facilitate navigation, and responsive.
 
-*User Stories Addressed by this Feature:* 1; 7; 8; 16; 17; 18; 19; 20 and 21.*
+*User Stories Addressed by this Feature: 1; 7; 8; 16; 17; 18; 19; 20 and 21.*
 
 *Please check "7. Testing of User Stories" for more details.*
 <details>
@@ -495,9 +495,9 @@ ___
 
 The introductory image on top of this README file was generated using the [Am I Responsive site](http://ami.responsivedesign.is/?url=https%3A%2F%2Fcsc7.github.io%2FPP1_CI_TGC) to test how the website displays in different screen sizes.
 
-**Development tools** of **Google Chrome** (Version 92.0.4515.107, Official Build, 64-bit), **Microsoft Edge** (Version 92.0.902.62, Official build, 64-bit) and **Firefox** (Version 90.0.2, 64-bit) have been used to test the behaviour of the website for screen sizes between 320x568px to 1920x1370px.
+**Development tools** of **Google Chrome** (Version 92.0.4515.131, Official Build, 64-bit), **Microsoft Edge** (Version 92.0.902.67, Official build, 64-bit) and **Firefox** (Version 90.0.2, 64-bit) have been used to test the behaviour of the website for screen sizes between 320x568px to 1920x1370px.
 
-The website was tested using these **browsers** and also **Microsoft Internet Explorer** (Version 2004, OS Build 19041.1110). **Samsung Internet** (version 14.0.1.62) was also used to test the website. In addition, some users have collaborated checking the website in the cell phones, mostly with **Android-based operating systems**.
+The website was tested using these **browsers** and also **Microsoft Internet Explorer** (Version 2004, OS Build 19041.1165). **Samsung Internet** (version 14.0.1.62) was also used to test the website. In addition, some users have collaborated checking the website in the cell phones, mostly with **Android-based operating systems**.
 
 **Devices** used for testing and validation include Dell and Toshiba laptops, Samsung cell phones. **Operative systems** include Windows 10 Enterprise (remote desktop), Windows 10 Pro, Windows 10 Home and Android. **Processors** for desktop and laptops were Intel.
 
