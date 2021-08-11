@@ -1224,18 +1224,18 @@ Some bugs were related to positioning of elements in the page. They were fixed b
 
 Then, many minor bugs were solved just by assigning the correct property and/or by trial and error.
 
-Bugs who required more time and specific solutions were the following ones:
+Bugs that required more time and specific solutions were the following ones:
 
 | Bug | Solution |
 | ---- | ---- |
 | The quiz was not able to read and compute the correct value of the answer | The issue was caused by an improper use of the textContent property, which replaced the content of the "p" element deleting its inner "span" elements. Solved with the help of the Code Institute's material by using the innerHTML property, where values for computation were read with the value property. | 
 | The correct answers are generated ten times each, times the function is called, while the function returns only one value. This way, extra/useless memory is assigned. | The issue could be solved be creating a global variable and reading the values from there.|
 | Time in Quiz page show three digits for the seconds, after 70 seconds has been taken by the quiz. | The issue was solved by adding an extra if condition for the case when seconds are greater than 70 seconds. Before it just added the value of seconds, now it first checks that the value is less than ten before assigning the value to the document.|
-| Send button in Quiz page does not respond to width styling in CSS | Since the first id value (send-button) might have been interfering with another id (in a downloaded library, because it has not been found anywhere else in the files of this website), it was changed to "quiz-send-button", solving the issue and assigning a width similar to the answer/input box.|
+| Send button in Quiz page does not respond to width styling in CSS | Since the first "id" value (send-button) might have been interfering with another "id" (in a downloaded library, because it has not been found anywhere else in the files of this website), it was changed to "quiz-send-button", solving the issue and assigning a width similar to the answer/input box.|
 | Fixed navigation header moves along with headings and body when expanding the menu after clicking the Bootstrap hamburger button | Solved by adding a top property with a value of zero in the CSS style file.|
 | Brand with website name and Bootstrap hamburger button move up when expanding the menu after clicking the Bootstrap hamburger button | Solved by adding a padding-bottom property with the same value of the previous added padding-top property in the CSS style file.|
-| While checking JavaScript files for Internet Explorer browser (Version 2004, OS Build 19041.1110), website lost interactivity because of scripts not being loaded | Correction was achieved by converting strings defined between backtick characters to a sum of strings involving short strings between double quotes plus variables. The solution has made the quiz to run normally in this browser, however it could not solve the issue of sending the form and/or data with EmailJS, which runs for ES6 (while the browser does it for ES5). **Therefore, sending data and/or forms is not supported for Internet Explorer.** |
-| While checking JavaScript files for Internet Explorer browser (Version 2004, OS Build 19041.1110), it was notices that data and forms are does not work. | After investigation it was observed that EmailJS, technology used for achieving these tasks, is designed for ES6, while Internet Explorer supports ES5. A solution was attempted with Babel transpiler, however the solution requires (at least for the moment) further investigation. Check commit "Try EmailJS with Babel transpiler in contact.js file", b1c6181, on August 6th, 2021, plus previous EmailJS testing, to check these attempts. **Therefore, sending data and/or forms is not supported for Internet Explorer.** |
+| While checking JavaScript files for Internet Explorer browser (Version 2004, OS Build 19041.1165), website lost interactivity because of scripts not being loaded | Correction was achieved by converting strings defined between backtick characters to a sum of strings involving short strings between double quotes plus variables. The solution has made the quiz to run normally in this browser, however it could not solve the issue of sending the form and/or data with EmailJS, which runs for ES6 (while the browser does it for ES5). **Therefore, sending data and/or forms is not supported for Internet Explorer.** |
+| While checking JavaScript files for Internet Explorer browser (Version 2004, OS Build 19041.1165), it was notices that data and forms are does not work. | After investigation it was observed that EmailJS, technology used for achieving these tasks, is designed for ES6, while Internet Explorer supports ES5. A solution was attempted with Babel transpiler, however the solution requires (at least for the moment) further investigation. Check commit "Try EmailJS with Babel transpiler in contact.js file", b1c6181, on August 6th, 2021, plus previous EmailJS testing, to check these attempts. **Therefore, sending data and/or forms is not supported for Internet Explorer.** |
 
 <br><br>
 ## [Back to Index](#index)
@@ -1273,15 +1273,15 @@ The project can also be forked from the repository (https://github.com/csc7/PP2_
 ___
 # 11 . Credits
 
-Code Institute: I have used the learning material in the course as a guide and reference. "Love Maths - Essentials Project" was the main reference for the Quiz page and "Sending Emails Using EmailJS" for sending e-mails from the contact form in the Contact page.
+- Code Institute: I have used the learning material in the course as a guide and reference. "Love Maths - Essentials Project" was the main reference for the Quiz page and "Sending Emails Using EmailJS" for sending e-mails from the contact form in the Contact page.
 
-Love Maths - Essentials Project, from Code Institute, as a guide, source of design, concepts and code for this project, especially for the Quiz page.
+- Love Maths - Essentials Project, from Code Institute, as a guide, source of design, concepts and code for this project, especially for the Quiz page.
 
-Love Running - Essentials Project, from Code Institute, as a guide, source of design, concepts and code for this project.
+- Love Running - Essentials Project, from Code Institute, as a guide, source of design, concepts and code for this project.
 
-Balsamiq Wireframes: I have used it to create all the wireframes.
+- Balsamiq Wireframes: I have used it to create all the wireframes.
 
-Jesse James Garrett's process for user experience.
+- Jesse James Garrett's process for user experience.
 
 - Babel JavaScript compiler (transpiler, to try to solve ES5 issues for Internet Explorer, finally not implemented, https://babeljs.io/docs/en/babel-standalone). Tested on August 6th, 2021, between 5:30 and 6:30 approximately.
 
