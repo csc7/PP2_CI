@@ -43,13 +43,13 @@ Image obtained after checking the website in "Am I Responsive" website (http://a
 
 ___
 # **1 . Project Goals**
-The goal of the project is to develop a website where seismic data processors, signal processors and/or any user can estimate, visualize and download a simple TXT file with the samples of a wavelet that they want to use in their processing tasks. In addition, a website where users can view and review the functions of the wavelets, challenge their knowledge against a quiz, and contact the website developer.
+The goal of the project is to develop a website where seismic data processors, signal processors and/or any user can estimate and visualize wavelets and export them to use in their processing tasks. In addition, a website where users can view and review the functions of the wavelets, challenge their knowledge against a quiz, and contact the website developer.
 
 Specifically, the goals of the project are the following ones:
 - To show the functions of the wavelets being calculated and plotted.
-- To build graphs of wavelets-based input parameters given by the user.
-- To export the generated wavelet to a TXT file (just communication with server in this deployment version).
-- To give users the chance to test their basic knowledge, thorough o quiz, about signals (very basic, just Nyquist and wave properties for this deployment version).
+- To build graphs according to wavelets parameters given by the user.
+- To export/send the generated wavelet to an e-mail address.
+- To give users the chance to test their basic knowledge, thorough o quiz, about signals.
 - To give users a contact form so they can send suggestions or comments if they wish.
 - To show my work and give others the option to contact me if they wish.
 <br><br>
@@ -79,9 +79,9 @@ UX has been addressed (and remains as a constant activity) around Jesse James Ga
 - **SKELETON**: the information is accessed through a fixed navigation menu on top of the pages.
 - **SURFACE**: the website is based on red, white and blue colours to give strong contrast and simultaneously a "live" design.
 
-ADD RESPONSIVENESS AND INTERACTIVITY REQUIREMNTS
-
 ## **User Goals**
+- To find an interactive website.
+- To navigate through a responsive website.
 - To have wavelet functions in a summarised way, at a glance.
 - To select wavelet parameters and make the corresponding graphs.
 - To export the wavelet to a TXT file so it can be used in other applications and/or processes.
@@ -91,6 +91,8 @@ ADD RESPONSIVENESS AND INTERACTIVITY REQUIREMNTS
 #### [Back to Index](#index)
 
 ## **Site Owner Goals**
+- To provide an interactive website.
+- To provide a responsive website.
 - To provide very basic tools and concepts about wavelet signals.
 - To show his work.
 - To give users the chance to contact the developer.
@@ -147,7 +149,7 @@ User stories are divided into the following three groups:
 - A dedicated page for the basic signal processing quiz.
 - A dedicated page for the contact form.
 - A fixed footer with contact links to the developer.
-- Strong contrast and "live" colours.
+- Strong contrast using red, white and blue.
 <br><br>
 ## [Back to Index](#index)
 <br>
