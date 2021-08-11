@@ -4,7 +4,7 @@ This website is about wavelet theory and generation. Except for the content refe
 
 This repository belongs to my second milestone project in the Full-stack Development course at Code Institute, covering HTML, CSS and JavaScript along with Git version control and other software technologies.
 
-The live link for this project is this one (https://csc7.github.io/PP2_CI_WW/).
+The live link for this project is [**this one**](https://csc7.github.io/PP2_CI_WW/) (https://csc7.github.io/PP2_CI_WW/).
 
 ![Projects Table Image](docs/am-i-responsive-zoomed.PNG)
 Image obtained after checking the website in "Am I Responsive" website (http://ami.responsivedesign.is/ giving "https://csc7.github.io/PP2_CI_WW/" as input). The image shows the Functions page (Home) of the project in different devices. Image generated with Am I Responsive? website http://ami.responsivedesign.is/?url=https%3A%2F%2Fcsc7.github.io%2FPP2_CI_WW
@@ -16,7 +16,7 @@ Image obtained after checking the website in "Am I Responsive" website (http://a
 ### [1. Project Goals](#1--project-goals)
 ### [2. User Experience](#2--user-experience)
 - #### [User Goals](#user-goals-1)
-- #### [Site Owner Goals](#organisationsite-owner-goals-1)
+- #### [Site Owner Goals](#site-owner-goals-1)
 - #### [User Stories](#user-stories-1)
 - #### [User Requirements and Expectations](#user-requirements-and-expectations-1)
 ### [3. Design Choices](#3--design-choices)
@@ -31,6 +31,7 @@ Image obtained after checking the website in "Am I Responsive" website (http://a
 ### [7. Validation](#7--validation)
 - #### [HTML Files](#html-files-1)
 - #### [CSS File](#css-file-1)
+- #### [JavaScript Files](#javascript-files-1)
 - #### [Accessibility](#accessibility-1)
 - #### [Performance](#performance-1)
 ### [8. Testing of User Stories](#8--testing-of-user-stories)
@@ -586,7 +587,7 @@ Please check the parameters used for validation and evidence below:
 </details>
 
 <details>
-    <summary>Generator Page</summary>
+    <summary>Generator Page. Plase note that dataForGoogleChartFunction, google and emailjs are external variable from Google (the first two) and EmailJS (the third); while sendData is the function that is called from the Generator page to send the graph data by e-mail.</summary>
 
 ![Evidence of no errors and warnings in the Generator JavaScript file](docs/validation/validation-js-generator.PNG)
 </details>
@@ -598,7 +599,7 @@ Please check the parameters used for validation and evidence below:
 </details>
 
 <details>
-    <summary>Contact Page</summary>
+    <summary>Contact Page. Plase note that emailjs is an external variable from EmailJS; while sendMail is the function that is called from the Contact page to send the form.</summary>
 
 ![Evidence of no errors and warnings in the Contact JavaScript  file](docs/validation/validation-js-contact.PNG) 
 </details>
@@ -951,6 +952,8 @@ The following are testing of User Stories previously described above:
 
 ![Contact Form](docs/features-and-evidence/fixed-navigation-bar-on-top-contact-page.PNG)
 
+![Footer](docs/features-and-evidence/fixed-footer.PNG)
+
 ![Footer - LinkedIn](docs/features-and-evidence/contact-form-and-footer-LinkedIn.PNG) 
 
 ![Footer - GitHub](docs/features-and-evidence/contact-form-and-footer-GitHub.PNG)
@@ -971,13 +974,8 @@ The following are testing of User Stories previously described above:
 <details>
     <summary>Screenshots</summary>
 
-![Functions Page](docs/features-and-evidence/fixed-navigation-bar-on-top-functions-page.PNG)
+![Generator Page](docs/features-and-evidence/wavelet-generator-basic-service.PNG)
 
-![Generator Page](docs/features-and-evidence/fixed-navigation-bar-on-top-generator-page.PNG)
-
-![Quiz Page](docs/features-and-evidence/fixed-navigation-bar-on-top-quiz-page.PNG)
-
-![Contact Page](docs/features-and-evidence/fixed-navigation-bar-on-top-contact-page.PNG)
 </details>
 <br><br>
 
@@ -1019,7 +1017,7 @@ The following are testing of User Stories previously described above:
 
 ![Contact Page](docs/features-and-evidence/fixed-navigation-bar-on-top-contact-page.PNG)
 
-![Contact Form](docs/features-and-evidence/fixed-navigation-bar-on-top-contact-page.PNG)
+![Footer](docs/features-and-evidence/fixed-footer.PNG) 
 
 ![Footer - LinkedIn](docs/features-and-evidence/contact-form-and-footer-LinkedIn.PNG) 
 
@@ -1312,11 +1310,12 @@ Jesse James Garrett's process for user experience.
 
     - Icon for E-mail/Envelope: downloaded on July 8th, 2021, 03:05 from https://fontawesome.com/v5.15/icons/envelope?style=regular . <i class="far fa-envelope"></i>
 
+    - Icon for Google: downloaded on August 4th, 2021, 00:46 from https://fontawesome.com/v5.15/icons/google?style=brands .
+
 - Geeks for Geeks:
 
     - Positioning of footer on bottom: https://www.geeksforgeeks.org/how-to-create-footer-to-stay-at-the-bottom-of-a-web-page/; accessed on July 20th, 2021, at 00:20.
 
-    - Icon for Google: downloaded on August 4th, 2021, 00:46 from https://fontawesome.com/v5.15/icons/google?style=brands .
 
 - Google:
 
@@ -1339,8 +1338,9 @@ Jesse James Garrett's process for user experience.
 - MDN Web Docs Moz://a;
     - Confirming return value of Math.floor() function, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor , accessed on July 24th, 2021, at 6:57.
 
-    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow, accessed on July 25th, 2021, 7:25.
-    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log, accessed on July 25th, 2021, 7:27.
+    - Math.pow(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow, accessed on July 25th, 2021, 7:25.
+
+    - Math.log(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log, accessed on July 25th, 2021, 7:27.
 
 - SitePoint Community / SitePoint Forums:
     - Alternative to backticks: https://www.sitepoint.com/community/t/why-to-use-backtick-in-js/273507, accessed on August 6th, 2021, at 3:00.
@@ -1349,16 +1349,17 @@ Jesse James Garrett's process for user experience.
 
     - Assigning height for header and footer, and rest of screen for body: https://stackoverflow.com/questions/10228280/how-to-make-div-height-100-between-header-and-footer; accessed on July 20th, 2021, at 00:30.
 
-    - https://stackoverflow.com/questions/256754/how-to-pass-arguments-to-addeventlistener-listener-function .
-    - https://stackoverflow.com/questions/44935185/enable-and-disable-onkeydown-event .
+    - How to pass arguments to addEventListener listener function: https://stackoverflow.com/questions/256754/how-to-pass-arguments-to-addeventlistener-listener-function .
 
-    - Avoid resizing of text areas. https://stackoverflow.com/questions/5235142/how-do-i-disable-the-resizable-property-of-a-textarea, accessed on July 24th, 2021, at 8:44.
+    - How to enable and disable onkeydown event: https://stackoverflow.com/questions/44935185/enable-and-disable-onkeydown-event .
 
-    - https://stackoverflow.com/questions/14395050/slice-array-from-n-to-last-element, accessed on July 25th, 2021, at 6:39.
+    - Avoid resizing of "textareas": https://stackoverflow.com/questions/5235142/how-do-i-disable-the-resizable-property-of-a-textarea, accessed on July 24th, 2021, at 8:44.
+
+    - Slice array from N to last element: https://stackoverflow.com/questions/14395050/slice-array-from-n-to-last-element, accessed on July 25th, 2021, at 6:39.
 
     - How to change the colour of the focused field input data: https://stackoverflow.com/questions/25372834/input-box-text-color-with-css-wheather-on-focus-or-not, accessed on August 4th, 2021, at 00:26.
 
-    - Blur method: https://stackoverflow.com/questions/4075057/javascript-unfocus-a-textbox, accessed on August 4th, 2021, at 4:00 .
+    - Blur (unfocus) method: https://stackoverflow.com/questions/4075057/javascript-unfocus-a-textbox, accessed on August 4th, 2021, at 4:00 .
 
 
 - W3C®. Copyright © 2021 W3C ® (MIT, ERCIM, Keio, Beihang):
@@ -1367,17 +1368,15 @@ Jesse James Garrett's process for user experience.
 - W3Schools (Powered by W3.CSS):
 
     - Position of "div" elements: https://www.w3schools.com/css/css_positioning.asp; accessed on July 19th, 2021, at 23:55.
-    - https://www.w3schools.com/jsref/met_document_addeventlistener.asp .
-    - https://www.w3schools.com/js/js_timing.asp .
-    - https://www.w3schools.com/jsref/jsref_gettime.asp .
-    - https://www.w3schools.com/js/js_timing.asp .
-    - https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp .
-    - https://www.w3schools.com/jsref/met_element_removeeventlistener.asp .
 
-    - https://www.w3schools.com/tags/att_option_disabled.asp , accessed on July 25th, 2021, 7:19.
-
-    - https://www.w3schools.com/css/css_form.asp. July 25th, 2021, at 23:45.
-
+    - Several consultations on the following webpages:
+        - https://www.w3schools.com/jsref/met_document_addeventlistener.asp .
+        - https://www.w3schools.com/js/js_timing.asp .
+        - https://www.w3schools.com/jsref/jsref_gettime.asp .
+        - https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp .
+        - https://www.w3schools.com/jsref/met_element_removeeventlistener.asp .
+        - https://www.w3schools.com/tags/att_option_disabled.asp , accessed on July 25th, 2021, 7:19.
+        - https://www.w3schools.com/css/css_form.asp. July 25th, 2021, at 23:45.
     - To define transition of properties in CSS: https://www.w3schools.com/css/css3_transitions.asp, accessed on July 31st, 2021.
 
     - JavaScript Form Validation. https://www.w3schools.com/js/js_validation.asp, first accessed on July 31st, 2021, at 8:23.
