@@ -1361,7 +1361,7 @@ ___
 
     - How to change the colour of the focused field input data: https://stackoverflow.com/questions/25372834/input-box-text-color-with-css-wheather-on-focus-or-not, accessed on August 4th, 2021, at 00:26.
 
-    - Blur (unfocus) method: https://stackoverflow.com/questions/4075057/javascript-unfocus-a-textbox, accessed on August 4th, 2021, at 4:00 .
+    - Blur (get unfocussed) method: https://stackoverflow.com/questions/4075057/javascript-unfocus-a-textbox, accessed on August 4th, 2021, at 4:00 .
 
 
 - W3C®. Copyright © 2021 W3C ® (MIT, ERCIM, Keio, Beihang):
